@@ -36,5 +36,15 @@ plugins:
         backup:
           - https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx
           - https://raw.githubusercontent.com/Moli-X/Tool/X/Loon/Plugin/Kelee/Remove_ads_by_keli.plugin
+  - name: DNS防泄露
+    slug: prevent-dns-leaks
+    category: misc
+    author: 我的昵称
+    enabled: true
+    files:
+      - name: Prevent_DNS_Leaks.lpx
+        origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/Prevent_DNS_Leaks.lpx
+        backup:
+          - https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx
 
 scripts: []
