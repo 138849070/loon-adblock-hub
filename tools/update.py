@@ -150,8 +150,6 @@ def download_dep(url: str):
         return None, None
     if len(body) <= MIN_CONTENT_LEN:
         return None, RuntimeError("内容过短")
-    if b"404 Not Found" in body or b"Not Found" in body:
-        return None, RuntimeError("内容为 404 页面")
     return body, None
 
 
