@@ -46,5 +46,15 @@ plugins:
         origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/Prevent_DNS_Leaks.lpx
         backup:
           - https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx
+  - name: Skip Proxy and Real-IP Lists
+    slug: skip-proxy
+    category: misc
+    author: 我的昵称
+    enabled: true
+    files:
+      - name: SkipProxy.lpx
+        origin: https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Loon/sooyaaabo/SkipProxy.lpx
+        backup:
+          - https://loon.103516.xyz/Plugin/SkipProxy.lpx
 
 scripts: []
