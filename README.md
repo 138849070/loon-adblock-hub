@@ -21,6 +21,7 @@ links.md         订阅链接清单
 | 名称 | 分类 | 链接 |
 | --- | --- | --- |
 | HTTPDNS拦截器 | misc | [Block_HTTPDNS.plugin](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/block-httpdns/Block_HTTPDNS.plugin) |
+| 广告平台拦截器 | misc | [BlockAdvertisers.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/block-advertisers/BlockAdvertisers.lpx) |
 <!-- PLUGINS_TABLE_END -->
 
 ## 脚本
