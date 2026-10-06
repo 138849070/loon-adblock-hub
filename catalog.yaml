@@ -1,0 +1,18 @@
+defaults:
+  author: 我的昵称
+  plugin_category: misc
+  script_category: misc
+
+plugins:
+  - name: HTTPDNS拦截器
+    slug: block-httpdns
+    category: misc
+    author: 我的昵称
+    enabled: true
+    files:
+      - name: Block_HTTPDNS.plugin
+        origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/Block_HTTPDNS.plugin
+        backup:
+          - https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx
+
+scripts: []

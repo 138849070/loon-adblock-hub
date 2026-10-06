@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pyo
+.tmp
+*.tmp
+tools/last_run_summary.txt
