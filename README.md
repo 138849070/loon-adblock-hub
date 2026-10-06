@@ -25,6 +25,7 @@ links.md         订阅链接清单
 | 可莉广告过滤器 | misc | [Remove_ads_by_keli.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/remove-ads-by-keli/Remove_ads_by_keli.lpx) |
 | DNS防泄露 | misc | [Prevent_DNS_Leaks.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/prevent-dns-leaks/Prevent_DNS_Leaks.lpx) |
 | Skip Proxy and Real-IP Lists | misc | [SkipProxy.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/skip-proxy/SkipProxy.lpx) |
+| Biliverse 增强模式 | video | [Biliverse.Enhanced.plugin](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/biliverse-enhanced/Biliverse.Enhanced.plugin) |
 <!-- PLUGINS_TABLE_END -->
 
 ## 脚本

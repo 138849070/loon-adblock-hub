@@ -1,0 +1,97 @@
+/* 首页与模块页共用 Biliverse 品牌色，模块页通过 CSS 输入加载。
+ * Share the Biliverse accent between the landing page and CSS-imported module pages. */
+:root {
+  --biliverse-accent: var(--brand_pink, #ff6699);
+  --pp-accent: var(--biliverse-accent);
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+.pp-panel {
+  --pp-accent: var(--biliverse-accent);
+}
+.pp-panel .pp-header,
+.pp-panel .pp-back {
+  color: var(--biliverse-accent);
+}
+
+/* 主页直接复用客服中心官方 CSS；这里只定义 Biliverse 素材和模块容器。
+ * The landing page directly uses official customer-service CSS; only Biliverse assets and the module container are defined here. */
+html {
+  font-size: calc(100vw / 3);
+}
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+.brand-logo {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 24px auto;
+  object-fit: contain;
+}
+.self-item .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.self-item .logo {
+  border-radius: 50%;
+  padding: .064rem;
+  background: var(--Pi0);
+}
+button.self-item {
+  background: transparent;
+  cursor: pointer;
+}
+.self-panel.is-zh .scroll-view .scroll .self-item[data-module] {
+  height: auto;
+}
+.module-status {
+  font-size: .088rem;
+  line-height: .12rem;
+  min-height: .12rem;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text3);
+}
+.self-item:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.footer-hint .hint-content .customer-mail {
+  margin-top: .064rem;
+}
+#pages {
+  background: inherit;
+}
+#module-host {
+  position: fixed;
+  inset: 0;
+  background: inherit;
+  z-index: 1;
+  box-shadow: -8px 0 24px #00000014;
+}
+#module-host iframe {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+}
+.module-message {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  padding: max(20px, env(safe-area-inset-top)) 20px;
+  background: inherit;
+}
+.module-message[hidden] {
+  display: none;
+}
