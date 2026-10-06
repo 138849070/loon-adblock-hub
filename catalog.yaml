@@ -56,5 +56,14 @@ plugins:
         origin: https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Loon/sooyaaabo/SkipProxy.lpx
         backup:
           - https://loon.103516.xyz/Plugin/SkipProxy.lpx
+  - name: Biliverse 增强模式
+    slug: biliverse-enhanced
+    category: video
+    author: 我的昵称
+    enabled: true
+    files:
+      - name: Biliverse.Enhanced.plugin
+        origin: https://github.com/Biliverse/Enhanced/releases/latest/download/Biliverse.Enhanced.plugin
+        backup: []
 
 scripts: []
