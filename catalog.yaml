@@ -65,5 +65,14 @@ plugins:
       - name: Biliverse.Enhanced.plugin
         origin: https://github.com/Biliverse/Enhanced/releases/latest/download/Biliverse.Enhanced.plugin
         backup: []
+  - name: YouTube 增强 v2
+    slug: youtube-enhanced-2
+    category: video
+    author: 我的昵称
+    enabled: false
+    files:
+      - name: youtube_2.lpx
+        origin: https://rucu6.pages.dev/Plugins/youtube_2.lpx
+        backup: []
 
 scripts: []
