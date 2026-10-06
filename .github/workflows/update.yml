@@ -1,0 +1,45 @@
+name: Update Content
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install pyyaml requests
+
+      - name: 运行更新脚本
+        run: python tools/update.py
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+
+      - name: 配置 Git 用户
+        run: |
+          git config user.name "${{ github.repository_owner }}"
+          git config user.email "${{ github.repository_owner }}@users.noreply.github.com"
+
+      - name: 提交并推送
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git add -A
+            git commit -F tools/last_run_summary.txt
+            git push
+          fi
