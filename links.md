@@ -10,6 +10,7 @@
 - [Skip Proxy and Real-IP Lists](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/skip-proxy/SkipProxy.lpx)
 - [Biliverse 增强模式](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/biliverse-enhanced/Biliverse.Enhanced.plugin)
 - [WakeUp课程表去广告](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/wakeup-schedule-remove-ads/WakeupSchedule_remove_ads.lpx)
+- [YouTube 增强（gholts）](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-gholts/youtube_gholts.lpx)
 
 ## 脚本
 （暂无）
