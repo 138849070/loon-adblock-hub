@@ -71,5 +71,16 @@ plugins:
       - name: youtube_2.lpx
         origin: https://rucu6.pages.dev/Plugins/youtube_2.lpx
         backup: []
+  - name: WakeUp课程表去广告
+    slug: wakeup-schedule-remove-ads
+    category: reading
+    author: 可莉🅥
+    enabled: true
+    files:
+      - name: WakeupSchedule_remove_ads.lpx
+        origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/WakeupSchedule_remove_ads.lpx
+        backup:
+          - https://kelee.one/Tool/Loon/Lpx/WakeupSchedule_remove_ads.lpx
+          - https://raw.githubusercontent.com/Qmxn/Tools/X/Plugin/WakeupSchedule_remove_ads.lpx
 
 scripts: []
