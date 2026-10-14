@@ -82,5 +82,15 @@ plugins:
         backup:
           - https://kelee.one/Tool/Loon/Lpx/WakeupSchedule_remove_ads.lpx
           - https://raw.githubusercontent.com/Qmxn/Tools/X/Plugin/WakeupSchedule_remove_ads.lpx
+  - name: YouTube 增强（gholts）
+    slug: youtube-gholts
+    category: video
+    author: Maasea, gholts, RuCu6
+    enabled: true
+    files:
+      - name: youtube_gholts.lpx
+        origin: https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Loon/rucu6/youtube_gholts.lpx
+        backup:
+          - https://rucu6.pages.dev/Plugins/youtube_gholts.lpx
 
 scripts: []
