@@ -29,7 +29,7 @@
 | 启用插件 Raw 链接 | 208 / 208 | 全部存在；另有 1 个未启用条目不生成链接 |
 | 可跟随上游的插件 | 74 | origin 指向原始上游，且已验证文件存在 |
 | 不能跟随上游的插件 | 135 | origin 指向本仓库 Raw；见第二节 |
-| 脚本 | 24 | 远程 18（18 个可跟随上游）、本地 6；3 个未成功 |
+| 脚本 | 24 | catalog 24（远程 18 可跟随上游、本地 6）；另 3 个未进入 catalog 的失败脚本 |
 | 规则 | 48 | 36 条静态备份可用、12 条失败 |
 
 > 说明：`origin` 决定 `update.py` 从何处取新版本。自动导入时为保住文件可下载，135 个插件的 `origin` 被写成本仓库 Raw；它们仍然能正常订阅，但**不会随上游更新**。
@@ -222,30 +222,30 @@
 
 | 脚本名 | slug | 类型 | 分类 | 状态 / 问题 |
 | --- | --- | --- | --- | --- |
-| WeTalk_Loon.js | `wetalk-loon-js` | 本地脚本 | tools | 本地脚本无上游 |
-| yuchenios.js | `yuchenios-js` | 本地脚本 | 工具与其他 | 本地脚本无上游 |
-| We Talk.js | `we-talk-js` | 本地脚本 | tools | 本地脚本无上游 |
-| script_example.js | `script-example-js` | 本地脚本 | 工具与其他 | 本地脚本无上游 |
-| step.js | `step-js` | 本地脚本 | 工具与其他 | 本地脚本无上游 |
-| WeTalk Token.js | `wetalk-token-js` | 本地脚本 | tools | 本地脚本无上游 |
-| 02_script-hub.loon | `02-script-hub-loon` | 远程脚本 | tools | 可跟随上游 |
-| 05_qdreader.loon | `05-qdreader-loon` | 远程脚本 | checkin | 可跟随上游 |
-| 03_luping | `03-luping` | 远程脚本 | checkin | 可跟随上游 |
-| 04_mdsp | `04-mdsp` | 远程脚本 | checkin | 可跟随上游 |
-| 01_91ts | `01-91ts` | 远程脚本 | checkin | 可跟随上游 |
-| 08_haijiaoshequ | `08-haijiaoshequ` | 远程脚本 | checkin | 可跟随上游 |
-| 12_ximalaya | `12-ximalaya` | 远程脚本 | checkin | 可跟随上游 |
-| 09_BiliBiliDailyBonus | `09-bilibilidailybonus` | 远程脚本 | checkin | 可跟随上游 |
-| 10_ydm | `10-ydm` | 远程脚本 | checkin | 可跟随上游 |
-| 14_get_cookie | `14-get-cookie` | 远程脚本 | tools | 可跟随上游 |
-| 11_Loon_Daily_bonus | `11-loon-daily-bonus` | 远程脚本 | checkin | 可跟随上游 |
-| 18_WeTalk | `18-wetalk` | 远程脚本 | tools | 可跟随上游 |
-| 07_~wxread | `07-wxread` | 远程脚本 | checkin | 可跟随上游 |
-| 15_dalanshu_checkin | `15-dalanshu-checkin` | 远程脚本 | checkin | 可跟随上游 |
-| 17_wps | `17-wps` | 远程脚本 | checkin | 可跟随上游 |
-| 16_wps.cookie | `16-wps-cookie` | 远程脚本 | tools | 可跟随上游 |
-| 19_PingMeSignin | `19-pingmesignin` | 远程脚本 | checkin | 可跟随上游 |
-| 13_haijiao | `13-haijiao` | 远程脚本 | checkin | 可跟随上游 |
+| WeTalk_Loon.js | `wetalk-loon-js` | 本地脚本 | 工具 | 本地脚本无上游 |
+| yuchenios.js | `yuchenios-js` | 本地脚本 | 其他 | 本地脚本无上游 |
+| We Talk.js | `we-talk-js` | 本地脚本 | 工具 | 本地脚本无上游 |
+| script_example.js | `script-example-js` | 本地脚本 | 其他 | 本地脚本无上游 |
+| step.js | `step-js` | 本地脚本 | 其他 | 本地脚本无上游 |
+| WeTalk Token.js | `wetalk-token-js` | 本地脚本 | 工具 | 本地脚本无上游 |
+| 02_script-hub.loon | `02-script-hub-loon` | 远程脚本 | 工具 | 可跟随上游 |
+| 05_qdreader.loon | `05-qdreader-loon` | 远程脚本 | 签到 | 可跟随上游 |
+| 03_luping | `03-luping` | 远程脚本 | 签到 | 可跟随上游 |
+| 04_mdsp | `04-mdsp` | 远程脚本 | 签到 | 可跟随上游 |
+| 01_91ts | `01-91ts` | 远程脚本 | 签到 | 可跟随上游 |
+| 08_haijiaoshequ | `08-haijiaoshequ` | 远程脚本 | 签到 | 可跟随上游 |
+| 12_ximalaya | `12-ximalaya` | 远程脚本 | 签到 | 可跟随上游 |
+| 09_BiliBiliDailyBonus | `09-bilibilidailybonus` | 远程脚本 | 签到 | 可跟随上游 |
+| 10_ydm | `10-ydm` | 远程脚本 | 签到 | 可跟随上游 |
+| 14_get_cookie | `14-get-cookie` | 远程脚本 | 工具 | 可跟随上游 |
+| 11_Loon_Daily_bonus | `11-loon-daily-bonus` | 远程脚本 | 签到 | 可跟随上游 |
+| 18_WeTalk | `18-wetalk` | 远程脚本 | 工具 | 可跟随上游 |
+| 07_~wxread | `07-wxread` | 远程脚本 | 签到 | 可跟随上游 |
+| 15_dalanshu_checkin | `15-dalanshu-checkin` | 远程脚本 | 签到 | 可跟随上游 |
+| 17_wps | `17-wps` | 远程脚本 | 签到 | 可跟随上游 |
+| 16_wps.cookie | `16-wps-cookie` | 远程脚本 | 工具 | 可跟随上游 |
+| 19_PingMeSignin | `19-pingmesignin` | 远程脚本 | 签到 | 可跟随上游 |
+| 13_haijiao | `13-haijiao` | 远程脚本 | 签到 | 可跟随上游 |
 
 ### 5.2 未进入 catalog 的失败脚本（3 个）
 
