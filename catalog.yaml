@@ -1790,4 +1790,50 @@ plugins:
       backup:
       - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/aiaiwang.js/_end_/aiaiwang.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 
+  - name: ydm-淫荡猫
+    slug: ydm-3
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.plugin
+      backup: []
+  - name: 妻社 VIP解锁
+    slug: vip-3
+    category: misc
+    author: Yu9191
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/qishe/qishe.plugin
+      backup: []
+  - name: porntube VIP 解锁
+    slug: porntube-vip
+    category: misc
+    author: Yu9191 Rewrite
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/porntube/modules/porntube.lpx
+      backup: []
+  - name: 套路SM VIP解锁
+    slug: sm-vip
+    category: misc
+    author: Yu9191
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/tlsm.lpx
+      backup: []
+  - name: insav 解锁
+    slug: insav
+    category: misc
+    author: '@Jsforbaby'
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/insav-tv/modules/insav.lpx
+      backup: []
+
 scripts: []
