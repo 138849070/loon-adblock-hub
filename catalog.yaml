@@ -2034,4 +2034,57 @@ plugins:
       origin: https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/release/loon/plugin/bilibili.lpx
       backup: []
 
+  - name: 自动加入TestFlight
+    slug: testflight
+    category: misc
+    author: 奶思[https://github.com/fmz200], DecoAri[https://github.com/DecoAri], xream[https://github.com/xream]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/testflight/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx
+  - name: GitHub加速
+    slug: github-2
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx
+  - name: YouTube双语翻译
+    slug: youtube-2
+    category: misc
+    author: VirgilClyne[https://github.com/VirgilClyne]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/YouTubeSubtitlesTranslation.lpx
+  - name: 哔哩哔哩去广告
+    slug: plugin-059
+    category: misc
+    author: kokoryh[https://github.com/kokoryh]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-059/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx
+  - name: YouTube去广告
+    slug: youtube-3
+    category: misc
+    author: Maasea[https://github.com/Maasea], VirgilClyne[https://github.com/VirgilClyne],
+      Choler[https://github.com/Choler], DivineEngine[https://github.com/DivineEngine],
+      app2smile[https://github.com/app2smile]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-3/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx
+
 scripts: []
