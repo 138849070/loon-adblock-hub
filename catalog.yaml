@@ -1486,4 +1486,55 @@ plugins:
       backup:
       - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/luolidao.js/_end_/luolidao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 
+  - name: yeyan
+    slug: yeyan
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/yeyan/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/yeyan.js/_end_/yeyan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 7semao
+    slug: 7semao
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/7semao/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/7semao.js/_end_/7semao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: xv
+    slug: xv
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/xv/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xv.js/_end_/xv.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: haijiao
+    slug: haijiao
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/haijiao/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiao.js/_end_/haijiao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: MJGS
+    slug: mjgs
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mjgs/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/MJGS.js/_end_/MJGS.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+
 scripts: []

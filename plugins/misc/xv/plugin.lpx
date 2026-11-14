@@ -1,0 +1,10 @@
+#!name=xv
+#!desc=xv
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1007.png
+
+[Script]
+http-response ^https:\/\/d18psf29jvwgay\.cloudfront\.net\/api\/app\/(media\/play|user\/info|login\/guest|ping\/config|card\/list) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xv.js, requires-body=true, timeout=60, tag=xv
+
+[MITM]
+hostname = d18psf29jvwgay.cloudfront.net
+
