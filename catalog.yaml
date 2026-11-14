@@ -68,8 +68,9 @@ plugins:
   enabled: false
   files:
   - name: youtube_2.lpx
-    origin: https://rucu6.pages.dev/Plugins/youtube_2.lpx
-    backup: []
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-enhanced-2/youtube_2.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/youtube_2.lpx
 - name: WakeUp课程表去广告
   slug: wakeup-schedule-remove-ads
   category: reading
