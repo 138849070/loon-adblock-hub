@@ -1233,4 +1233,55 @@ plugins:
       backup:
       - https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx
 
+  - name: 小红书去广告
+    slug: plugin-016-4
+    category: misc
+    author: RuCu6[https://github.com/RuCu6], fmz200[https://github.com/fmz200]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-016-4/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx
+  - name: 七猫小说去广告
+    slug: plugin-017-2
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/SevenCat_remove_ads.lpx
+  - name: 瑞幸咖啡去广告
+    slug: plugin-018-2
+    category: misc
+    author: Sliverkiss[https://github.com/Sliverkiss]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx
+  - name: 拼多多去广告
+    slug: plugin-019-3
+    category: misc
+    author: ZenmoFeiShi[https://github.com/ZenmoFeiShi], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019-3/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx
+  - name: QQ链接解锁
+    slug: qq-2
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qq-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx
+
 scripts: []
