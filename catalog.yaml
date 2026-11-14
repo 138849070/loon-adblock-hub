@@ -1588,4 +1588,55 @@ plugins:
       backup:
       - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/65kan.js/_end_/65kan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 
+  - name: one2jj
+    slug: one2jj
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/one2jj/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/one2jj.js/_end_/one2jj.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: luping
+    slug: luping
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/luping/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/luping.js/_end_/luping.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 麻豆视频 + 快手萝莉
+    slug: plugin-013-3
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-013-3/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mdsp.js/_end_/mdsp.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: yangtao
+    slug: yangtao
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/yangtao/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/yangtao.js/_end_/yangtao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: mxshm
+    slug: mxshm
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mxshm/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mxshm.js/_end_/mxshm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+
 scripts: []
