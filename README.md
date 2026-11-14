@@ -103,6 +103,31 @@ links.md         订阅链接清单
 | 节点脚本工具合集 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/plugin.lpx) |
 | 酷安全面净化 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019/plugin.lpx) |
 | 胖乖生活去广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020-3/plugin.lpx) |
+| 中国联通 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-001/plugin.lpx) |
+| 中国电信 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002-3/plugin.lpx) |
+| 中国广电 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-4/plugin.lpx) |
+| 腾讯广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-5/plugin.lpx) |
+| 腾讯系 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-6/plugin.lpx) |
+| PushPlus微信推送广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/pushplus/plugin.lpx) |
+| Outlook | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/outlook/plugin.lpx) |
+| 拦截100 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/100/plugin.lpx) |
+| 虎牙直播 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-6/plugin.lpx) |
+| 爱思助手 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-7/plugin.lpx) |
+| Apple天气增强 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/apple/plugin.lpx) |
+| 预览qx一键导入资源 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qx/plugin.lpx) |
+| Line去广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/line/plugin.lpx) |
+| 番茄小说去广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-009-2/plugin.lpx) |
+| WARP节点查询 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/warp/plugin.lpx) |
+| 代理链路检测 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-4/plugin.lpx) |
+| 什么值得买去广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012-3/plugin.lpx) |
+| Google搜索重定向 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/google/plugin.lpx) |
+| 1blocker | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/1blocker/plugin.lpx) |
+| 起点读书去广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-015-3/plugin.lpx) |
+| 广告联盟去广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-016-3/plugin.lpx) |
+| 腾讯新闻App去广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-2/plugin.lpx) |
+| 百度系app广告屏蔽 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-3/plugin.lpx) |
+| 京东比价 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019-2/plugin.lpx) |
+| 网易大神去广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020-4/plugin.lpx) |
 <!-- PLUGINS_TABLE_END -->
 
 ## 脚本
