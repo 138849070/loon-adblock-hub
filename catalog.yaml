@@ -389,4 +389,58 @@ plugins:
       backup:
       - https://loonhub.wuyra.com/Lpx/Manager-Tools.lpx
 
+  - name: 小黑盒去广告
+    slug: plugin-016
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-016/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx
+  - name: 中国移动
+    slug: plugin-017
+    category: misc
+    author: ccyykk666[https://github.com/ccyykk666], sooyaaabo[https://github.com/sooyaaabo],
+      MaYIHEI[https://github.com/MaYIHEI]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/ChinaMobile.lpx
+  - name: 123云盘
+    slug: '123'
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md], ddgksf2013[https://github.com/ddgksf2013]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/123Pan.lpx
+  - name: YouTube (Music)
+    slug: youtube-music
+    category: misc
+    author: Maasea[https://github.com/Maasea], RuCu6[https://github.com/RuCu6]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-music/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/YouTube.lpx
+  - name: 微信
+    slug: plugin-020
+    category: misc
+    author: RuCu6[https://github.com/RuCu6], zZPiglet[https://github.com/zZPiglet],
+      blackmatrix7[https://github.com/blackmatrix7], zirawell[https://github.com/zirawell],
+      可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/WeChat.lpx
+
 scripts: []
