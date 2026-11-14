@@ -443,4 +443,55 @@ plugins:
       backup:
       - https://loon.103516.xyz/Plugin/WeChat.lpx
 
+  - name: Telegram
+    slug: telegram
+    category: misc
+    author: sooyaaabo[https://github.com/sooyaaabo]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/telegram/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/Telegram.lpx
+  - name: 流媒体解锁测试
+    slug: plugin-002-2
+    category: misc
+    author: huskydsb[https://github.com/huskydsb]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002-2/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/StreamingMedia.lpx
+  - name: 节点检测工具 𝕂
+    slug: plugin-003-2
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-2/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/NodeTools.lpx
+  - name: 网络信息 𝕏
+    slug: plugin-004-3
+    category: misc
+    author: Keywos[https://github.com/Keywos], xream[https://github.com/xream]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-3/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/Netisp-x.lpx
+  - name: 网易云音乐
+    slug: plugin-005-4
+    category: misc
+    author: RuCu6[https://github.com/RuCu6], Keywos[https://github.com/Keywos], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-4/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/NeteaseMusic.lpx
+
 scripts: []
