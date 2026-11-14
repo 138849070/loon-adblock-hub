@@ -1,9 +1,9 @@
 #!name=luping
 #!desc=luping
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1016.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/luping/deps/Doraemon-1016.png
 
 [Script]
-http-response ^https?:\/\/(www\.)?lupingik\.top\/(?:vod\/)?play\/id\/.*\.html$ script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/luping.js, requires-body=true, timeout=60, tag=luping
+http-response ^https?:\/\/(www\.)?lupingik\.top\/(?:vod\/)?play\/id\/.*\.html$ script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/luping/deps/luping.js, requires-body=true, timeout=60, tag=luping
 
 [MITM]
 hostname = www.lupingik.top, lupingik.top

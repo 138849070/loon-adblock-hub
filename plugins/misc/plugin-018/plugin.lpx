@@ -17,7 +17,7 @@ DOMAIN-SUFFIX,ip.plus,DIRECT
 # network-changed script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-009/deps/net-lsp-x.js, timeout=120, tag=网络信息变化 𝕏, argument="TYPE=EVENT&icon=globe.asia.australia&icon-color=#6699FF&LAN=0&SSID=0&IPv6=0&MASK=0&DOMESTIC_IPv4=spcn&DOMESTIC_IPv6=ddnspod&LANDING_IPv4=ipapi&LANDING_IPv6=ipsb&PRIVACY=0&FLAG=1&ENTRANCE_DELAY=0&EVENT_DELAY=3"
 
 # 交互查询
-generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/node-quality-query/deps/iptest.js, timeout=15, tag=節點質量查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/pokeball.png
+generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/iptest.js, timeout=15, tag=節點質量查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/pokeball.png
 generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/ip-api.js, timeout=10, tag=節點地址查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/1249982.png
 generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/net_speedtest.js, timeout=10, tag=網絡速度查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/1643998.png
 generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-009/deps/net-lsp-x.js, timeout=120, tag=節點入口查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/in.png

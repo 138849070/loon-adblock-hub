@@ -1,15 +1,15 @@
 #!name=yeyan
 #!desc=yeyan
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1011.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/yeyan/deps/Doraemon-1011.png
 
 [Rewrite]
 ^https?:\/\/\w+.yeyan\w+.xyz\/api/comment/gg - reject-dict
 
 [Script]
 # >18+夜艳
-http-response ^https?:\/\/\w+.yeyan\w+.xyz\/api\/(user\/personal|community\/edit|adv\/) script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/yeyan.js, requires-body=true, timeout=60, tag=yeyan
+http-response ^https?:\/\/\w+.yeyan\w+.xyz\/api\/(user\/personal|community\/edit|adv\/) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/yeyan/deps/yeyan.js, requires-body=true, timeout=60, tag=yeyan
 
-http-request ^https?:\/\/\w+.yeyan\w+.xyz\/api\/community\/xq_community script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/yytk.js, timeout=60, tag=yytk
+http-request ^https?:\/\/\w+.yeyan\w+.xyz\/api\/community\/xq_community script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/yeyan/deps/yytk.js, timeout=60, tag=yytk
 
 [MITM]
 hostname = *yeyan*

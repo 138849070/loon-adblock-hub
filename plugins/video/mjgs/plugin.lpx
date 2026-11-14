@@ -1,6 +1,6 @@
 #!name=MJGS
 #!desc=MJGS
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1006.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mjgs/deps/Doraemon-1006.png
 
 [Rewrite]
 #游戏
@@ -8,10 +8,10 @@
 
 [Script]
 #广告
-http-response ^https?:\/\/((mfjk|gnjk\d*|buyaoda).*\.com|jk\.bnhwq672q3\.com)\/(playerinfo|api\/home\/popup|api\/get_?advert).*$ script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgsad.js, requires-body=true, timeout=60, tag=mjgsad
+http-response ^https?:\/\/((mfjk|gnjk\d*|buyaoda).*\.com|jk\.bnhwq672q3\.com)\/(playerinfo|api\/home\/popup|api\/get_?advert).*$ script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mjgs/deps/mjgsad.js, requires-body=true, timeout=60, tag=mjgsad
 
 #视频
-http-request ^https?:\/\/(mfjk|gnjk\d*|buyaoda|gnjk2\.kzfbz|jk\.bnhwq672q3)\.[a-zA-Z0-9-]+\.com\/(api\/(comic|video|short_movie_info|short_movie_lock|novel|gallery|vip|index|video\/info)|request_rust_video\/ai\/init_info).*$ script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgshd.js, timeout=60, tag=mjgshd
+http-request ^https?:\/\/(mfjk|gnjk\d*|buyaoda|gnjk2\.kzfbz|jk\.bnhwq672q3)\.[a-zA-Z0-9-]+\.com\/(api\/(comic|video|short_movie_info|short_movie_lock|novel|gallery|vip|index|video\/info)|request_rust_video\/ai\/init_info).*$ script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mjgs/deps/mjgshd.js, timeout=60, tag=mjgshd
 
 [MITM]
 hostname = gnjk.*.com, mfjk.*.com, buyaoda.*.com, jk.*.com, gnjk3.*.com, gnjk1.*.com, gnjk2.*.com

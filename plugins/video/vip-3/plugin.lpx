@@ -2,10 +2,10 @@
 #!desc=解锁VIP视频/帖子、去广告弹窗、用户组提权
 #!author=Yu9191
 #!homepage=https://github.com/Yu9191/Rewrite
-#!icon=https://raw.githubusercontent.com/Yu9191/-/main/qishe.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/vip-3/deps/qishe.png
 
 [Script]
-http-response ^https?:\/\/[\w-]+\.qsh\d+\.(?:com|cn|org\.cn)\/(?:source\/plugin\/qsts_app\/index\.php|mserver)\/ script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/qishe/qishe.js, requires-body=true, timeout=30, tag=妻社
+http-response ^https?:\/\/[\w-]+\.qsh\d+\.(?:com|cn|org\.cn)\/(?:source\/plugin\/qsts_app\/index\.php|mserver)\/ script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/vip-3/deps/qishe.js, requires-body=true, timeout=30, tag=妻社
 
 [MITM]
 hostname = *.qsh526215.org.cn, *.qsh526724.com

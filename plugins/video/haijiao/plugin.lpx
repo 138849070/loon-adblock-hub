@@ -1,9 +1,9 @@
 #!name=haijiao
 #!desc=haijiao
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1060.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/haijiao/deps/Doraemon-1060.png
 
 [Script]
-http-response ^https?:\/\/(www\.)?haijiao\.com\/api\/(attachment|topic\/\d+|banner\/banner_list) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiao.js, requires-body=true, timeout=60, tag=haijiao
+http-response ^https?:\/\/(www\.)?haijiao\.com\/api\/(attachment|topic\/\d+|banner\/banner_list) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/13-haijiao/script.js, requires-body=true, timeout=60, tag=haijiao
 
 [MITM]
 hostname = haijiao.com, *.haijiao.com

@@ -1,13 +1,13 @@
 #!name=xiaohuli
 #!desc=xiaohuli
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1065.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/7semao/deps/Doraemon-1065.png
 
 [Rewrite]
 #广告
 xhlld.*\.shop\/view\/(adList|getVideoInfoAdList) - reject
 
 [Script]
-http-response xhlld.*\.shop\/view\/getVideoInfo\/\d+ script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xiaohuli.js, requires-body=true, timeout=60, tag=xiaohuli
+http-response xhlld.*\.shop\/view\/getVideoInfo\/\d+ script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/xiaohuli/deps/xiaohuli.js, requires-body=true, timeout=60, tag=xiaohuli
 
 [MITM]
 hostname = *.xhlld076.shop, *.xhlsc006.shop

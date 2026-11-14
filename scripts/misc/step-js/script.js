@@ -38,7 +38,7 @@
 ```js
 [task_local]
 # 小米刷步
-33 8 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/step.js, tag=小米刷步, img-url=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/color.png, enabled=true
+33 8 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/step.js, tag=小米刷步, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/step-js/deps/color.png, enabled=true
 ```
 ******************************************/
 const $ = new Env('小米刷步')

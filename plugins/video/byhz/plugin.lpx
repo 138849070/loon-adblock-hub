@@ -1,13 +1,13 @@
 #!name=byhz
 #!desc=byhz
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1019.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/byhz/deps/Doraemon-1019.png
 
 [Rewrite]
 ^https?://siajksslwiso\.anningsh\.com/report - reject-200
 
 [Script]
 # >鲍鱼盒子18+
-http-request ^https?:\/\/.+\/api\/(video\/report_item?|live\/room\/detail?|video\/related?|video\/detail|socialposts_info|my\/profile) script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/byhz.js, timeout=60, tag=byhz
+http-request ^https?:\/\/.+\/api\/(video\/report_item?|live\/room\/detail?|video\/related?|video\/detail|socialposts_info|my\/profile) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/byhz/deps/byhz.js, timeout=60, tag=byhz
 
 [MITM]
 hostname = w1c2.ooat88.com, tu.dfgfdg.win, 103.44.236.*, *.artrg.cn, vkfqb.ojyrz.com, byapi.*.com, 211.99.98.*, 103.39.222.*, yubaoyu.oss-cn-shenzhen.aliyuncs.com, *api.h8h4h.com, 42.157.129.25, siajksslwiso.anningsh.com, 211.99.98.63, 111.180.204.11, 88.gbvdfe.com, vdop.fqoas.com, ica.ooat88.com, 103.44.236.131:8001, 211.154.21.150:8020, 211.154.21.150, 103.215.78.*

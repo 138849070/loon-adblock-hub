@@ -6,10 +6,10 @@
 
 ============QuanX============
 [rewrite_local]
-^https:\/\/api\.pingmeapp\.net\/app\/queryBalanceAndBonus url script-request-header https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cookie/get_cookie.js
+^https:\/\/api\.pingmeapp\.net\/app\/queryBalanceAndBonus url script-request-header https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/14-get-cookie/script.js
 
 [task_local]
-30 8,20 * * * https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/PingMe/PingMeSignin.js, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PingMe.png, tag=PingMe签到, enabled=true
+30 8,20 * * * https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/19-pingmesignin/script.js, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/19-pingmesignin/deps/PingMe.png, tag=PingMe签到, enabled=true
 
 [MITM]
 hostname = api.pingmeapp.net
@@ -122,7 +122,7 @@ async function startTasks() {
         } else {
             $.msg($.name + '🎉 任务完成', $.nodeNotifyMsg.join('\n'), '', {
                 'open-url': '',
-                'media-url': 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PingMe.png'
+                'media-url': 'https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/19-pingmesignin/deps/PingMe.png'
             });
         }
         // $.done();
@@ -133,7 +133,7 @@ async function startTasks() {
         } else {
             $.msg($.name + '❌ 任务失败', $.nodeNotifyMsg.join('\n') + '\n' + (err.error || String(err)), '', {
                 'open-url': '',
-                'media-url': 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/PingMe.png'
+                'media-url': 'https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/19-pingmesignin/deps/PingMe.png'
             });
         }
         // $.done();

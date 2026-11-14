@@ -2,7 +2,7 @@
 #!desc=定时任务及Cookie获取
 #!author= MartinsKing（@ClydeTime）
 #!homepage= https://github.com/ClydeTime/BiliBili/tree/master
-#!icon=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/database/icon_Avatar.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/09-bilibilidailybonus/deps/icon_Avatar.png
 #!category= MK
 # 现将获取cookie与定时任务合并为一个模块
 # 使用APP获取cookie,保持B站Cookie(APP)开启,如检测到cookie变更会自动更新,解决cookie经常过期的问题(cookie仍有效不提醒更新)
@@ -10,7 +10,7 @@
 # 用户可选择自行开启或关闭,两种获取方式不可兼用
 # 大会员用户可选择开启bigPoint定时任务,以此获取观看剧集大积分,非大会员用户忽略即可
 # ================ Boxjs订阅 ================
-# 订阅地址：https://raw.githubusercontent.com/ClydeTime/BiliBili/main/boxjs/BiliBili.boxjs.json
+# 订阅地址：https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/09-bilibilidailybonus/deps/BiliBili.boxjs.json
 # 更新时间：2025-05-15
 
 [Argument]
@@ -21,13 +21,13 @@ bigPoint = switch,false,tag=[开关] 观看剧集大积分,desc=是否启用此�
 
 [Script]
 # BiliBili每日等级任务
-cron {RunTime} script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js, tag=B站每日等级任务, timeout=15
+cron {RunTime} script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/09-bilibilidailybonus/deps/BiliBiliDailyBonus.js, tag=B站每日等级任务, timeout=15
 
-cron "41 7 * * *" script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js, tag=B站观看剧集大积分, enable={bigPoint}, timeout=15
+cron "41 7 * * *" script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/09-bilibilidailybonus/deps/BiliBiliDailyBonus.js, tag=B站观看剧集大积分, enable={bigPoint}, timeout=15
 
-http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\? script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js, tag=B站Cookie(扫码), timeout=30, enable={扫码Cookie}
+http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\? script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/09-bilibilidailybonus/deps/BiliBiliDailyBonus.js, tag=B站Cookie(扫码), timeout=30, enable={扫码Cookie}
 
-http-request ^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\? script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js, tag=B站Cookie(APP), enable={APPCookie}
+http-request ^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\? script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/09-bilibilidailybonus/deps/BiliBiliDailyBonus.js, tag=B站Cookie(APP), enable={APPCookie}
 
 [MITM]
 hostname = app.bilibili.com

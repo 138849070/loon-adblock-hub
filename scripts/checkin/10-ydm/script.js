@@ -20,13 +20,13 @@ GGS:  https://ggs1.gtlxb.work
 
 [Script]
 # 会员
-http-response ^https:\/\/[^\/]+\.(cloudfront\.net|work|xyz)\/api\/user\/base\/info script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/ydm.js, requires-body=true, timeout=60, tag=会员
+http-response ^https:\/\/[^\/]+\.(cloudfront\.net|work|xyz)\/api\/user\/base\/info script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm-2/deps/ydm.js, requires-body=true, timeout=60, tag=会员
 # 视频
-http-response ^https:\/\/[^\/]+\.(cloudfront\.net|work|xyz)\/api\/(video\/getVideoById|cinema\/getVideoDetail) script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/ydm.js, requires-body=true, timeout=60, tag=视频
+http-response ^https:\/\/[^\/]+\.(cloudfront\.net|work|xyz)\/api\/(video\/getVideoById|cinema\/getVideoDetail) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm-2/deps/ydm.js, requires-body=true, timeout=60, tag=视频
 # 社区
-http-response ^https:\/\/[^\/]+\.(cloudfront\.net|work|xyz)\/api\/community\/dynamic\/dynamicInfo script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/ydm.js, requires-body=true, timeout=60, tag=社区
+http-response ^https:\/\/[^\/]+\.(cloudfront\.net|work|xyz)\/api\/community\/dynamic\/dynamicInfo script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm-2/deps/ydm.js, requires-body=true, timeout=60, tag=社区
 # 列表
-http-request ^https:\/\/[^\/]+\.(cloudfront\.net|work|xyz)\/api\/video\/(classify\/classifyList|classifyList|hot\/list) script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/ydm.js, requires-body=true, timeout=60, tag=列表
+http-request ^https:\/\/[^\/]+\.(cloudfront\.net|work|xyz)\/api\/video\/(classify\/classifyList|classifyList|hot\/list) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm-2/deps/ydm.js, requires-body=true, timeout=60, tag=列表
 
 [MITM]
 hostname = *.cloudfront.net, *.work, *.xyz

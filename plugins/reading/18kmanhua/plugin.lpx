@@ -1,9 +1,9 @@
 #!name=18kmanhua
 #!desc=18kmanhua
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1039.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/zukong/deps/Doraemon-1039.png
 
 [Script]
-http-response https:\/\/18akmanhua\.com\/api\/(chaptersDetails|memberDetails|videoDetails) script-path=https://gist.githubusercontent.com/Yu9191/919552f4d3358c070e5d995137514748/raw/18kmanhua.js, requires-body=true, timeout=60, tag=18kmanhua
+http-response https:\/\/18akmanhua\.com\/api\/(chaptersDetails|memberDetails|videoDetails) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/18kmanhua/deps/18kmanhua.js, requires-body=true, timeout=60, tag=18kmanhua
 
 [MITM]
 hostname = 18akmanhua.com

@@ -8,9 +8,9 @@
  * hostname = dalanshu.top
  *
  * [Script]
- * http-request ^https:\/\/dalanshu\.top\/api\/v1\/me\/checkin\/status tag=大蓝树每日签到Token, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cookie/get_cookie.js, requires-body=true, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/dalanshu.png
+ * http-request ^https:\/\/dalanshu\.top\/api\/v1\/me\/checkin\/status tag=大蓝树每日签到Token, script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/14-get-cookie/script.js, requires-body=true, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/deps/dalanshu.png
  *
- * cron "30 8 * * *" script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/dalanshu/dalanshu_checkin.js, tag=大蓝树每日签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/dalanshu.png, timeout=60, enable=true
+ * cron "30 8 * * *" script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/script.js, tag=大蓝树每日签到, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/deps/dalanshu.png, timeout=60, enable=true
  *
  * 
  * ========== Surge ==========
@@ -18,17 +18,17 @@
  * hostname = %APPEND% dalanshu.top
  *
  * [Script]
- * 大蓝树每日签到Token = type=http-request,pattern=^https:\/\/dalanshu\.top\/api\/v1\/me\/checkin\/status,requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cookie/get_cookie.js,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/dalanshu.png
+ * 大蓝树每日签到Token = type=http-request,pattern=^https:\/\/dalanshu\.top\/api\/v1\/me\/checkin\/status,requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/14-get-cookie/script.js,img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/deps/dalanshu.png
  *
- * 大蓝树每日签到 = type=cron,cronexp=30 8 * * *,timeout=60,script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/dalanshu/dalanshu_checkin.js,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/dalanshu.png
+ * 大蓝树每日签到 = type=cron,cronexp=30 8 * * *,timeout=60,script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/script.js,img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/deps/dalanshu.png
  *
  *     
  * ========== Quantumult X ==========
  * [rewrite_local]
- * ^https:\/\/dalanshu\.top\/api\/v1\/me\/checkin\/status url script-request-header https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cookie/get_cookie.js
+ * ^https:\/\/dalanshu\.top\/api\/v1\/me\/checkin\/status url script-request-header https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/14-get-cookie/script.js
  * 
  * [task_local]
- * 30 8 * * * https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/dalanshu/dalanshu_checkin.js, tag=大蓝树每日签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/dalanshu.png, enabled=true
+ * 30 8 * * * https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/script.js, tag=大蓝树每日签到, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/deps/dalanshu.png, enabled=true
  * 
  * [mitm]
  * hostname = dalanshu.top
@@ -68,7 +68,7 @@ async function startTasks() {
   if (isNode) {
     $.nodeNotifyMsg.push(subMsg);
   } else {
-    $.msg($.name, subMsg, '', {'open-url': '', 'media-url': "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/dalanshu.png"});
+    $.msg($.name, subMsg, '', {'open-url': '', 'media-url': "https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/deps/dalanshu.png"});
   }
   
   console.log(`脚本运行结束`);

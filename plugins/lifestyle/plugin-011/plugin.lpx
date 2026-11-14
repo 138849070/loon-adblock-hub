@@ -2,8 +2,8 @@
 #!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
 #!author=奶思
 #!homepage=https://github.com/fmz200/wool_scripts
-#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/wps/deps/naisi-01.gif
-#!raw-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011/plugin.lpx
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-004-6/deps/naisi-01.gif
+#!raw-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-011/plugin.lpx
 #!tg-channel=https://t.me/inaisi
 #!date=2026-11-11 21:17:23
 #############################################
@@ -23,10 +23,10 @@ kuan_enable = switch,true,false,tag=酷安-脚本开关
 
 
 [Script]
-http-response ^https?:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011/deps/coolapk.js, requires-body=true, timeout=60, tag=酷安, enable={kuan_enable}
-http-response ^https?:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011/deps/coolapk.js, requires-body=true, timeout=60, tag=酷安, enable={kuan_enable}
-http-response ^https?:\/\/api\.coolapk\.com\/v6\/page\/dataList\? script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011/deps/coolapk.js, requires-body=true, timeout=60, tag=酷安, enable={kuan_enable}
-http-request ^https:\/\/www\.coolapk\.com\/link.* script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011/deps/Coolapk_Redirect.js, requires-body=false, timeout=10, tag=酷安URL重定向, enable={kuan_enable}
+http-response ^https?:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-011/deps/coolapk.js, requires-body=true, timeout=60, tag=酷安, enable={kuan_enable}
+http-response ^https?:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-011/deps/coolapk.js, requires-body=true, timeout=60, tag=酷安, enable={kuan_enable}
+http-response ^https?:\/\/api\.coolapk\.com\/v6\/page\/dataList\? script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-011/deps/coolapk.js, requires-body=true, timeout=60, tag=酷安, enable={kuan_enable}
+http-request ^https:\/\/www\.coolapk\.com\/link.* script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-011/deps/Coolapk_Redirect.js, requires-body=false, timeout=10, tag=酷安URL重定向, enable={kuan_enable}
 
 
 

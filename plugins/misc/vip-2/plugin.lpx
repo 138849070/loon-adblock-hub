@@ -1,6 +1,6 @@
 #!name=幻宇星球 VIP 解锁
 #!desc=解锁 VIP
-#!icon=https://raw.githubusercontent.com/Yu9191/-/main/huanyu.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/vip-2/deps/huanyu.png
 #!author=Yu9191 Rewrite
 #!homepage=https://github.com/Yu9191/Rewrite
 
@@ -8,4 +8,4 @@
 ^https?://(?:huanyuxingqiu\.\w+|daoyu\.\w+|\w*hyxq\w*\.\w+)/(?!.*\.(?:png|jpe?g|gif|webp|svg|ico|css|js|woff2?|ttf|eot|mp[34]|zip|rar)(?:\?|$))(.*) https://huanyu-proxy.daoyufan.workers.dev/$1 header
 
 [MITM]
-hostname = huanyuxingqiu.*, daoyu.*, hyxq.*, ihyxq.*, *hyxq.*
+hostname = huanyuxingqiu.*, daoyu.*, hyxq.*, ihyxq.*, *hyxq.*, hyxq02.com

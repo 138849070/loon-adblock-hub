@@ -3,7 +3,7 @@
 #!author=RavelloH
 
 [Script]
-http-request ^https?:\/\/gql(-fed)?\.reddit\.com script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/reddit/deps/main.js, requires-body=false, tag=Reddit自动翻译
+http-request ^https?:\/\/gql(-fed)?\.reddit\.com script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/reddit/deps/main.js, requires-body=false, tag=Reddit自动翻译
 
 [Mitm]
 hostname = gql.reddit.com, gql-fed.reddit.com

@@ -1,10 +1,10 @@
 #!name=aiaiwang
 #!desc=aiaiwang
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1059.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/aiaiwang/deps/Doraemon-1059.png
 
 [Script]
 # > 爱爱网🔞 会员、去广告
-http-response ^https?:\/\/aawapi-v3\.trh999\.com\/msg_demo\/v\/(video\/(mayAlsoLike|index|getVideoInfoNew)|vip\/(VIPVideos|suggestVideo)|index(\/(getAdvertiseList|getIndexCarouselList))?) script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/aiaiwang.js, requires-body=true, timeout=60, tag=aiaiwang
+http-response ^https?:\/\/aawapi-v3\.trh999\.com\/msg_demo\/v\/(video\/(mayAlsoLike|index|getVideoInfoNew)|vip\/(VIPVideos|suggestVideo)|index(\/(getAdvertiseList|getIndexCarouselList))?) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/aiaiwang/deps/aiaiwang.js, requires-body=true, timeout=60, tag=aiaiwang
 
 [MITM]
 hostname = aawapi-v3.trh999.com

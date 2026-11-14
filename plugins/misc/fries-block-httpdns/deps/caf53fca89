@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dns>
+<retcode>0</retcode>
+<domainlist>
+<domain name="hkfindershort.weixin.qq.com" timeout="1860">
+<ip>43.129.254.85</ip>
+<ip>43.135.105.68</ip>
+</domain>
+<domain name="szlong.weixin.qq.com" timeout="1860">
+<ip>43.130.30.247</ip>
+</domain>
+<domain name="szdisas.weixin.qq.com" timeout="1860">
+<ip>43.130.30.247</ip>
+</domain>
+<domain name="mlminorshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.107</ip>
+</domain>
+<domain name="mldisas.weixin.qq.com" timeout="1860">
+<ip>43.130.30.107</ip>
+</domain>
+<domain name="localhost" timeout="1860">
+<ip>127.0.0.1</ip>
+</domain>
+<domain name="shextshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.185</ip>
+</domain>
+<domain name="szshort.mixpay.wechatpay.cn" timeout="1860">
+<ip>43.130.30.61</ip>
+<ip>43.130.30.74</ip>
+</domain>
+<domain name="hkshort.mixpay.wechatpay.cn" timeout="1860">
+<ip>43.154.252.245</ip>
+<ip>43.159.235.39</ip>
+</domain>
+<domain name="shquic.weixin.qq.com" timeout="1860">
+<ip>101.227.131.171</ip>
+<ip>101.227.131.254</ip>
+</domain>
+<domain name="szminorshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.247</ip>
+</domain>
+<domain name="sgshort.wechat.com" timeout="1860">
+<ip>43.175.230.137</ip>
+<ip>43.175.230.138</ip>
+<ip>49.51.190.94</ip>
+<ip>49.51.67.253</ip>
+</domain>
+<domain name="sgshort.mixpay.wechat.com" timeout="1860">
+<ip>43.159.158.242</ip>
+<ip>43.159.158.88</ip>
+</domain>
+<domain name="mlextshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.107</ip>
+</domain>
+<domain name="short.weixin.qq.com" timeout="1860">
+<ip>43.130.30.185</ip>
+</domain>
+<domain name="hkshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.176</ip>
+</domain>
+<domain name="extshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.185</ip>
+</domain>
+<domain name="mllong.weixin.qq.com" timeout="1860">
+<ip>43.130.30.107</ip>
+</domain>
+<domain name="szfindershort.weixin.qq.com" timeout="1860">
+<ip>43.163.177.113</ip>
+</domain>
+<domain name="long.weixin.qq.com" timeout="1860">
+<ip>43.130.30.185</ip>
+</domain>
+<domain name="mlquic.weixin.qq.com" timeout="1860">
+<ip>220.171.125.167</ip>
+</domain>
+<domain name="sgaxshort.wechat.com" timeout="1860">
+<ip>43.175.230.137</ip>
+<ip>43.175.230.138</ip>
+<ip>49.51.190.94</ip>
+<ip>49.51.67.253</ip>
+</domain>
+<domain name="szquic.weixin.qq.com" timeout="1860">
+<ip>183.47.121.85</ip>
+<ip>183.47.124.112</ip>
+</domain>
+<domain name="hkextshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.176</ip>
+</domain>
+<domain name="hkdisas.weixin.qq.com" timeout="1860">
+<ip>43.130.30.176</ip>
+</domain>
+<domain name="sgshort.snspay.wechat.com" timeout="1860">
+<ip>43.159.158.242</ip>
+<ip>43.159.158.88</ip>
+</domain>
+<domain name="szshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.247</ip>
+</domain>
+<domain name="sgminorshort.wechat.com" timeout="1860">
+<ip>172.65.64.216</ip>
+<ip>172.65.64.217</ip>
+<ip>43.175.230.137</ip>
+<ip>43.175.230.138</ip>
+<ip>49.51.190.94</ip>
+<ip>49.51.67.253</ip>
+</domain>
+<domain name="hkminorshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.176</ip>
+</domain>
+<domain name="short.snspay.wechatpay.cn" timeout="1860">
+<ip>43.130.30.253</ip>
+<ip>43.130.30.49</ip>
+</domain>
+<domain name="short.pay.weixin.qq.com" timeout="1860">
+<ip>43.130.30.253</ip>
+<ip>43.130.30.49</ip>
+</domain>
+<domain name="shshort.pay.weixin.qq.com" timeout="1860">
+<ip>43.130.30.253</ip>
+<ip>43.130.30.49</ip>
+</domain>
+<domain name="quic.weixin.qq.com" timeout="1860">
+<ip>101.227.131.171</ip>
+<ip>101.227.131.254</ip>
+</domain>
+<domain name="sgquic.wechat.com" timeout="1860">
+<ip>43.156.223.202</ip>
+<ip>43.156.255.184</ip>
+</domain>
+<domain name="axshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.185</ip>
+</domain>
+<domain name="mlshort.snspay.wechatpay.cn" timeout="1860">
+<ip>43.130.30.215</ip>
+</domain>
+<domain name="hkquic.weixin.qq.com" timeout="1860">
+<ip>129.226.107.244</ip>
+</domain>
+<domain name="shshort.mixpay.wechatpay.cn" timeout="1860">
+<ip>43.130.30.253</ip>
+<ip>43.130.30.49</ip>
+</domain>
+<domain name="mlshort.mixpay.wechatpay.cn" timeout="1860">
+<ip>43.130.30.215</ip>
+</domain>
+<domain name="mlaxshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.107</ip>
+</domain>
+<domain name="szshort.snspay.wechatpay.cn" timeout="1860">
+<ip>43.130.30.61</ip>
+<ip>43.130.30.74</ip>
+</domain>
+<domain name="dns.wechat.com" timeout="1860">
+<ip>101.32.104.104</ip>
+<ip>161.120.168.23</ip>
+<ip>161.120.169.197</ip>
+<ip>43.152.112.101</ip>
+<ip>43.153.248.120</ip>
+</domain>
+<domain name="sgfindershort.wechat.com" timeout="1860">
+<ip>43.163.16.207</ip>
+<ip>43.163.17.82</ip>
+</domain>
+<domain name="hkshort.pay.weixin.qq.com" timeout="1860">
+<ip>43.154.252.254</ip>
+<ip>43.159.235.246</ip>
+</domain>
+<domain name="mlshort.pay.weixin.qq.com" timeout="1860">
+<ip>43.130.30.215</ip>
+</domain>
+<domain name="short.mixpay.wechatpay.cn" timeout="1860">
+<ip>43.130.30.253</ip>
+<ip>43.130.30.49</ip>
+</domain>
+<domain name="sgshort.pay.wechat.com" timeout="1860">
+<ip>43.159.158.242</ip>
+<ip>43.159.158.88</ip>
+</domain>
+<domain name="mlfindershort.weixin.qq.com" timeout="1860">
+<ip>43.159.235.104</ip>
+</domain>
+<domain name="sglong.wechat.com" timeout="1860">
+<ip>43.175.230.151</ip>
+<ip>49.51.190.94</ip>
+<ip>49.51.67.253</ip>
+</domain>
+<domain name="mlshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.107</ip>
+</domain>
+<domain name="shdisas.weixin.qq.com" timeout="1860">
+<ip>43.130.30.185</ip>
+</domain>
+<domain name="minorshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.185</ip>
+</domain>
+<domain name="hkaxshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.176</ip>
+</domain>
+<domain name="szaxshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.247</ip>
+</domain>
+<domain name="hklong.weixin.qq.com" timeout="1860">
+<ip>43.130.30.176</ip>
+</domain>
+<domain name="udns.weixin.qq.com" timeout="1860">
+<ip>161.120.162.167</ip>
+<ip>161.120.162.212</ip>
+<ip>43.163.16.89</ip>
+<ip>43.163.17.89</ip>
+</domain>
+<domain name="findershort.weixin.qq.com" timeout="1860">
+<ip>129.226.106.250</ip>
+</domain>
+<domain name="shshort.snspay.wechatpay.cn" timeout="1860">
+<ip>43.130.30.253</ip>
+<ip>43.130.30.49</ip>
+</domain>
+<domain name="hkshort.snspay.wechatpay.cn" timeout="1860">
+<ip>43.128.17.149</ip>
+<ip>43.159.235.36</ip>
+</domain>
+<domain name="szextshort.weixin.qq.com" timeout="1860">
+<ip>43.130.30.247</ip>
+</domain>
+<domain name="szshort.pay.weixin.qq.com" timeout="1860">
+<ip>43.130.30.61</ip>
+<ip>43.130.30.74</ip>
+</domain>
+<domain name="mmsns.qpic.cn" timeout="1860" gslb="1">
+<ip>43.156.86.6</ip>
+<ip>129.226.1.35</ip>
+<ip>101.32.113.63</ip>
+<ip>101.32.133.83</ip>
+<ip>101.32.171.239</ip>
+<ip>43.156.86.161</ip>
+<ip>43.156.86.56</ip>
+<ip>150.109.3.9</ip>
+</domain>
+<domain name="wx.qlogo.cn" timeout="1860" gslb="1">
+<ip>101.32.171.239</ip>
+<ip>43.156.86.161</ip>
+<ip>101.32.133.83</ip>
+<ip>101.32.113.63</ip>
+<ip>43.156.86.6</ip>
+<ip>43.156.86.56</ip>
+<ip>150.109.3.9</ip>
+<ip>129.226.1.35</ip>
+</domain>
+<domain name="shp.qlogo.cn" timeout="1860" gslb="1">
+<ip>180.101.246.34</ip>
+<ip>180.101.246.245</ip>
+<ip>180.101.246.32</ip>
+<ip>117.89.176.232</ip>
+<ip>180.101.246.194</ip>
+<ip>180.101.246.164</ip>
+<ip>117.89.176.196</ip>
+<ip>222.94.109.142</ip>
+<ip>222.94.109.56</ip>
+<ip>222.94.109.64</ip>
+</domain>
+<domain name="vweixinf.tc.qq.com" timeout="1860" gslb="1">
+<ip>43.175.129.26</ip>
+<ip>43.175.129.18</ip>
+<ip>43.175.129.39</ip>
+<ip>43.175.129.37</ip>
+<ip>43.175.129.38</ip>
+<ip>43.175.129.40</ip>
+<ip>43.175.129.36</ip>
+<ip>43.175.129.34</ip>
+<ip>43.175.129.33</ip>
+<ip>43.175.129.30</ip>
+</domain>
+<domain name="weixinc2c.tc.qq.com" timeout="1860" gslb="1">
+<ip>42.236.89.11</ip>
+<ip>42.236.89.15</ip>
+</domain>
+<domain name="mp.weixin.qq.com" timeout="1860" gslb="1">
+<ip>116.128.169.212</ip>
+<ip>140.207.121.14</ip>
+<ip>220.196.132.78</ip>
+<ip>140.207.176.25</ip>
+<ip>116.128.171.214</ip>
+<ip>140.207.191.167</ip>
+</domain>
+<domain name="szmmsns.qpic.cn" timeout="1860" gslb="1">
+<ip>101.32.171.239</ip>
+<ip>43.156.86.6</ip>
+<ip>150.109.3.9</ip>
+<ip>43.156.86.56</ip>
+<ip>101.32.133.83</ip>
+<ip>101.32.113.63</ip>
+<ip>129.226.1.35</ip>
+<ip>43.156.86.161</ip>
+</domain>
+<domain name="shmmsns.qpic.cn" timeout="1860" gslb="1">
+<ip>43.156.86.161</ip>
+<ip>129.226.1.35</ip>
+<ip>101.32.133.83</ip>
+<ip>43.156.86.6</ip>
+<ip>150.109.3.9</ip>
+<ip>101.32.113.63</ip>
+<ip>43.156.86.56</ip>
+<ip>101.32.171.239</ip>
+</domain>
+<domain name="wxsnsdy.wxs.qq.com" timeout="1860" gslb="1">
+<ip>43.175.129.38</ip>
+<ip>43.175.129.36</ip>
+<ip>43.175.129.19</ip>
+<ip>43.175.129.28</ip>
+<ip>43.175.129.39</ip>
+<ip>43.175.129.25</ip>
+<ip>43.175.129.30</ip>
+<ip>43.175.129.33</ip>
+<ip>43.175.129.34</ip>
+<ip>43.175.129.29</ip>
+</domain>
+<domain name="wxsnsdythumb.wxs.qq.com" timeout="1860" gslb="1">
+<ip>43.175.129.29</ip>
+<ip>43.175.129.37</ip>
+<ip>43.175.129.18</ip>
+<ip>43.175.129.33</ip>
+<ip>43.175.129.28</ip>
+<ip>43.175.129.32</ip>
+<ip>43.175.129.36</ip>
+<ip>43.175.129.39</ip>
+<ip>43.175.129.40</ip>
+<ip>43.175.129.31</ip>
+</domain>
+<domain name="wxapp.tc.qq.com" timeout="1860" gslb="1">
+<ip>43.175.129.36</ip>
+<ip>43.175.129.33</ip>
+<ip>43.175.129.40</ip>
+<ip>43.175.129.18</ip>
+<ip>43.175.129.34</ip>
+<ip>43.175.129.39</ip>
+<ip>43.175.129.38</ip>
+<ip>43.175.129.30</ip>
+<ip>43.175.129.26</ip>
+<ip>43.175.129.31</ip>
+</domain>
+<domain name="weixin110.qq.com" timeout="1860" gslb="1">
+<ip>180.153.202.90</ip>
+<ip>61.151.226.11</ip>
+</domain>
+<domain name="c6.y.qq.com" timeout="1860" gslb="1">
+<ip>129.226.103.212</ip>
+<ip>129.226.103.11</ip>
+</domain>
+<domain name="open.weixin.qq.com" timeout="1860" gslb="1">
+<ip>140.207.191.167</ip>
+<ip>220.196.132.78</ip>
+<ip>140.207.176.25</ip>
+<ip>116.128.171.214</ip>
+<ip>116.128.169.212</ip>
+<ip>140.207.121.14</ip>
+</domain>
+<domain name="api.weixin.qq.com" timeout="1860" gslb="1">
+<ip>43.130.8.50</ip>
+<ip>43.130.8.250</ip>
+</domain>
+<domain name="weixin.qq.com" timeout="1860" gslb="1">
+<ip>117.89.182.41</ip>
+<ip>101.227.132.63</ip>
+</domain>
+<domain name="support.weixin.qq.com" timeout="1860" gslb="1">
+<ip>101.227.132.63</ip>
+<ip>117.89.182.41</ip>
+</domain>
+<domain name="hksupport.weixin.qq.com" timeout="1860" gslb="1">
+<ip>14.18.251.125</ip>
+<ip>183.47.114.107</ip>
+<ip>183.47.125.39</ip>
+<ip>183.2.134.144</ip>
+</domain>
+<domain name="szsupport.weixin.qq.com" timeout="1860" gslb="1">
+<ip>119.147.11.57</ip>
+<ip>119.147.11.68</ip>
+<ip>14.17.27.213</ip>
+<ip>183.47.121.233</ip>
+<ip>183.47.109.197</ip>
+<ip>183.47.121.205</ip>
+</domain>
+<domain name="mlsupport.weixin.qq.com" timeout="1860" gslb="1">
+<ip>220.171.138.69</ip>
+<ip>220.171.125.143</ip>
+<ip>220.171.125.152</ip>
+<ip>220.171.138.13</ip>
+</domain>
+<domain name="mmsns.hk.wechat.com" timeout="1860" gslb="1">
+<ip>43.156.86.161</ip>
+<ip>101.32.133.83</ip>
+<ip>43.156.86.6</ip>
+<ip>43.156.86.56</ip>
+<ip>101.32.171.239</ip>
+<ip>150.109.3.9</ip>
+<ip>129.226.1.35</ip>
+<ip>101.32.113.63</ip>
+</domain>
+</domainlist>
+<builtiniplist>
+<ip>101.32.104.104</ip>
+<ip>43.129.138.148</ip>
+<ip>43.129.139.7</ip>
+</builtiniplist>
+<tracectx>2_233_0_0</tracectx>
+<clientip>20.64.175.36</clientip>
+<clientispid>2116833</clientispid>
+<clientcloserandom>1</clientcloserandom>
+<timestamp>1794585600</timestamp>
+<nextipv6>0</nextipv6>
+<maxcheckintervalwhennetworkfailure>10</maxcheckintervalwhennetworkfailure>
+<effecttime>1794650779</effecttime>
+<queryinternvalsecond>660</queryinternvalsecond>
+<crossnet>0</crossnet>
+<networkid>ee2e15e1a9dd761acd4ee54fa7314967</networkid>
+<networkidctx>SIwU70mh4A7s0TZY%2FwGVbi8xz3mXCwS8%2Bn04tgHEqv4YHZgsOJ%2BLWW8ryRc1v0uQgsH7wnRd</networkidctx>
+<v4proxyconntimeout>2500</v4proxyconntimeout>
+<v6proxyconntimeout>2500</v6proxyconntimeout>
+<qctimeout>250</qctimeout>
+<qrwtimeout>5000</qrwtimeout>
+<signature>MD4CHQC9TPTIX1Khbc4weqwzi5kTMaZeadTNf6s4s1Q8Ah0Ay2lp21xIYi+Nq11OD3Yi8T7RR6/oSMCqTOK4Uw==</signature>
+</dns>
+
+<connstrategy cachetimeout="604800">
+<portlist type="long">
+<port>80</port>
+<port>443</port>
+<port>8080</port>
+</portlist>
+<portlist type="short">
+<port>80</port>
+</portlist>
+<portlist type="quic">
+<port>80</port>
+</portlist>
+
+<connctrl type="long" interval="400" errorinterval="2000" conntimeout="10000" maxconnnum="3">
+</connctrl>
+<connctrl type="short" interval="400" errorinterval="2000" conntimeout="10000" maxconnnum="3">
+<conntimeout property="ipv4">2500</conntimeout>
+<conntimeout property="ipv6">2500</conntimeout>
+</connctrl>
+<connctrl type="quic" interval="250" errorinterval="2000" conntimeout="1000" maxconnnum="4" zerortttimeout="250">
+</connctrl>
+</connstrategy>
+
+<errcodelist>
+<code>-1</code>
+<code>-3003</code>
+<code>-3007</code>
+</errcodelist>
+
+<JitterCtrl>
+<IntervalBefore>10</IntervalBefore>
+<IntervalDelay>90</IntervalDelay>
+</JitterCtrl>
+
+<exptlist>
+</exptlist>
+

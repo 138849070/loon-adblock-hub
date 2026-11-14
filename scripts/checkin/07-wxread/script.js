@@ -4,7 +4,7 @@
 点击订阅人数
 ------------------------------------------
 [Script]
-http-request ^https:\/\/i\.weread\.qq\.com\/subscription\/users\?bookId=.+ script-path= https://paste.srlihg.cc/~wxread, requires-body=true, timeout=60, tag=微信读书获取书籍
+http-request ^https:\/\/i\.weread\.qq\.com\/subscription\/users\?bookId=.+ script-path= https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/07-wxread/script.js, requires-body=true, timeout=60, tag=微信读书获取书籍
 
 [MITM]
 hostname = i.weread.qq.com

@@ -5,9 +5,9 @@
 #!author=TG@ZenMoFiShi
 
 [Script]
-http-request ^https:\/\/api\.wetalkapp\.com\/app\/queryBalanceAndBonus script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/WeTalk.js, tag=WeTalkToken
+http-request ^https:\/\/api\.wetalkapp\.com\/app\/queryBalanceAndBonus script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/wetalk-loon-js/deps/WeTalk.js, tag=WeTalkToken
 
-cron "20 8,20 * * *" script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/WeTalk.js, tag=WeTalk签到
+cron "20 8,20 * * *" script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/wetalk-loon-js/deps/WeTalk.js, tag=WeTalk签到
 
 [MITM]
 hostname = api.wetalkapp.com

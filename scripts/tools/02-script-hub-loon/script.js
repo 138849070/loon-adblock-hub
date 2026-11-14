@@ -4,7 +4,7 @@
 #!tag=工具
 #!homepage=https://github.com/Script-Hub-Org/Script-Hub/tree/main
 #!openurl=https://script.hub/
-#!icon=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/assets/icon-dark.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub/deps/icon-dark.png
 #!select=启用插件随机图标, 启用, 禁用
 #!select=替换原始插件图标, 启用, 禁用
 #!select=插件随机图标合集, Doraemon(100P),Shin-chan(100P),Weslie-Wolffy(100P),Tom-Jerry(100P),Genshin(160P),Shin-Miya(100P),OnePiece(100P),Stitch(100P),Pokemon(112P),PokemonGif(56P),Digimon(56P),Transformers(48P),Maruko-chan(100P),AttackOnTitan(84P),Naruto(284P)
@@ -16,13 +16,13 @@
 DOMAIN,scripthub.vercel.app,PROXY
 
 [Script]
-request if ${url} ~= /^https?:\/\/script\.hub\/($|edit\/|reload)/i then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js") with tag="Script Hub: 前端", timeout=300
+request if ${url} ~= /^https?:\/\/script\.hub\/($|edit\/|reload)/i then script("https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub/deps/script-hub.js") with tag="Script Hub: 前端", timeout=300
 
-request if ${url} ~= /^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|shadowrocket-module|loon-plugin|all-module)/i then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js") with tag="Script Hub: 重写转换", timeout=300
+request if ${url} ~= /^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|shadowrocket-module|loon-plugin|all-module)/i then script("https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub/deps/Rewrite-Parser.js") with tag="Script Hub: 重写转换", timeout=300
 
-request if ${url} ~= /^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set/i then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js") with tag="Script Hub: 规则集转换", timeout=300
+request if ${url} ~= /^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set/i then script("https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub/deps/rule-parser.js") with tag="Script Hub: 规则集转换", timeout=300
 
-request if ${url} ~= /^https?:\/\/script\.hub\/convert\//i then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js") with tag="Script Hub: 脚本转换", timeout=300
+request if ${url} ~= /^https?:\/\/script\.hub\/convert\//i then script("https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub/deps/script-converter.js") with tag="Script Hub: 脚本转换", timeout=300
 
 [MITM]
 hostname = script.hub, *.script.hub

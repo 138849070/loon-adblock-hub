@@ -12,23 +12,23 @@
  * [MITM]
  * hostname = personal-act.wps.cn
  * [Script]
- * request if ${url} ~= /^https:\/\/personal-act\.wps\.cn\/activity-rubik\/activity\/page_info/i then script("https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.cookie.js") with tag="WPS Cookie", img_url="https://raw.githubusercontent.com/MaYIHEI/pin/refs/heads/main/app/wps.png"
- * cron "0 10 * * *" then script("https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.js") with tag="WPS签到", img_url="https://raw.githubusercontent.com/MaYIHEI/pin/refs/heads/main/app/wps.png"
+ * request if ${url} ~= /^https:\/\/personal-act\.wps\.cn\/activity-rubik\/activity\/page_info/i then script("https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/16-wps-cookie/script.js") with tag="WPS Cookie", img_url="https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/deps/wps.png"
+ * cron "0 10 * * *" then script("https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/script.js") with tag="WPS签到", img_url="https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/deps/wps.png"
  *
  * ===== Surge =====
  * [MITM]
  * hostname = personal-act.wps.cn
  * [Script]
- * WPS Cookie = type=http-request,pattern=^https:\/\/personal-act\.wps\.cn\/activity-rubik\/activity\/page_info,requires-body=false,max-size=0,script-path=https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.cookie.js,img-url=https://raw.githubusercontent.com/MaYIHEI/pin/refs/heads/main/app/wps.png
- * WPS签到 = type=cron,cronexp=0 10 * * *,timeout=120,script-path=https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.js,img-url=https://raw.githubusercontent.com/MaYIHEI/pin/refs/heads/main/app/wps.png
+ * WPS Cookie = type=http-request,pattern=^https:\/\/personal-act\.wps\.cn\/activity-rubik\/activity\/page_info,requires-body=false,max-size=0,script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/16-wps-cookie/script.js,img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/deps/wps.png
+ * WPS签到 = type=cron,cronexp=0 10 * * *,timeout=120,script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/script.js,img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/deps/wps.png
  *
  * ===== Quantumult X =====
  * [MITM]
  * hostname = personal-act.wps.cn
  * [rewrite_local]
- * ^https:\/\/personal-act\.wps\.cn\/activity-rubik\/activity\/page_info url script-request-header https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.cookie.js
+ * ^https:\/\/personal-act\.wps\.cn\/activity-rubik\/activity\/page_info url script-request-header https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/16-wps-cookie/script.js
  * [task_local]
- * 0 10 * * * https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.js, tag=WPS签到, img-url=https://raw.githubusercontent.com/MaYIHEI/pin/refs/heads/main/app/wps.png, enabled=true
+ * 0 10 * * * https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/script.js, tag=WPS签到, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/deps/wps.png, enabled=true
  *
  * ===== Stash =====
  * cron:
@@ -46,7 +46,7 @@
  *       require-body: false
  * script-providers:
  *   WPS签到:
- *     url: https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.js
+ *     url: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/script.js
  *     interval: 86400
  */
 
