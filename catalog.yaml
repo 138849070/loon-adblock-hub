@@ -340,4 +340,53 @@ plugins:
       origin: https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.plugin
       backup: []
 
+  - name: 酷安
+    slug: plugin-011
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partK/Coolapk.lpx
+      backup: []
+  - name: YouTube去广告隐藏Shorts版@Aioneas
+    slug: youtube-shorts-aioneas
+    category: misc
+    author: DivineEngine + app2smile + Maasea + ddgksf2013 + Aioneas + Oneasai + ZenmoFeiShi
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-shorts-aioneas/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/Youtube.snippet/_end_/Youtube.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 酷安LV20
+    slug: lv20
+    category: misc
+    author: xm
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/lv20/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/138849070/AD/main/酷安LV20/KuAn.snippet.txt/_end_/KuAn.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 哲也同学
+    slug: plugin-014
+    category: misc
+    author: blackmatrix7
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.lnplugin
+      backup: []
+  - name: Manager Tools
+    slug: manager-tools
+    category: misc
+    author: 小白脸,xream[https://github.com/xream],keywos[https://github.com/keywos],ckyb[https://github.com/chengkongyiban],Peng-YM[https://github.com/Peng-YM],chavyleung[https://github.com/chavyleung]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/manager-tools/plugin.lpx
+      backup:
+      - https://loonhub.wuyra.com/Lpx/Manager-Tools.lpx
+
 scripts: []
