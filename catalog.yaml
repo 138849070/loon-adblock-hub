@@ -2098,4 +2098,49 @@ plugins:
       backup:
       - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ts.js/_end_/ts.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 
-scripts: []
+scripts:
+  - name: WeTalk_Loon.js
+    slug: wetalk-loon-js
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: script.js
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/wetalk-loon-js/script.js
+      backup: []
+  - name: yuchenios.js
+    slug: yuchenios-js
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: script.js
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/yuchenios-js/script.js
+      backup: []
+  - name: We Talk.js
+    slug: we-talk-js
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: script.js
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/we-talk-js/script.js
+      backup: []
+  - name: script_example.js
+    slug: script-example-js
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: script.js
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/script-example-js/script.js
+      backup: []
+  - name: step.js
+    slug: step-js
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: script.js
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/step-js/script.js
+      backup: []
