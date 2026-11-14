@@ -7,13 +7,13 @@
 #!system_version = 
 #!loon_version = 3.5.3(1014)
 #!homepage = https://loonlab.103516.xyz/Plugin/
-#!icon = https://raw.githubusercontent.com/sooyaaabo/IconLibrary/main/App/TaoBao.png
+#!icon = https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003/deps/TaoBao.png
 #!date = 2026-11-02 21:00
 
 # 2026-10-02 13:57:49
 # https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx
 # 2026-05-27
-# https://raw.githubusercontent.com/ishowshu/qx/main/rewrite/taobao.snippet
+# https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003/deps/taobao.snippet
 
 [Rule]
 # 移除广告下发请求

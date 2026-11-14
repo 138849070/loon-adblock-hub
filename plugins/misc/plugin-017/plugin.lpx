@@ -7,13 +7,13 @@
 #!system_version = 
 #!loon_version = 3.5.3(1014)
 #!homepage = https://loonlab.103516.xyz/Plugin/
-#!icon = https://raw.githubusercontent.com/sooyaaabo/IconLibrary/main/App/ChinaMobile.png
+#!icon = https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017/deps/ChinaMobile.png
 #!date = 2026-11-02 21:00
 
 # 2026-10-24
-# https://raw.githubusercontent.com/ccyykk666/Loon-Plugin/main/plugins/china-mobile/china_mobile_ad.plugin
+# https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017/deps/china_mobile_ad.plugin
 # 2026-10-26
-# https://raw.githubusercontent.com/MaYIHEI/paperclip/main/loon/paperclip-cookie/paperclip-cookie.lpx
+# https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017/deps/paperclip-cookie.lpx
 
 [Argument]
 BottomClean = switch, true, false, tag = [底栏] 隐藏-AI灵犀, desc = 隐藏底栏AI灵犀入口
@@ -65,11 +65,11 @@ response if ${url} ~= /^https:\/\/(?:client\.app\.coc\.10086\.cn\/biz-orange\/DN
 response if ${url} ~= /^https:\/\/(?:(?:h\.app\.coc\.10086\.cn\/biz-orange\/DH\/(?:message_query\/message\/query\/list|myCardVoucher\/getBannerList)|app\.10086\.cn\/biz-orange\/DA\/commonBoard\/getCommonBoard)(?:\?.*)?|(touch\.10086\.cn\/i\/v1\/cust\/(?:aiMainQry|iopBatchQry)\/[^?]+(?:\?.*)?))$/i && ${response.status} == 200 && (${response.header['x-pen']} == "1" || ${url} ~= /^https:\/\/touch\.10086\.cn\/i\/v1\/cust\/(?:aiMainQry|iopBatchQry)\/[^?]+(?:\?.*)?$/i) then script("https://loon.103516.xyz/Script/ChinaMobile/ChinaMobile.ads.js") with tag="[中国移动]消息、卡券、充值净化", timeout=10, requires_body=true
 
 
-request if ${url} ~= /^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/[LD]N\/uam(onekey|randcode)login\/autoLogin/i then script("https://raw.githubusercontent.com/MaYIHEI/paperclip/main/app/cmcc/cmcc.js") with enable=${CMCC_Cookie}, tag="[中国移动]获取Cookie", requires_body=true
+request if ${url} ~= /^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/[LD]N\/uam(onekey|randcode)login\/autoLogin/i then script("https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017/deps/cmcc-2.js") with enable=${CMCC_Cookie}, tag="[中国移动]获取Cookie", requires_body=true
 
-request if ${url} ~= /^https:\/\/clientaccess\.10086\.cn\/biz-orange\/BN\/scoreQueryService\/getScoreQuery/i then script("https://raw.githubusercontent.com/MaYIHEI/paperclip/main/app/cmcc/cmcc.js") with enable=${CMCC_Cookie}, tag="[中国移动]获取Cookie", requires_body=true
+request if ${url} ~= /^https:\/\/clientaccess\.10086\.cn\/biz-orange\/BN\/scoreQueryService\/getScoreQuery/i then script("https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017/deps/cmcc-2.js") with enable=${CMCC_Cookie}, tag="[中国移动]获取Cookie", requires_body=true
 
-request if ${url} ~= /^https:\/\/h5\.bj\.10086\.cn\/ActSignIn2023\/doPrize/i then script("https://raw.githubusercontent.com/MaYIHEI/paperclip/main/app/cmcc/cmcc.js") with enable=${CMCC_Cookie}, tag="[中国移动]获取Cookie"
+request if ${url} ~= /^https:\/\/h5\.bj\.10086\.cn\/ActSignIn2023\/doPrize/i then script("https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017/deps/cmcc-2.js") with enable=${CMCC_Cookie}, tag="[中国移动]获取Cookie"
 
 [MitM]
 hostname = client.app.coc.10086.cn, h.app.coc.10086.cn, app.10086.cn, touch.10086.cn, ad.mcloud.139.com
