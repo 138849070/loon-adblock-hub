@@ -546,4 +546,52 @@ plugins:
       backup:
       - https://loon.103516.xyz/Plugin/CMS_Adblock.lpx
 
+  - name: 广告拦截合集
+    slug: plugin-011-2
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-2/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/BlockAds.lpx
+  - name: 医考帮去广告
+    slug: plugin-012
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/YiKaoBang_remove_ads.lpx
+  - name: App/小程序-AD净化
+    slug: app-ad
+    category: misc
+    author: '@ddm1023'
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/chxm1023/Advertising/Loon/AppAD.plugin
+      backup: []
+  - name: 番茄小说
+    slug: plugin-014-2
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partF/FanQieNovel.lpx
+      backup: []
+  - name: 百度贴吧
+    slug: plugin-015
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partB/BaiduTieba.lpx
+      backup: []
+
 scripts: []
