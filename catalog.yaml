@@ -1986,4 +1986,52 @@ plugins:
       origin: https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.plugin
       backup: []
 
+  - name: '📺 BiliBili: 🔀 Redirect'
+    slug: bilibili-redirect
+    category: misc
+    author: VirgilClyne[https://github.com/VirgilClyne]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/BiliUniverse/Redirect/releases/latest/download/BiliBili.Redirect.plugin
+      backup: []
+  - name: '📺 BiliBili: 🌐 Global'
+    slug: bilibili-global
+    category: misc
+    author: VirgilClyne[https://github.com/VirgilClyne]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/BiliUniverse/Global/releases/latest/download/BiliBili.Global.plugin
+      backup: []
+  - name: 知乎
+    slug: plugin-053
+    category: misc
+    author: RuCu6[https://github.com/RuCu6], blackmatrix7[https://github.com/blackmatrix7]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-053/plugin.lpx
+      backup:
+      - https://rucu6.pages.dev/Plugins/zhihu.lpx
+  - name: 哔哩哔哩
+    slug: plugin-054
+    category: misc
+    author: RuCu6[https://github.com/RuCu6], kokoryh[https://github.com/kokoryh], 可莉🅥[https://gitlab.com/lodepuly/vpn_tool]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-054/plugin.lpx
+      backup:
+      - https://rucu6.pages.dev/Plugins/bilibili.lpx
+  - name: 哔哩哔哩增强
+    slug: plugin-055
+    category: misc
+    author: ''
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/release/loon/plugin/bilibili.lpx
+      backup: []
+
 scripts: []
