@@ -1084,4 +1084,55 @@ plugins:
       backup:
       - https://kelee.one/Tool/Loon/Lpx/NetEaseGodlike_remove_ads.lpx
 
+  - name: 酷狗音乐去广告
+    slug: plugin-001-2
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-001-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx
+  - name: 网易邮箱大师去广告
+    slug: plugin-002-4
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002-4/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/MailMaster_remove_ads.lpx
+  - name: 虎扑去广告
+    slug: plugin-003-5
+    category: misc
+    author: ZenmoFeiShi[https://github.com/ZenmoFeiShi]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-5/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/HUPU_remove_ads.lpx
+  - name: 墨迹天气去广告
+    slug: plugin-004-7
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-7/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/MojiWeather_remove_ads.lpx
+  - name: 微信外部链接解锁
+    slug: plugin-005-8
+    category: misc
+    author: zZPiglet[https://github.com/zZPiglet]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-8/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx
+
 scripts: []
