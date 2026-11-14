@@ -1,0 +1,9 @@
+#!name=txxxxx
+#!desc=Quantumult X Rewrite 转 Loon Plugin
+#!author=Yu9191
+
+[Script]
+http-response ^https?:\/\/([a-z0-9-]+\.)*tx[a-z0-9-]*\.com\/h5\/(user\/info|system\/info|movie\/(detail|block|search)) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/txxxxx.js, requires-body=true, timeout=60, tag=txxxxx
+
+[MITM]
+hostname = txh066.com, txh067.com, tth.txh069.com, tth.*.com

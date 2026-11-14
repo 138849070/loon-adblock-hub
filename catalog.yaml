@@ -1836,4 +1836,51 @@ plugins:
       origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/insav-tv/modules/insav.lpx
       backup: []
 
+  - name: insav
+    slug: insav-2
+    category: misc
+    author: '@Jsforbaby'
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/insav.tv.lpx
+      backup: []
+  - name: txxxxx
+    slug: txxxxx
+    category: misc
+    author: Yu9191
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/AD/6f1de49461f8fddd78c9c822bc529a1f0693fb5c/tx%E8%A7%86%E9%A2%91/tx%E8%A7%86%E9%A2%91.plugin
+      backup: []
+  - name: 广告拦截&净化合集(Rewrite V2)
+    slug: rewrite-v2
+    category: misc
+    author: 奶思[https://github.com/fmz200]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/blockAdsV2.plugin
+      backup: []
+  - name: GLaDOS 自动签到
+    slug: glados
+    category: misc
+    author: Curtinp118
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/plugins/glados.lpx
+      backup: []
+  - name: 网易云音乐去广告
+    slug: plugin-040
+    category: misc
+    author: RuCu6[https://github.com/RuCu6], Keywos[https://github.com/Keywos]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-040/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/NeteasemusicAd/main/wyy.sgmodule/_end_/wyy.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
+
 scripts: []
