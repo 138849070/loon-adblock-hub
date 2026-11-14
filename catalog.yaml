@@ -594,4 +594,52 @@ plugins:
       origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partB/BaiduTieba.lpx
       backup: []
 
+  - name: Reheji
+    slug: reheji
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/reheji/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js/_end_/Reheji.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 'Script Hub: 重写 & 规则集转换'
+    slug: script-hub
+    category: misc
+    author: '@小白脸 @xream @keywos @ckyb'
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.loon.plugin
+      backup: []
+  - name: ' iRingo: 📍 LocationService'
+    slug: iringo-locationservice
+    category: misc
+    author: VirgilClyne[https://github.com/VirgilClyne]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-locationservice/plugin.lpx
+      backup:
+      - https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.plugin
+  - name: ' iRingo: 🌤 WeatherKit (Rewrite)'
+    slug: iringo-weatherkit-rewrite
+    category: misc
+    author: VirgilClyne[https://github.com/VirgilClyne],WordlessEcho[https://github.com/WordlessEcho],001[https://github.com/001ProMax],hhh2210[https://github.com/hhh2210]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/NSRingo/WeatherKit/raw/main/modules/iRingo.WeatherKit.Rewrite.lpx
+      backup: []
+  - name: 菜鸟裹裹
+    slug: plugin-020-2
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partC/CaiNiaoGuoGuo.lpx
+      backup: []
+
 scripts: []
