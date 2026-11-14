@@ -494,4 +494,56 @@ plugins:
       backup:
       - https://loon.103516.xyz/Plugin/NeteaseMusic.lpx
 
+  - name: Loon Gallery
+    slug: loon-gallery
+    category: misc
+    author: Peng-YM[https://github.com/Peng-YM]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-gallery/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/LoonGallery.lpx
+  - name: IPPure
+    slug: ippure
+    category: misc
+    author: sooyaaabo[https://github.com/sooyaaabo]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ippure/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/IPPure.lpx
+  - name: 闲鱼
+    slug: plugin-008
+    category: misc
+    author: RuCu6[https://github.com/RuCu6], ZenmoFeiShi[https://github.com/ZenmoFeiShi],
+      ishowshu[https://github.com/ishowshu], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-008/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/Goofish.lpx
+  - name: GitHub
+    slug: github
+    category: misc
+    author: Yuheng0101[https://github.com/Yuheng0101], sooyaaabo[https://github.com/sooyaaabo]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/GitHub.lpx
+  - name: CMS Adblocker
+    slug: cms-adblocker
+    category: misc
+    author: Yswag[https://github.com/Yswag]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/cms-adblocker/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/CMS_Adblock.lpx
+
 scripts: []
