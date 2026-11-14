@@ -742,4 +742,52 @@ plugins:
       backup:
       - https://kelee.one/Tool/Loon/Lpx/BaiduSearchWebpage_remove_ads.lpx
 
+  - name: 得物去广告
+    slug: plugin-011-3
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-3/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Dewu_remove_ads.lpx
+  - name: 京东外卖去广告
+    slug: plugin-012-2
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/JDWaimai_remove_ads.lpx
+  - name: 饿了么
+    slug: plugin-013
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partE/Eleme.lpx
+      backup: []
+  - name: 美团
+    slug: plugin-014-3
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partM/Meituan.lpx
+      backup: []
+  - name: 美团 & 美团外卖
+    slug: plugin-015-2
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partM/Meituan-MeituanWaimai.lpx
+      backup: []
+
 scripts: []
