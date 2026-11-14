@@ -1689,4 +1689,54 @@ plugins:
       backup:
       - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zks.js/_end_/zks.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 
+  - name: xiaohuli
+    slug: xiaohuli
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/xiaohuli/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xiaohuli.js/_end_/xiaohuli.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: hongxingshipin
+    slug: hongxingshipin
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/hongxingshipin/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/hongxingshipin.js/_end_/hongxingshipin.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 字母圈
+    slug: plugin-023-2
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-023-2/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zmq.js/_end_/zmq.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: mmav
+    slug: mmav
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mmav/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mmav.js/_end_/mmav.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 幻宇星球 VIP 解锁
+    slug: vip-2
+    category: misc
+    author: Yu9191 Rewrite
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/huanyu/modules/huanyu.lpx
+      backup: []
+
 scripts: []
