@@ -1,2146 +1,2132 @@
 defaults:
-  author: ""
+  author: ''
   plugin_category: misc
   script_category: misc
-
 plugins:
-  - name: HTTPDNS拦截器
-    slug: block-httpdns
-    category: misc
-    author: 可莉🅥, VirgilClyne
-    enabled: true
-    files:
-      - name: Block_HTTPDNS.plugin
-        origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/Block_HTTPDNS.plugin
-        backup:
-          - https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx
-  - name: 广告平台拦截器
-    slug: block-advertisers
-    category: misc
-    author: 可莉🅥
-    enabled: true
-    files:
-      - name: BlockAdvertisers.lpx
-        origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/BlockAdvertisers.lpx
-        backup:
-          - https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx
-  - name: 可莉广告过滤器
-    slug: remove-ads-by-keli
-    category: misc
-    author: 可莉🅥
-    enabled: true
-    files:
-      - name: Remove_ads_by_keli.lpx
-        origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/Remove_ads_by_keli.lpx
-        backup:
-          - https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx
-  - name: DNS防泄露
-    slug: prevent-dns-leaks
-    category: misc
-    author: 非正常人类研究中心
-    enabled: true
-    files:
-      - name: Prevent_DNS_Leaks.lpx
-        origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/Prevent_DNS_Leaks.lpx
-        backup:
-          - https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx
-  - name: Skip Proxy and Real-IP Lists
-    slug: skip-proxy
-    category: misc
-    author: mieqq
-    enabled: true
-    files:
-      - name: SkipProxy.lpx
-        origin: https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Loon/sooyaaabo/SkipProxy.lpx
-        backup: []
-  - name: Biliverse 增强模式
-    slug: biliverse-enhanced
-    category: video
-    author: VirgilClyne
-    enabled: true
-    files:
-      - name: Biliverse.Enhanced.plugin
-        origin: https://github.com/Biliverse/Enhanced/releases/latest/download/Biliverse.Enhanced.plugin
-        backup: []
-  - name: YouTube 增强 v2
-    slug: youtube-enhanced-2
-    category: video
-    author: ""
-    enabled: false
-    files:
-      - name: youtube_2.lpx
-        origin: https://rucu6.pages.dev/Plugins/youtube_2.lpx
-        backup: []
-  - name: WakeUp课程表去广告
-    slug: wakeup-schedule-remove-ads
-    category: reading
-    author: 可莉🅥
-    enabled: true
-    files:
-      - name: WakeupSchedule_remove_ads.lpx
-        origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/WakeupSchedule_remove_ads.lpx
-        backup:
-          - https://kelee.one/Tool/Loon/Lpx/WakeupSchedule_remove_ads.lpx
-          - https://raw.githubusercontent.com/Qmxn/Tools/X/Plugin/WakeupSchedule_remove_ads.lpx
-  - name: YouTube 增强（gholts）
-    slug: youtube-gholts
-    category: video
-    author: Maasea, gholts, RuCu6
-    enabled: true
-    files:
-      - name: youtube_gholts.lpx
-        origin: https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Loon/rucu6/youtube_gholts.lpx
-        backup:
-          - https://rucu6.pages.dev/Plugins/youtube_gholts.lpx
-
-  - name: 比狸比狸过滤
-    slug: bilibili-cleaner
-    category: misc
-    author: Cyberangel、Codex[https://github.com/ElyDemiurge]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/ElyDemiurge/Loon-Plugins/main/bilibili/bilibili_cleaner.lpx
-      backup:
-      - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/bilibili-cleaner/plugin.lpx
-  - name: 节点 IP 质量检测 · 混合模式
-    slug: ipquality-web-test
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/loon/ipquality-web-test/ipquality-web-test.lpx
-      backup:
-      - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ipquality-web-test/plugin.lpx
-  - name: 节点质量查询
-    slug: node-quality-query
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Roddy-D/Loon_plugins/refs/heads/main/plugin/iptest.lpx
-      backup:
-      - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/node-quality-query/plugin.lpx
-  - name: 节点TCPing连通性测试
-    slug: node-tcping
-    category: misc
-    author: Roddy-D[https://github.com/Roddy-D]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Roddy-D/Loon_plugins/refs/heads/main/plugin/nodetcpcheck.lpx
-      backup:
-      - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/node-tcping/plugin.lpx
-  - name: Loon 订阅解析器
-    slug: loon-parser
-    category: misc
-    author: Peng-YM
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/sub-store-org/Sub-Store/refs/heads/master/config/Loon-parser.plugin
-      backup:
-      - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-parser/plugin.lpx
-
-  - name: YouTube
-    slug: youtube
-    category: misc
-    author: Maasea[https://github.com/Maasea/sgmodule], gholts[https://github.com/gholts/surge],
-      RuCu6[https://github.com/RuCu6]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube/plugin.lpx
-      backup:
-      - https://rucu6.pages.dev/Plugins/youtube_gholts.lpx
-  - name: 菜鸟
-    slug: plugin-002
-    category: misc
-    author: githubdulong[https://github.com/githubdulong]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/CaiNiao.lpx
-  - name: 淘宝
-    slug: plugin-003
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], ishowshu[https://github.com/ishowshu],
-      可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/TaoBao.lpx
-  - name: 节点 IP 质量检测
-    slug: ip
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/loon/ipquality/ipquality.lpx
-      backup: []
-  - name: 节点检测工具
-    slug: plugin-005
-    category: misc
-    author: xream[https://github.com/xream], Keywos[https://github.com/Keywos], KOP-XIAO[https://github.com/KOP-XIAO],
-      dcpengx[https://github.com/dcpengx], RavelloH[https://github.com/RavelloH], RuCu6[https://github.com/RuCu6]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005/plugin.lpx
-      backup:
-      - https://rucu6.pages.dev/Plugins/nodecheck.lpx
-
-  - name: X（Twitter）
-    slug: x-twitter
-    category: misc
-    author: fmz200[https://github.com/fmz200], sooyaaabo[https://github.com/sooyaaabo]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/x-twitter/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/X_Web.lpx
-  - name: 蛋蛋不语VIP解锁
-    slug: vip
-    category: misc
-    author: Curtinp118
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/curtinp118/Loon/main/plugins/dandanvip.lpx
-      backup: []
-  - name: WPS
-    slug: wps
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partW/WPS.lpx
-      backup: []
-  - name: 知乎去广告
-    slug: plugin-004
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx
-  - name: 广告必须死
-    slug: plugin-005-2
-    category: misc
-    author: RuCu6[https://github.com/RuCu6],fishdown[https://github.com/fishdown],wish[https://github.com/mist-whisper],Repcz[https://github.com/Repcz],kelv1n1n[https://github.com/kelv1n1n],ZenmoFeiShi[https://github.com/ZenmoFeiShi],fmz200[https://github.com/fmz200],可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-2/plugin.lpx
-      backup:
-      - https://loonhub.wuyra.com/Lpx/BlockAds.lpx
-
-  - name: One
-    slug: one
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/one/plugin.lpx
-      backup:
-      - https://one-api.zzxu.de/one/one.lpx
-  - name: ' iRingo: 🗺️ Maps'
-    slug: iringo-maps
-    category: misc
-    author: VirgilClyne[https://github.com/VirgilClyne]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-maps/plugin.lpx
-      backup:
-      - https://loonhub.wuyra.com/Lpx/Maps.lpx
-  - name: '🍿️ DualSubs: ▶️ YouTube'
-    slug: dualsubs-youtube
-    category: misc
-    author: VirgilClyne[https://github.com/VirgilClyne]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.plugin
-      backup: []
-  - name: 起点读书
-    slug: plugin-004-2
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partQ/QiDianReading.lpx
-      backup: []
-  - name: 起点读书签到
-    slug: plugin-005-3
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/QDReader/profiles/qdreader.loon.plugin
-      backup: []
-
-  - name: X(Twitter)网页版去广告
-    slug: x-twitter-2
-    category: misc
-    author: 奶思[https://github.com/fmz200]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/XWebAds.plugin
-      backup: []
-  - name: Reddit 自动翻译
-    slug: reddit
-    category: misc
-    author: RavelloH
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://gist.github.com/RavelloH/68ed0626dae69a1ce7c8ad6887087ea1/raw/loon.plugin
-      backup: []
-  - name: Reven
-    slug: reven
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://reven.jsforbaby.workers.dev/reven/reven.lpx
-      backup: []
-  - name: TilingSales_ad_remove.lpx
-    slug: tilingsales-ad-remove-lpx
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/tilingsales-ad-remove-lpx/plugin.lpx
-      backup: []
-  - name: App解锁合集
-    slug: app
-    category: misc
-    author: '@ddm1023'
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.plugin
-      backup: []
-
-  - name: 酷安
-    slug: plugin-011
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partK/Coolapk.lpx
-      backup: []
-  - name: YouTube去广告隐藏Shorts版@Aioneas
-    slug: youtube-shorts-aioneas
-    category: misc
-    author: DivineEngine + app2smile + Maasea + ddgksf2013 + Aioneas + Oneasai + ZenmoFeiShi
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-shorts-aioneas/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/Youtube.snippet/_end_/Youtube.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 酷安LV20
-    slug: lv20
-    category: misc
-    author: xm
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/lv20/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/138849070/AD/main/酷安LV20/KuAn.snippet.txt/_end_/KuAn.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 哲也同学
-    slug: plugin-014
-    category: misc
-    author: blackmatrix7
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.lnplugin
-      backup: []
-  - name: Manager Tools
-    slug: manager-tools
-    category: misc
-    author: 小白脸,xream[https://github.com/xream],keywos[https://github.com/keywos],ckyb[https://github.com/chengkongyiban],Peng-YM[https://github.com/Peng-YM],chavyleung[https://github.com/chavyleung]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/manager-tools/plugin.lpx
-      backup:
-      - https://loonhub.wuyra.com/Lpx/Manager-Tools.lpx
-
-  - name: 小黑盒去广告
-    slug: plugin-016
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-016/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx
-  - name: 中国移动
-    slug: plugin-017
-    category: misc
-    author: ccyykk666[https://github.com/ccyykk666], sooyaaabo[https://github.com/sooyaaabo],
-      MaYIHEI[https://github.com/MaYIHEI]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/ChinaMobile.lpx
-  - name: 123云盘
-    slug: '123'
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md], ddgksf2013[https://github.com/ddgksf2013]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/123Pan.lpx
-  - name: YouTube (Music)
-    slug: youtube-music
-    category: misc
-    author: Maasea[https://github.com/Maasea], RuCu6[https://github.com/RuCu6]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-music/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/YouTube.lpx
-  - name: 微信
-    slug: plugin-020
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], zZPiglet[https://github.com/zZPiglet],
-      blackmatrix7[https://github.com/blackmatrix7], zirawell[https://github.com/zirawell],
-      可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/WeChat.lpx
-
-  - name: Telegram
-    slug: telegram
-    category: misc
-    author: sooyaaabo[https://github.com/sooyaaabo]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/telegram/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/Telegram.lpx
-  - name: 流媒体解锁测试
-    slug: plugin-002-2
-    category: misc
-    author: huskydsb[https://github.com/huskydsb]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002-2/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/StreamingMedia.lpx
-  - name: 节点检测工具 𝕂
-    slug: plugin-003-2
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-2/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/NodeTools.lpx
-  - name: 网络信息 𝕏
-    slug: plugin-004-3
-    category: misc
-    author: Keywos[https://github.com/Keywos], xream[https://github.com/xream]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-3/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/Netisp-x.lpx
-  - name: 网易云音乐
-    slug: plugin-005-4
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], Keywos[https://github.com/Keywos], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-4/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/NeteaseMusic.lpx
-
-  - name: Loon Gallery
-    slug: loon-gallery
-    category: misc
-    author: Peng-YM[https://github.com/Peng-YM]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-gallery/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/LoonGallery.lpx
-  - name: IPPure
-    slug: ippure
-    category: misc
-    author: sooyaaabo[https://github.com/sooyaaabo]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ippure/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/IPPure.lpx
-  - name: 闲鱼
-    slug: plugin-008
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], ZenmoFeiShi[https://github.com/ZenmoFeiShi],
-      ishowshu[https://github.com/ishowshu], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-008/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/Goofish.lpx
-  - name: GitHub
-    slug: github
-    category: misc
-    author: Yuheng0101[https://github.com/Yuheng0101], sooyaaabo[https://github.com/sooyaaabo]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/GitHub.lpx
-  - name: CMS Adblocker
-    slug: cms-adblocker
-    category: misc
-    author: Yswag[https://github.com/Yswag]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/cms-adblocker/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/CMS_Adblock.lpx
-
-  - name: 广告拦截合集
-    slug: plugin-011-2
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-2/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/BlockAds.lpx
-  - name: 医考帮去广告
-    slug: plugin-012
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/YiKaoBang_remove_ads.lpx
-  - name: App/小程序-AD净化
-    slug: app-ad
-    category: misc
-    author: '@ddm1023'
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/chxm1023/Advertising/Loon/AppAD.plugin
-      backup: []
-  - name: 番茄小说
-    slug: plugin-014-2
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partF/FanQieNovel.lpx
-      backup: []
-  - name: 百度贴吧
-    slug: plugin-015
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partB/BaiduTieba.lpx
-      backup: []
-
-  - name: Reheji
-    slug: reheji
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/reheji/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js/_end_/Reheji.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 'Script Hub: 重写 & 规则集转换'
-    slug: script-hub
-    category: misc
-    author: '@小白脸 @xream @keywos @ckyb'
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.loon.plugin
-      backup: []
-  - name: ' iRingo: 📍 LocationService'
-    slug: iringo-locationservice
-    category: misc
-    author: VirgilClyne[https://github.com/VirgilClyne]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-locationservice/plugin.lpx
-      backup:
-      - https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.plugin
-  - name: ' iRingo: 🌤 WeatherKit (Rewrite)'
-    slug: iringo-weatherkit-rewrite
-    category: misc
-    author: VirgilClyne[https://github.com/VirgilClyne],WordlessEcho[https://github.com/WordlessEcho],001[https://github.com/001ProMax],hhh2210[https://github.com/hhh2210]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/NSRingo/WeatherKit/raw/main/modules/iRingo.WeatherKit.Rewrite.lpx
-      backup: []
-  - name: 菜鸟裹裹
-    slug: plugin-020-2
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partC/CaiNiaoGuoGuo.lpx
-      backup: []
-
-  - name: MyBlockAds
-    slug: myblockads
-    category: misc
-    author: RuCu6[https://github.com/RuCu6]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/myblockads/plugin.lpx
-      backup:
-      - https://rucu6.pages.dev/Plugins/myblockads.lpx
-  - name: WebPage
-    slug: webpage
-    category: misc
-    author: RuCu6[https://github.com/RuCu6]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/webpage/plugin.lpx
-      backup:
-      - https://rucu6.pages.dev/Plugins/webpage.lpx
-  - name: 微博
-    slug: plugin-003-3
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], zmqcherish[https://github.com/zmqcherish]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-3/plugin.lpx
-      backup:
-      - https://rucu6.pages.dev/Plugins/weibo.lpx
-  - name: 高德地图
-    slug: plugin-004-4
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], kokoryh[https://github.com/kokoryh]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-4/plugin.lpx
-      backup:
-      - https://rucu6.pages.dev/Plugins/amap.lpx
-  - name: 小红书
-    slug: plugin-005-5
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], fmz200[https://github.com/fmz200]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-5/plugin.lpx
-      backup:
-      - https://rucu6.pages.dev/Plugins/xiaohongshu.lpx
-
-  - name: 美柚
-    slug: plugin-006
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/Meiyou.lpx
-      backup: []
-  - name: 美柚去广告
-    slug: plugin-007
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-007/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/MeetYou_remove_ads.lpx
-  - name: 美图秀秀去广告
-    slug: plugin-008-2
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-008-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/MeiTu_remove_ads.lpx
-  - name: 网络信息（离歌自用）
-    slug: plugin-009
-    category: misc
-    author: 离歌自用
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/scripts/wangluoxinxi.plugin
-      backup: []
-  - name: 百度网页去广告
-    slug: plugin-010
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-010/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/BaiduSearchWebpage_remove_ads.lpx
-
-  - name: 得物去广告
-    slug: plugin-011-3
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-3/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Dewu_remove_ads.lpx
-  - name: 京东外卖去广告
-    slug: plugin-012-2
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/JDWaimai_remove_ads.lpx
-  - name: 饿了么
-    slug: plugin-013
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partE/Eleme.lpx
-      backup: []
-  - name: 美团
-    slug: plugin-014-3
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partM/Meituan.lpx
-      backup: []
-  - name: 美团 & 美团外卖
-    slug: plugin-015-2
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partM/Meituan-MeituanWaimai.lpx
-      backup: []
-
-  - name: 得物
-    slug: plugin-016-2
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partD/DeWu.lpx
-      backup: []
-  - name: Soul去广告
-    slug: soul
-    category: misc
-    author: ZenmoFeiShi[https://github.com/ZenmoFeiShi], RuCu6[https://github.com/RuCu6],
-      可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/soul/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Soul_remove_ads.lpx
-  - name: 节点脚本工具合集
-    slug: plugin-018
-    category: misc
-    author: 6otho整合[https://github.com/6otho],xream脚本作者[https://github.com/xream]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/6otho/Loon_tool/refs/heads/main/Script/Network_Speed_Test.scripts
-      backup: []
-  - name: 酷安全面净化
-    slug: plugin-019
-    category: misc
-    author: 怎么肥事、walala
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.snippet/_end_/KuAn.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 胖乖生活去广告
-    slug: plugin-020-3
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020-3/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/PangguaiLife_remove_ads.lpx
-
-  - name: 中国联通
-    slug: plugin-001
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ChinaUnicom.lpx
-      backup: []
-  - name: 中国电信
-    slug: plugin-002-3
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ChinaTelecom.lpx
-      backup: []
-  - name: 中国广电
-    slug: plugin-003-4
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ChinaBroadcastingNetwork.lpx
-      backup: []
-  - name: 腾讯广告
-    slug: plugin-004-5
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partT/TencentAds.lpx
-      backup: []
-  - name: 腾讯系
-    slug: plugin-005-6
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partT/Tencent.lpx
-      backup: []
-
-  - name: PushPlus微信推送广告
-    slug: pushplus
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partP/PushPlusWeChatPushAd.lpx
-      backup: []
-  - name: Outlook
-    slug: outlook
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partO/Outlook.lpx
-      backup: []
-  - name: 拦截100
-    slug: '100'
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partL/LanJie100.lpx
-      backup: []
-  - name: 虎牙直播
-    slug: plugin-004-6
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partH/HuyaLive.lpx
-      backup: []
-  - name: 爱思助手
-    slug: plugin-005-7
-    category: misc
-    author: 奶思
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partA/AiSiAssistant.lpx
-      backup: []
-
-  - name: Apple天气增强
-    slug: apple
-    category: misc
-    author: VirgilClyne[https://github.com/VirgilClyne], WordlessEcho[https://github.com/WordlessEcho],
-      001[https://github.com/001ProMax]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/apple/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx
-  - name: 预览qx一键导入资源
-    slug: qx
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qx/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/qx-resource-preview.js/_end_/qx-resource-preview.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
-  - name: Line去广告
-    slug: line
-    category: misc
-    author: jkgtw[https://github.com/jkgtw]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/line/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Line_remove_ads.lpx
-  - name: 番茄小说去广告
-    slug: plugin-009-2
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-009-2/plugin.lpx
-      backup:
-      - https://raw.githubusercontent.com/138849070/AD/refs/heads/main/番茄小说/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%E5%8E%BB%E5%B9%BF%E5%91%8A.txt
-  - name: WARP节点查询
-    slug: warp
-    category: misc
-    author: VirgilClyne[https://github.com/VirgilClyne], I-am-R-E[https://github.com/I-am-R-E]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/warp/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx
-
-  - name: 代理链路检测
-    slug: plugin-011-4
-    category: misc
-    author: I-am-R-E[https://github.com/I-am-R-E]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-4/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/NodeLinkCheck.lpx
-  - name: 什么值得买去广告
-    slug: plugin-012-3
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012-3/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx
-  - name: Google搜索重定向
-    slug: google
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/google/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Google.lpx
-  - name: 1blocker
-    slug: 1blocker
-    category: misc
-    author: '89996462'
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/1blocker/plugin.lpx
-      backup:
-      - https://raw.githubusercontent.com/deezertidal/private/master/plugallery/1blocker.plugin
-  - name: 起点读书去广告
-    slug: plugin-015-3
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-015-3/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx
-
-  - name: 广告联盟去广告
-    slug: plugin-016-3
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/app2smile/rules/master/plugin/adsense.plugin
-      backup: []
-  - name: 腾讯新闻App去广告
-    slug: app-2
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/app2smile/rules/master/plugin/qqnews.plugin
-      backup: []
-  - name: 百度系app广告屏蔽
-    slug: app-3
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/BaiduAdBlock.plugin
-      backup: []
-  - name: 京东比价
-    slug: plugin-019-2
-    category: misc
-    author: wf021325[https://github.com/wf021325], githubdulong[https://github.com/githubdulong],
-      mw418[https://github.com/mw418]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx
-  - name: 网易大神去广告
-    slug: plugin-020-4
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020-4/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/NetEaseGodlike_remove_ads.lpx
-
-  - name: 酷狗音乐去广告
-    slug: plugin-001-2
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-001-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx
-  - name: 网易邮箱大师去广告
-    slug: plugin-002-4
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002-4/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/MailMaster_remove_ads.lpx
-  - name: 虎扑去广告
-    slug: plugin-003-5
-    category: misc
-    author: ZenmoFeiShi[https://github.com/ZenmoFeiShi]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-5/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/HUPU_remove_ads.lpx
-  - name: 墨迹天气去广告
-    slug: plugin-004-7
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-7/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/MojiWeather_remove_ads.lpx
-  - name: 微信外部链接解锁
-    slug: plugin-005-8
-    category: misc
-    author: zZPiglet[https://github.com/zZPiglet]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-8/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx
-
-  - name: 快手去广告
-    slug: plugin-006-2
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-006-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx
-  - name: 酷安去广告
-    slug: plugin-007-2
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-007-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx
-  - name: NodeLinkCheck
-    slug: nodelinkcheck
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Loon.plugin
-      backup: []
-  - name: 55de85e516587f7cfd00ffd74df31c7b
-    slug: 55de85e516587f7cfd00ffd74df31c7b
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
-      backup: []
-  - name: 七猫小说
-    slug: plugin-010-2
-    category: misc
-    author: I-am-R-E
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-010-2/plugin.lpx
-      backup:
-      - https://raw.githubusercontent.com/deezertidal/private/master/plugallery/qmxs.plugin
-
-  - name: qq空间广告屏蔽
-    slug: qq
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/QzoneAdBlock.plugin
-      backup: []
-  - name: 番茄小说广告屏蔽
-    slug: plugin-012-4
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/FanQieNovel.plugin
-      backup: []
-  - name: 微博轻享版去广告
-    slug: plugin-013-2
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-013-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Weibo_intl_remove_ads.lpx
-  - name: 微博去广告
-    slug: plugin-014-4
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], zmqcherish[https://github.com/zmqcherish]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-014-4/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx
-  - name: 百度贴吧去广告
-    slug: plugin-015-4
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md], app2smile[https://github.com/app2smile]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-015-4/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx
-
-  - name: 小红书去广告
-    slug: plugin-016-4
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], fmz200[https://github.com/fmz200]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-016-4/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx
-  - name: 七猫小说去广告
-    slug: plugin-017-2
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/SevenCat_remove_ads.lpx
-  - name: 瑞幸咖啡去广告
-    slug: plugin-018-2
-    category: misc
-    author: Sliverkiss[https://github.com/Sliverkiss]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx
-  - name: 拼多多去广告
-    slug: plugin-019-3
-    category: misc
-    author: ZenmoFeiShi[https://github.com/ZenmoFeiShi], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019-3/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx
-  - name: QQ链接解锁
-    slug: qq-2
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qq-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx
-
-  - name: 123云盘去广告
-    slug: 123-2
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx
-  - name: 闲鱼去广告
-    slug: plugin-022
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-022/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx
-  - name: 夸克去广告
-    slug: plugin-023
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-023/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx
-  - name: 京东去广告
-    slug: plugin-024
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], Maasea[https://github.com/Maasea]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-024/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx
-  - name: 淘宝去广告
-    slug: plugin-025
-    category: misc
-    author: RuCu6[https://github.com/RuCu6]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-025/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx
-
-  - name: 微信小程序去广告
-    slug: plugin-026
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-026/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx
-  - name: 高德地图去广告
-    slug: plugin-027
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-027/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx
-  - name: QQ音乐去广告
-    slug: qq-3
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qq-3/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx
-  - name: 微信公众号去广告
-    slug: plugin-029
-    category: misc
-    author: RuCu6[https://github.com/RuCu6]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-029/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx
-  - name: 百度输入法去广告
-    slug: plugin-030
-    category: misc
-    author: Keywos[https://github.com/Keywos]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-030/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx
-
-  - name: iTunes系列解锁
-    slug: itunes
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://reven.jsforbaby.workers.dev/reven/iTunes.lpx
-      backup: []
-  - name: 菜鸟去广告
-    slug: plugin-032
-    category: misc
-    author: 小白脸
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-032/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx
-  - name: 插件仓库
-    slug: plugin-033
-    category: misc
-    author: Peng-YM[https://github.com/Peng-YM]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-033/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx
-  - name: 快捷搜索
-    slug: plugin-034
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-034/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx
-  - name: BoxJs
-    slug: boxjs
-    category: misc
-    author: chavyleung[https://github.com/chavyleung]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/boxjs/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx
-
-  - name: Sub-Store
-    slug: sub-store
-    category: misc
-    author: Peng-YM[https://github.com/Peng-YM]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/sub-store/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx
-  - name: Script-Hub
-    slug: script-hub-2
-    category: misc
-    author: xream[https://github.com/xream], Keywos[https://github.com/Keywos], CKYB[https://github.com/CKYB],
-      小白脸
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx
-  - name: 微博去广告&净化
-    slug: plugin-038
-    category: misc
-    author: 奶思[https://github.com/fmz200]
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/weibo.plugin
-      backup: []
-  - name: '🍟 Fries: 🚫 Block HTTPDNS'
-    slug: fries-block-httpdns
-    category: misc
-    author: VirgilClyne
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin
-      backup: []
-  - name: luolidao
-    slug: luolidao
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/luolidao/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/luolidao.js/_end_/luolidao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-
-  - name: yeyan
-    slug: yeyan
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/yeyan/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/yeyan.js/_end_/yeyan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 7semao
-    slug: 7semao
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/7semao/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/7semao.js/_end_/7semao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: xv
-    slug: xv
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/xv/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xv.js/_end_/xv.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: haijiao
-    slug: haijiao
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/haijiao/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiao.js/_end_/haijiao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: MJGS
-    slug: mjgs
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mjgs/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/MJGS.js/_end_/MJGS.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-
-  - name: ydm
-    slug: ydm
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js/_end_/ydm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: jtsp
-    slug: jtsp
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/jtsp/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/jtsp.js/_end_/jtsp.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: Mr先生 + xvideos社区 + 泡芙短视频 + tiktok免费版
-    slug: mr-xvideos-tiktok
-    category: misc
-    author: 小白
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mr-xvideos-tiktok/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mr.js/_end_/mr.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: byhz
-    slug: byhz
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/byhz/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/byhz.js/_end_/byhz.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 65看
-    slug: '65'
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/65/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/65kan.js/_end_/65kan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-
-  - name: one2jj
-    slug: one2jj
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/one2jj/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/one2jj.js/_end_/one2jj.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: luping
-    slug: luping
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/luping/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/luping.js/_end_/luping.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 麻豆视频 + 快手萝莉
-    slug: plugin-013-3
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-013-3/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mdsp.js/_end_/mdsp.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: yangtao
-    slug: yangtao
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/yangtao/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/yangtao.js/_end_/yangtao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: mxshm
-    slug: mxshm
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mxshm/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mxshm.js/_end_/mxshm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-
-  - name: uua
-    slug: uua
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/uua/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js/_end_/uua.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 2966f7d1df7f46705623bc12109f6c2f
-    slug: 2966f7d1df7f46705623bc12109f6c2f
-    category: misc
-    author: Yu9191 Rewrite
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/qiyoushe/modules/qiyoushequ.lpx
-      backup: []
-  - name: jmshe
-    slug: jmshe
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/jmshe/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/jmshe.js/_end_/jmshe.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 18pcs
-    slug: 18pcs
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/18pcs/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/18pcs.js/_end_/18pcs.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: zukong
-    slug: zukong
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/zukong/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zks.js/_end_/zks.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-
-  - name: xiaohuli
-    slug: xiaohuli
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/xiaohuli/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xiaohuli.js/_end_/xiaohuli.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: hongxingshipin
-    slug: hongxingshipin
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/hongxingshipin/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/hongxingshipin.js/_end_/hongxingshipin.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 字母圈
-    slug: plugin-023-2
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-023-2/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zmq.js/_end_/zmq.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: mmav
-    slug: mmav
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mmav/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mmav.js/_end_/mmav.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 幻宇星球 VIP 解锁
-    slug: vip-2
-    category: misc
-    author: Yu9191 Rewrite
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/huanyu/modules/huanyu.lpx
-      backup: []
-
-  - name: YDM系列通杀
-    slug: ydm-2
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm-2/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ydm.js/_end_/ydm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 18kmanhua
-    slug: 18kmanhua
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/18kmanhua/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://gist.githubusercontent.com/Yu9191/919552f4d3358c070e5d995137514748/raw/18kmanhua.js/_end_/18kmanhua.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: peicaise
-    slug: peicaise
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/peicaise/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/peicaise.js/_end_/peicaise.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: 91Porn 短视频
-    slug: 91porn
-    category: misc
-    author: Yu9191
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/91porn/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/91porna.js/_end_/91porna.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-  - name: aiaiwang
-    slug: aiaiwang
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/aiaiwang/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/aiaiwang.js/_end_/aiaiwang.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-
-  - name: ydm-淫荡猫
-    slug: ydm-3
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.plugin
-      backup: []
-  - name: 妻社 VIP解锁
-    slug: vip-3
-    category: misc
-    author: Yu9191
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/qishe/qishe.plugin
-      backup: []
-  - name: porntube VIP 解锁
-    slug: porntube-vip
-    category: misc
-    author: Yu9191 Rewrite
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/porntube/modules/porntube.lpx
-      backup: []
-  - name: 套路SM VIP解锁
-    slug: sm-vip
-    category: misc
-    author: Yu9191
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/tlsm.lpx
-      backup: []
-  - name: insav 解锁
-    slug: insav
-    category: misc
-    author: '@Jsforbaby'
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/insav-tv/modules/insav.lpx
-      backup: []
-
-  - name: insav
-    slug: insav-2
-    category: misc
-    author: '@Jsforbaby'
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/insav.tv.lpx
-      backup: []
-  - name: txxxxx
-    slug: txxxxx
-    category: misc
-    author: Yu9191
-    enabled: true
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/AD/6f1de49461f8fddd78c9c822bc529a1f0693fb5c/tx%E8%A7%86%E9%A2%91/tx%E8%A7%86%E9%A2%91.plugin
-      backup: []
-  - name: 广告拦截&净化合集(Rewrite V2)
-    slug: rewrite-v2
-    category: misc
-    author: 奶思[https://github.com/fmz200]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/blockAdsV2.plugin
-      backup: []
-  - name: GLaDOS 自动签到
-    slug: glados
-    category: misc
-    author: Curtinp118
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/plugins/glados.lpx
-      backup: []
-  - name: 网易云音乐去广告
-    slug: plugin-040
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], Keywos[https://github.com/Keywos]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-040/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/NeteasemusicAd/main/wyy.sgmodule/_end_/wyy.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
-
-  - name: PingMe&WeTalk
-    slug: pingme-wetalk
-    category: misc
-    author: 怎么肥事[https://t.me/Nzmgs] luckyday[https://t.me/blessedday_bot]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/pingme-wetalk/plugin.lpx
-      backup:
-      - https://axhani.pages.dev/refs/heads/main/Loon/Plugin/PingMe.plugin
-  - name: BiliBili每日等级任务
-    slug: bilibili
-    category: misc
-    author: MartinsKing（@ClydeTime）
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.plugin
-      backup: []
-  - name: 定时任务合集
-    slug: plugin-043
-    category: misc
-    author: FoKit[https://github.com/FoKit], Sliverkiss[https://github.com/Sliverkiss],
-      ClydeTime[https://github.com/ClydeTime], wish[https://github.com/mist-whisper],
-      ZenmoFeiShi[https://github.com/ZenmoFeiShi],chavyleung[https://github.com/chavyleung]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-043/plugin.lpx
-      backup:
-      - https://loonhub.wuyra.com/Lpx/DailyBonus.lpx
-  - name: ' iRingo: 📍 Location'
-    slug: iringo-location
-    category: misc
-    author: VirgilClyne[https://github.com/VirgilClyne]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-location/plugin.lpx
-      backup:
-      - https://loonhub.wuyra.com/Lpx/Location.lpx
-  - name: Redirect
-    slug: redirect
-    category: misc
-    author: ''
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/redirect/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/Redirect.lpx
-
-  - name: AppStore Monitor
-    slug: appstore-monitor
-    category: misc
-    author: sooyaaabo[https://github.com/sooyaaabo]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/appstore-monitor/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/AppStoreMonitor.lpx
-  - name: TestFlight Monitor
-    slug: testflight-monitor
-    category: misc
-    author: fmz200[https://github.com/fmz200], DecoAri[https://github.com/DecoAri],
-      xream[https://github.com/xream]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/testflight-monitor/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/TestFlightMonitor.lpx
-  - name: Swiftgram
-    slug: swiftgram
-    category: misc
-    author: sooyaaabo[https://github.com/sooyaaabo]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/swiftgram/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/Swiftgram.lpx
-  - name: AppleOS Monitor
-    slug: appleos-monitor
-    category: misc
-    author: sooyaaabo[https://github.com/sooyaaabo]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/appleos-monitor/plugin.lpx
-      backup:
-      - https://loon.103516.xyz/Plugin/AppleOSMonitor.lpx
-  - name: '📺 BiliBili: 🛡️ ADBlock'
-    slug: bilibili-adblock
-    category: misc
-    author: ClydeTime[https://github.com/ClydeTime],VirgilClyne[https://github.com/VirgilClyne],app2smile[https://github.com/app2smile],RuCu6[https://github.com/RuCu6],Maasea[https://github.com/Maasea]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.plugin
-      backup: []
-
-  - name: '📺 BiliBili: 🔀 Redirect'
-    slug: bilibili-redirect
-    category: misc
-    author: VirgilClyne[https://github.com/VirgilClyne]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/BiliUniverse/Redirect/releases/latest/download/BiliBili.Redirect.plugin
-      backup: []
-  - name: '📺 BiliBili: 🌐 Global'
-    slug: bilibili-global
-    category: misc
-    author: VirgilClyne[https://github.com/VirgilClyne]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://github.com/BiliUniverse/Global/releases/latest/download/BiliBili.Global.plugin
-      backup: []
-  - name: 知乎
-    slug: plugin-053
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], blackmatrix7[https://github.com/blackmatrix7]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-053/plugin.lpx
-      backup:
-      - https://rucu6.pages.dev/Plugins/zhihu.lpx
-  - name: 哔哩哔哩
-    slug: plugin-054
-    category: misc
-    author: RuCu6[https://github.com/RuCu6], kokoryh[https://github.com/kokoryh], 可莉🅥[https://gitlab.com/lodepuly/vpn_tool]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-054/plugin.lpx
-      backup:
-      - https://rucu6.pages.dev/Plugins/bilibili.lpx
-  - name: 哔哩哔哩增强
-    slug: plugin-055
-    category: misc
-    author: ''
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/release/loon/plugin/bilibili.lpx
-      backup: []
-
-  - name: 自动加入TestFlight
-    slug: testflight
-    category: misc
-    author: 奶思[https://github.com/fmz200], DecoAri[https://github.com/DecoAri], xream[https://github.com/xream]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/testflight/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx
-  - name: GitHub加速
-    slug: github-2
-    category: misc
-    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx
-  - name: YouTube双语翻译
-    slug: youtube-2
-    category: misc
-    author: VirgilClyne[https://github.com/VirgilClyne]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-2/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/YouTubeSubtitlesTranslation.lpx
-  - name: 哔哩哔哩去广告
-    slug: plugin-059
-    category: misc
-    author: kokoryh[https://github.com/kokoryh]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-059/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx
-  - name: YouTube去广告
-    slug: youtube-3
-    category: misc
-    author: Maasea[https://github.com/Maasea], VirgilClyne[https://github.com/VirgilClyne],
-      Choler[https://github.com/Choler], DivineEngine[https://github.com/DivineEngine],
-      app2smile[https://github.com/app2smile]
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-3/plugin.lpx
-      backup:
-      - https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx
-
-  - name: 通杀
-    slug: plugin-061
-    category: misc
-    author: ''
-    enabled: false
-    files:
-    - name: plugin.lpx
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-061/plugin.lpx
-      backup:
-      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ts.js/_end_/ts.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
-
+- name: HTTPDNS拦截器
+  slug: block-httpdns
+  category: misc
+  author: 可莉🅥, VirgilClyne
+  enabled: true
+  files:
+  - name: Block_HTTPDNS.plugin
+    origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/Block_HTTPDNS.plugin
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx
+- name: 广告平台拦截器
+  slug: block-advertisers
+  category: misc
+  author: 可莉🅥
+  enabled: true
+  files:
+  - name: BlockAdvertisers.lpx
+    origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/BlockAdvertisers.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx
+- name: 可莉广告过滤器
+  slug: remove-ads-by-keli
+  category: misc
+  author: 可莉🅥
+  enabled: true
+  files:
+  - name: Remove_ads_by_keli.lpx
+    origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/Remove_ads_by_keli.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx
+- name: DNS防泄露
+  slug: prevent-dns-leaks
+  category: misc
+  author: 非正常人类研究中心
+  enabled: true
+  files:
+  - name: Prevent_DNS_Leaks.lpx
+    origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/Prevent_DNS_Leaks.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx
+- name: Skip Proxy and Real-IP Lists
+  slug: skip-proxy
+  category: misc
+  author: mieqq
+  enabled: true
+  files:
+  - name: SkipProxy.lpx
+    origin: https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Loon/sooyaaabo/SkipProxy.lpx
+    backup: []
+- name: Biliverse 增强模式
+  slug: biliverse-enhanced
+  category: video
+  author: VirgilClyne
+  enabled: true
+  files:
+  - name: Biliverse.Enhanced.plugin
+    origin: https://github.com/Biliverse/Enhanced/releases/latest/download/Biliverse.Enhanced.plugin
+    backup: []
+- name: YouTube 增强 v2
+  slug: youtube-enhanced-2
+  category: video
+  author: ''
+  enabled: false
+  files:
+  - name: youtube_2.lpx
+    origin: https://rucu6.pages.dev/Plugins/youtube_2.lpx
+    backup: []
+- name: WakeUp课程表去广告
+  slug: wakeup-schedule-remove-ads
+  category: reading
+  author: 可莉🅥
+  enabled: true
+  files:
+  - name: WakeupSchedule_remove_ads.lpx
+    origin: https://raw.githubusercontent.com/deanxizian/loon_to_surge/main/Loon/WakeupSchedule_remove_ads.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/WakeupSchedule_remove_ads.lpx
+    - https://raw.githubusercontent.com/Qmxn/Tools/X/Plugin/WakeupSchedule_remove_ads.lpx
+- name: YouTube 增强（gholts）
+  slug: youtube-gholts
+  category: video
+  author: Maasea, gholts, RuCu6
+  enabled: true
+  files:
+  - name: youtube_gholts.lpx
+    origin: https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Loon/rucu6/youtube_gholts.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/youtube_gholts.lpx
+- name: 比狸比狸过滤
+  slug: bilibili-cleaner
+  category: misc
+  author: Cyberangel、Codex[https://github.com/ElyDemiurge]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/ElyDemiurge/Loon-Plugins/main/bilibili/bilibili_cleaner.lpx
+    backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/bilibili-cleaner/plugin.lpx
+- name: 节点 IP 质量检测 · 混合模式
+  slug: ipquality-web-test
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/loon/ipquality-web-test/ipquality-web-test.lpx
+    backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ipquality-web-test/plugin.lpx
+- name: 节点质量查询
+  slug: node-quality-query
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Roddy-D/Loon_plugins/refs/heads/main/plugin/iptest.lpx
+    backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/node-quality-query/plugin.lpx
+- name: 节点TCPing连通性测试
+  slug: node-tcping
+  category: misc
+  author: Roddy-D[https://github.com/Roddy-D]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Roddy-D/Loon_plugins/refs/heads/main/plugin/nodetcpcheck.lpx
+    backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/node-tcping/plugin.lpx
+- name: Loon 订阅解析器
+  slug: loon-parser
+  category: misc
+  author: Peng-YM
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/sub-store-org/Sub-Store/refs/heads/master/config/Loon-parser.plugin
+    backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-parser/plugin.lpx
+- name: YouTube
+  slug: youtube
+  category: misc
+  author: Maasea[https://github.com/Maasea/sgmodule], gholts[https://github.com/gholts/surge], RuCu6[https://github.com/RuCu6]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube/plugin.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/youtube_gholts.lpx
+- name: 菜鸟
+  slug: plugin-002
+  category: misc
+  author: githubdulong[https://github.com/githubdulong]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/CaiNiao.lpx
+- name: 淘宝
+  slug: plugin-003
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], ishowshu[https://github.com/ishowshu], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/TaoBao.lpx
+- name: 节点 IP 质量检测
+  slug: ip
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/loon/ipquality/ipquality.lpx
+    backup: []
+- name: 节点检测工具
+  slug: plugin-005
+  category: misc
+  author: xream[https://github.com/xream], Keywos[https://github.com/Keywos], KOP-XIAO[https://github.com/KOP-XIAO], dcpengx[https://github.com/dcpengx], RavelloH[https://github.com/RavelloH], RuCu6[https://github.com/RuCu6]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005/plugin.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/nodecheck.lpx
+- name: X（Twitter）
+  slug: x-twitter
+  category: misc
+  author: fmz200[https://github.com/fmz200], sooyaaabo[https://github.com/sooyaaabo]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/x-twitter/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/X_Web.lpx
+- name: 蛋蛋不语VIP解锁
+  slug: vip
+  category: misc
+  author: Curtinp118
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/curtinp118/Loon/main/plugins/dandanvip.lpx
+    backup: []
+- name: WPS
+  slug: wps
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partW/WPS.lpx
+    backup: []
+- name: 知乎去广告
+  slug: plugin-004
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx
+- name: 广告必须死
+  slug: plugin-005-2
+  category: misc
+  author: RuCu6[https://github.com/RuCu6],fishdown[https://github.com/fishdown],wish[https://github.com/mist-whisper],Repcz[https://github.com/Repcz],kelv1n1n[https://github.com/kelv1n1n],ZenmoFeiShi[https://github.com/ZenmoFeiShi],fmz200[https://github.com/fmz200],可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-2/plugin.lpx
+    backup:
+    - https://loonhub.wuyra.com/Lpx/BlockAds.lpx
+- name: One
+  slug: one
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/one/plugin.lpx
+    backup:
+    - https://one-api.zzxu.de/one/one.lpx
+- name: ' iRingo: 🗺️ Maps'
+  slug: iringo-maps
+  category: misc
+  author: VirgilClyne[https://github.com/VirgilClyne]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-maps/plugin.lpx
+    backup:
+    - https://loonhub.wuyra.com/Lpx/Maps.lpx
+- name: '🍿️ DualSubs: ▶️ YouTube'
+  slug: dualsubs-youtube
+  category: misc
+  author: VirgilClyne[https://github.com/VirgilClyne]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.plugin
+    backup: []
+- name: 起点读书
+  slug: plugin-004-2
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partQ/QiDianReading.lpx
+    backup: []
+- name: 起点读书签到
+  slug: plugin-005-3
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/QDReader/profiles/qdreader.loon.plugin
+    backup: []
+- name: X(Twitter)网页版去广告
+  slug: x-twitter-2
+  category: misc
+  author: 奶思[https://github.com/fmz200]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/XWebAds.plugin
+    backup: []
+- name: Reddit 自动翻译
+  slug: reddit
+  category: misc
+  author: RavelloH
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://gist.github.com/RavelloH/68ed0626dae69a1ce7c8ad6887087ea1/raw/loon.plugin
+    backup: []
+- name: Reven
+  slug: reven
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://reven.jsforbaby.workers.dev/reven/reven.lpx
+    backup: []
+- name: TilingSales_ad_remove.lpx
+  slug: tilingsales-ad-remove-lpx
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/tilingsales-ad-remove-lpx/plugin.lpx
+    backup: []
+- name: App解锁合集
+  slug: app
+  category: misc
+  author: '@ddm1023'
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.plugin
+    backup: []
+- name: 酷安
+  slug: plugin-011
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partK/Coolapk.lpx
+    backup: []
+- name: YouTube去广告隐藏Shorts版@Aioneas
+  slug: youtube-shorts-aioneas
+  category: misc
+  author: DivineEngine + app2smile + Maasea + ddgksf2013 + Aioneas + Oneasai + ZenmoFeiShi
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-shorts-aioneas/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/Youtube.snippet/_end_/Youtube.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 酷安LV20
+  slug: lv20
+  category: misc
+  author: xm
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/lv20/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/138849070/AD/main/酷安LV20/KuAn.snippet.txt/_end_/KuAn.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 哲也同学
+  slug: plugin-014
+  category: misc
+  author: blackmatrix7
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.lnplugin
+    backup: []
+- name: Manager Tools
+  slug: manager-tools
+  category: misc
+  author: 小白脸,xream[https://github.com/xream],keywos[https://github.com/keywos],ckyb[https://github.com/chengkongyiban],Peng-YM[https://github.com/Peng-YM],chavyleung[https://github.com/chavyleung]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/manager-tools/plugin.lpx
+    backup:
+    - https://loonhub.wuyra.com/Lpx/Manager-Tools.lpx
+- name: 小黑盒去广告
+  slug: plugin-016
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-016/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx
+- name: 中国移动
+  slug: plugin-017
+  category: misc
+  author: ccyykk666[https://github.com/ccyykk666], sooyaaabo[https://github.com/sooyaaabo], MaYIHEI[https://github.com/MaYIHEI]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/ChinaMobile.lpx
+- name: 123云盘
+  slug: '123'
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md], ddgksf2013[https://github.com/ddgksf2013]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/123Pan.lpx
+- name: YouTube (Music)
+  slug: youtube-music
+  category: misc
+  author: Maasea[https://github.com/Maasea], RuCu6[https://github.com/RuCu6]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-music/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/YouTube.lpx
+- name: 微信
+  slug: plugin-020
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], zZPiglet[https://github.com/zZPiglet], blackmatrix7[https://github.com/blackmatrix7], zirawell[https://github.com/zirawell], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/WeChat.lpx
+- name: Telegram
+  slug: telegram
+  category: misc
+  author: sooyaaabo[https://github.com/sooyaaabo]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/telegram/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/Telegram.lpx
+- name: 流媒体解锁测试
+  slug: plugin-002-2
+  category: misc
+  author: huskydsb[https://github.com/huskydsb]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002-2/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/StreamingMedia.lpx
+- name: 节点检测工具 𝕂
+  slug: plugin-003-2
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-2/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/NodeTools.lpx
+- name: 网络信息 𝕏
+  slug: plugin-004-3
+  category: misc
+  author: Keywos[https://github.com/Keywos], xream[https://github.com/xream]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-3/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/Netisp-x.lpx
+- name: 网易云音乐
+  slug: plugin-005-4
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], Keywos[https://github.com/Keywos], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-4/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/NeteaseMusic.lpx
+- name: Loon Gallery
+  slug: loon-gallery
+  category: misc
+  author: Peng-YM[https://github.com/Peng-YM]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-gallery/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/LoonGallery.lpx
+- name: IPPure
+  slug: ippure
+  category: misc
+  author: sooyaaabo[https://github.com/sooyaaabo]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ippure/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/IPPure.lpx
+- name: 闲鱼
+  slug: plugin-008
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], ZenmoFeiShi[https://github.com/ZenmoFeiShi], ishowshu[https://github.com/ishowshu], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-008/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/Goofish.lpx
+- name: GitHub
+  slug: github
+  category: misc
+  author: Yuheng0101[https://github.com/Yuheng0101], sooyaaabo[https://github.com/sooyaaabo]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/GitHub.lpx
+- name: CMS Adblocker
+  slug: cms-adblocker
+  category: misc
+  author: Yswag[https://github.com/Yswag]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/cms-adblocker/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/CMS_Adblock.lpx
+- name: 广告拦截合集
+  slug: plugin-011-2
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-2/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/BlockAds.lpx
+- name: 医考帮去广告
+  slug: plugin-012
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/YiKaoBang_remove_ads.lpx
+- name: App/小程序-AD净化
+  slug: app-ad
+  category: misc
+  author: '@ddm1023'
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/chxm1023/Advertising/Loon/AppAD.plugin
+    backup: []
+- name: 番茄小说
+  slug: plugin-014-2
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partF/FanQieNovel.lpx
+    backup: []
+- name: 百度贴吧
+  slug: plugin-015
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partB/BaiduTieba.lpx
+    backup: []
+- name: Reheji
+  slug: reheji
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/reheji/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js/_end_/Reheji.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 'Script Hub: 重写 & 规则集转换'
+  slug: script-hub
+  category: misc
+  author: '@小白脸 @xream @keywos @ckyb'
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.loon.plugin
+    backup: []
+- name: ' iRingo: 📍 LocationService'
+  slug: iringo-locationservice
+  category: misc
+  author: VirgilClyne[https://github.com/VirgilClyne]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-locationservice/plugin.lpx
+    backup:
+    - https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.plugin
+- name: ' iRingo: 🌤 WeatherKit (Rewrite)'
+  slug: iringo-weatherkit-rewrite
+  category: misc
+  author: VirgilClyne[https://github.com/VirgilClyne],WordlessEcho[https://github.com/WordlessEcho],001[https://github.com/001ProMax],hhh2210[https://github.com/hhh2210]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/NSRingo/WeatherKit/raw/main/modules/iRingo.WeatherKit.Rewrite.lpx
+    backup: []
+- name: 菜鸟裹裹
+  slug: plugin-020-2
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partC/CaiNiaoGuoGuo.lpx
+    backup: []
+- name: MyBlockAds
+  slug: myblockads
+  category: misc
+  author: RuCu6[https://github.com/RuCu6]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/myblockads/plugin.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/myblockads.lpx
+- name: WebPage
+  slug: webpage
+  category: misc
+  author: RuCu6[https://github.com/RuCu6]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/webpage/plugin.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/webpage.lpx
+- name: 微博
+  slug: plugin-003-3
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], zmqcherish[https://github.com/zmqcherish]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-3/plugin.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/weibo.lpx
+- name: 高德地图
+  slug: plugin-004-4
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], kokoryh[https://github.com/kokoryh]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-4/plugin.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/amap.lpx
+- name: 小红书
+  slug: plugin-005-5
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], fmz200[https://github.com/fmz200]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-5/plugin.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/xiaohongshu.lpx
+- name: 美柚
+  slug: plugin-006
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/Meiyou.lpx
+    backup: []
+- name: 美柚去广告
+  slug: plugin-007
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-007/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/MeetYou_remove_ads.lpx
+- name: 美图秀秀去广告
+  slug: plugin-008-2
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-008-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/MeiTu_remove_ads.lpx
+- name: 网络信息（离歌自用）
+  slug: plugin-009
+  category: misc
+  author: 离歌自用
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/scripts/wangluoxinxi.plugin
+    backup: []
+- name: 百度网页去广告
+  slug: plugin-010
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-010/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/BaiduSearchWebpage_remove_ads.lpx
+- name: 得物去广告
+  slug: plugin-011-3
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-3/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Dewu_remove_ads.lpx
+- name: 京东外卖去广告
+  slug: plugin-012-2
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/JDWaimai_remove_ads.lpx
+- name: 饿了么
+  slug: plugin-013
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partE/Eleme.lpx
+    backup: []
+- name: 美团
+  slug: plugin-014-3
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partM/Meituan.lpx
+    backup: []
+- name: 美团 & 美团外卖
+  slug: plugin-015-2
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partM/Meituan-MeituanWaimai.lpx
+    backup: []
+- name: 得物
+  slug: plugin-016-2
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partD/DeWu.lpx
+    backup: []
+- name: Soul去广告
+  slug: soul
+  category: misc
+  author: ZenmoFeiShi[https://github.com/ZenmoFeiShi], RuCu6[https://github.com/RuCu6], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/soul/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Soul_remove_ads.lpx
+- name: 节点脚本工具合集
+  slug: plugin-018
+  category: misc
+  author: 6otho整合[https://github.com/6otho],xream脚本作者[https://github.com/xream]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/6otho/Loon_tool/refs/heads/main/Script/Network_Speed_Test.scripts
+    backup: []
+- name: 酷安全面净化
+  slug: plugin-019
+  category: misc
+  author: 怎么肥事、walala
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.snippet/_end_/KuAn.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 胖乖生活去广告
+  slug: plugin-020-3
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020-3/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/PangguaiLife_remove_ads.lpx
+- name: 中国联通
+  slug: plugin-001
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ChinaUnicom.lpx
+    backup: []
+- name: 中国电信
+  slug: plugin-002-3
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ChinaTelecom.lpx
+    backup: []
+- name: 中国广电
+  slug: plugin-003-4
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ChinaBroadcastingNetwork.lpx
+    backup: []
+- name: 腾讯广告
+  slug: plugin-004-5
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partT/TencentAds.lpx
+    backup: []
+- name: 腾讯系
+  slug: plugin-005-6
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partT/Tencent.lpx
+    backup: []
+- name: PushPlus微信推送广告
+  slug: pushplus
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partP/PushPlusWeChatPushAd.lpx
+    backup: []
+- name: Outlook
+  slug: outlook
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partO/Outlook.lpx
+    backup: []
+- name: 拦截100
+  slug: '100'
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partL/LanJie100.lpx
+    backup: []
+- name: 虎牙直播
+  slug: plugin-004-6
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partH/HuyaLive.lpx
+    backup: []
+- name: 爱思助手
+  slug: plugin-005-7
+  category: misc
+  author: 奶思
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partA/AiSiAssistant.lpx
+    backup: []
+- name: Apple天气增强
+  slug: apple
+  category: misc
+  author: VirgilClyne[https://github.com/VirgilClyne], WordlessEcho[https://github.com/WordlessEcho], 001[https://github.com/001ProMax]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/apple/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx
+- name: 预览qx一键导入资源
+  slug: qx
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qx/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/qx-resource-preview.js/_end_/qx-resource-preview.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
+- name: Line去广告
+  slug: line
+  category: misc
+  author: jkgtw[https://github.com/jkgtw]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/line/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Line_remove_ads.lpx
+- name: 番茄小说去广告
+  slug: plugin-009-2
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-009-2/plugin.lpx
+    backup:
+    - https://raw.githubusercontent.com/138849070/AD/refs/heads/main/番茄小说/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%E5%8E%BB%E5%B9%BF%E5%91%8A.txt
+- name: WARP节点查询
+  slug: warp
+  category: misc
+  author: VirgilClyne[https://github.com/VirgilClyne], I-am-R-E[https://github.com/I-am-R-E]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/warp/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx
+- name: 代理链路检测
+  slug: plugin-011-4
+  category: misc
+  author: I-am-R-E[https://github.com/I-am-R-E]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-4/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/NodeLinkCheck.lpx
+- name: 什么值得买去广告
+  slug: plugin-012-3
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012-3/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx
+- name: Google搜索重定向
+  slug: google
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/google/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Google.lpx
+- name: 1blocker
+  slug: 1blocker
+  category: misc
+  author: '89996462'
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/1blocker/plugin.lpx
+    backup:
+    - https://raw.githubusercontent.com/deezertidal/private/master/plugallery/1blocker.plugin
+- name: 起点读书去广告
+  slug: plugin-015-3
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-015-3/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx
+- name: 广告联盟去广告
+  slug: plugin-016-3
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/app2smile/rules/master/plugin/adsense.plugin
+    backup: []
+- name: 腾讯新闻App去广告
+  slug: app-2
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/app2smile/rules/master/plugin/qqnews.plugin
+    backup: []
+- name: 百度系app广告屏蔽
+  slug: app-3
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/BaiduAdBlock.plugin
+    backup: []
+- name: 京东比价
+  slug: plugin-019-2
+  category: misc
+  author: wf021325[https://github.com/wf021325], githubdulong[https://github.com/githubdulong], mw418[https://github.com/mw418]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx
+- name: 网易大神去广告
+  slug: plugin-020-4
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020-4/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/NetEaseGodlike_remove_ads.lpx
+- name: 酷狗音乐去广告
+  slug: plugin-001-2
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-001-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx
+- name: 网易邮箱大师去广告
+  slug: plugin-002-4
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002-4/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/MailMaster_remove_ads.lpx
+- name: 虎扑去广告
+  slug: plugin-003-5
+  category: misc
+  author: ZenmoFeiShi[https://github.com/ZenmoFeiShi]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-5/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/HUPU_remove_ads.lpx
+- name: 墨迹天气去广告
+  slug: plugin-004-7
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-7/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/MojiWeather_remove_ads.lpx
+- name: 微信外部链接解锁
+  slug: plugin-005-8
+  category: misc
+  author: zZPiglet[https://github.com/zZPiglet]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-8/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx
+- name: 快手去广告
+  slug: plugin-006-2
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-006-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx
+- name: 酷安去广告
+  slug: plugin-007-2
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-007-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx
+- name: NodeLinkCheck
+  slug: nodelinkcheck
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Loon.plugin
+    backup: []
+- name: 55de85e516587f7cfd00ffd74df31c7b
+  slug: 55de85e516587f7cfd00ffd74df31c7b
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+    backup: []
+- name: 七猫小说
+  slug: plugin-010-2
+  category: misc
+  author: I-am-R-E
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-010-2/plugin.lpx
+    backup:
+    - https://raw.githubusercontent.com/deezertidal/private/master/plugallery/qmxs.plugin
+- name: qq空间广告屏蔽
+  slug: qq
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/QzoneAdBlock.plugin
+    backup: []
+- name: 番茄小说广告屏蔽
+  slug: plugin-012-4
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/FanQieNovel.plugin
+    backup: []
+- name: 微博轻享版去广告
+  slug: plugin-013-2
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-013-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Weibo_intl_remove_ads.lpx
+- name: 微博去广告
+  slug: plugin-014-4
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], zmqcherish[https://github.com/zmqcherish]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-014-4/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx
+- name: 百度贴吧去广告
+  slug: plugin-015-4
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md], app2smile[https://github.com/app2smile]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-015-4/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx
+- name: 小红书去广告
+  slug: plugin-016-4
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], fmz200[https://github.com/fmz200]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-016-4/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx
+- name: 七猫小说去广告
+  slug: plugin-017-2
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-017-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/SevenCat_remove_ads.lpx
+- name: 瑞幸咖啡去广告
+  slug: plugin-018-2
+  category: misc
+  author: Sliverkiss[https://github.com/Sliverkiss]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx
+- name: 拼多多去广告
+  slug: plugin-019-3
+  category: misc
+  author: ZenmoFeiShi[https://github.com/ZenmoFeiShi], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019-3/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx
+- name: QQ链接解锁
+  slug: qq-2
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qq-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx
+- name: 123云盘去广告
+  slug: 123-2
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx
+- name: 闲鱼去广告
+  slug: plugin-022
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-022/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx
+- name: 夸克去广告
+  slug: plugin-023
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-023/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx
+- name: 京东去广告
+  slug: plugin-024
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], Maasea[https://github.com/Maasea]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-024/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx
+- name: 淘宝去广告
+  slug: plugin-025
+  category: misc
+  author: RuCu6[https://github.com/RuCu6]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-025/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx
+- name: 微信小程序去广告
+  slug: plugin-026
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-026/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx
+- name: 高德地图去广告
+  slug: plugin-027
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-027/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx
+- name: QQ音乐去广告
+  slug: qq-3
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qq-3/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx
+- name: 微信公众号去广告
+  slug: plugin-029
+  category: misc
+  author: RuCu6[https://github.com/RuCu6]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-029/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx
+- name: 百度输入法去广告
+  slug: plugin-030
+  category: misc
+  author: Keywos[https://github.com/Keywos]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-030/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx
+- name: iTunes系列解锁
+  slug: itunes
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://reven.jsforbaby.workers.dev/reven/iTunes.lpx
+    backup: []
+- name: 菜鸟去广告
+  slug: plugin-032
+  category: misc
+  author: 小白脸
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-032/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx
+- name: 插件仓库
+  slug: plugin-033
+  category: misc
+  author: Peng-YM[https://github.com/Peng-YM]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-033/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx
+- name: 快捷搜索
+  slug: plugin-034
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-034/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx
+- name: BoxJs
+  slug: boxjs
+  category: misc
+  author: chavyleung[https://github.com/chavyleung]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/boxjs/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx
+- name: Sub-Store
+  slug: sub-store
+  category: misc
+  author: Peng-YM[https://github.com/Peng-YM]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/sub-store/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx
+- name: Script-Hub
+  slug: script-hub-2
+  category: misc
+  author: xream[https://github.com/xream], Keywos[https://github.com/Keywos], CKYB[https://github.com/CKYB], 小白脸
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx
+- name: 微博去广告&净化
+  slug: plugin-038
+  category: misc
+  author: 奶思[https://github.com/fmz200]
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/weibo.plugin
+    backup: []
+- name: '🍟 Fries: 🚫 Block HTTPDNS'
+  slug: fries-block-httpdns
+  category: misc
+  author: VirgilClyne
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin
+    backup: []
+- name: luolidao
+  slug: luolidao
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/luolidao/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/luolidao.js/_end_/luolidao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: yeyan
+  slug: yeyan
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/yeyan/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/yeyan.js/_end_/yeyan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 7semao
+  slug: 7semao
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/7semao/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/7semao.js/_end_/7semao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: xv
+  slug: xv
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/xv/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xv.js/_end_/xv.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: haijiao
+  slug: haijiao
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/haijiao/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiao.js/_end_/haijiao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: MJGS
+  slug: mjgs
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mjgs/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/MJGS.js/_end_/MJGS.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: ydm
+  slug: ydm
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js/_end_/ydm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: jtsp
+  slug: jtsp
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/jtsp/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/jtsp.js/_end_/jtsp.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: Mr先生 + xvideos社区 + 泡芙短视频 + tiktok免费版
+  slug: mr-xvideos-tiktok
+  category: misc
+  author: 小白
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mr-xvideos-tiktok/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mr.js/_end_/mr.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: byhz
+  slug: byhz
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/byhz/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/byhz.js/_end_/byhz.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 65看
+  slug: '65'
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/65/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/65kan.js/_end_/65kan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: one2jj
+  slug: one2jj
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/one2jj/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/one2jj.js/_end_/one2jj.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: luping
+  slug: luping
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/luping/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/luping.js/_end_/luping.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 麻豆视频 + 快手萝莉
+  slug: plugin-013-3
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-013-3/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mdsp.js/_end_/mdsp.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: yangtao
+  slug: yangtao
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/yangtao/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/yangtao.js/_end_/yangtao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: mxshm
+  slug: mxshm
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mxshm/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mxshm.js/_end_/mxshm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: uua
+  slug: uua
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/uua/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js/_end_/uua.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 2966f7d1df7f46705623bc12109f6c2f
+  slug: 2966f7d1df7f46705623bc12109f6c2f
+  category: misc
+  author: Yu9191 Rewrite
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/qiyoushe/modules/qiyoushequ.lpx
+    backup: []
+- name: jmshe
+  slug: jmshe
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/jmshe/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/jmshe.js/_end_/jmshe.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 18pcs
+  slug: 18pcs
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/18pcs/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/18pcs.js/_end_/18pcs.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: zukong
+  slug: zukong
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/zukong/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zks.js/_end_/zks.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: xiaohuli
+  slug: xiaohuli
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/xiaohuli/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xiaohuli.js/_end_/xiaohuli.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: hongxingshipin
+  slug: hongxingshipin
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/hongxingshipin/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/hongxingshipin.js/_end_/hongxingshipin.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 字母圈
+  slug: plugin-023-2
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-023-2/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zmq.js/_end_/zmq.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: mmav
+  slug: mmav
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mmav/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mmav.js/_end_/mmav.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 幻宇星球 VIP 解锁
+  slug: vip-2
+  category: misc
+  author: Yu9191 Rewrite
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/huanyu/modules/huanyu.lpx
+    backup: []
+- name: YDM系列通杀
+  slug: ydm-2
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm-2/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ydm.js/_end_/ydm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 18kmanhua
+  slug: 18kmanhua
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/18kmanhua/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://gist.githubusercontent.com/Yu9191/919552f4d3358c070e5d995137514748/raw/18kmanhua.js/_end_/18kmanhua.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: peicaise
+  slug: peicaise
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/peicaise/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/peicaise.js/_end_/peicaise.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: 91Porn 短视频
+  slug: 91porn
+  category: misc
+  author: Yu9191
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/91porn/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/91porna.js/_end_/91porna.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: aiaiwang
+  slug: aiaiwang
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/aiaiwang/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/aiaiwang.js/_end_/aiaiwang.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+- name: ydm-淫荡猫
+  slug: ydm-3
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.plugin
+    backup: []
+- name: 妻社 VIP解锁
+  slug: vip-3
+  category: misc
+  author: Yu9191
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/qishe/qishe.plugin
+    backup: []
+- name: porntube VIP 解锁
+  slug: porntube-vip
+  category: misc
+  author: Yu9191 Rewrite
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/porntube/modules/porntube.lpx
+    backup: []
+- name: 套路SM VIP解锁
+  slug: sm-vip
+  category: misc
+  author: Yu9191
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/tlsm.lpx
+    backup: []
+- name: insav 解锁
+  slug: insav
+  category: misc
+  author: '@Jsforbaby'
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/insav-tv/modules/insav.lpx
+    backup: []
+- name: insav
+  slug: insav-2
+  category: misc
+  author: '@Jsforbaby'
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/insav.tv.lpx
+    backup: []
+- name: txxxxx
+  slug: txxxxx
+  category: misc
+  author: Yu9191
+  enabled: true
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/AD/6f1de49461f8fddd78c9c822bc529a1f0693fb5c/tx%E8%A7%86%E9%A2%91/tx%E8%A7%86%E9%A2%91.plugin
+    backup: []
+- name: 广告拦截&净化合集(Rewrite V2)
+  slug: rewrite-v2
+  category: misc
+  author: 奶思[https://github.com/fmz200]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/blockAdsV2.plugin
+    backup: []
+- name: GLaDOS 自动签到
+  slug: glados
+  category: misc
+  author: Curtinp118
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/plugins/glados.lpx
+    backup: []
+- name: 网易云音乐去广告
+  slug: plugin-040
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], Keywos[https://github.com/Keywos]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-040/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/NeteasemusicAd/main/wyy.sgmodule/_end_/wyy.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
+- name: PingMe&WeTalk
+  slug: pingme-wetalk
+  category: misc
+  author: 怎么肥事[https://t.me/Nzmgs] luckyday[https://t.me/blessedday_bot]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/pingme-wetalk/plugin.lpx
+    backup:
+    - https://axhani.pages.dev/refs/heads/main/Loon/Plugin/PingMe.plugin
+- name: BiliBili每日等级任务
+  slug: bilibili
+  category: misc
+  author: MartinsKing（@ClydeTime）
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.plugin
+    backup: []
+- name: 定时任务合集
+  slug: plugin-043
+  category: misc
+  author: FoKit[https://github.com/FoKit], Sliverkiss[https://github.com/Sliverkiss], ClydeTime[https://github.com/ClydeTime], wish[https://github.com/mist-whisper], ZenmoFeiShi[https://github.com/ZenmoFeiShi],chavyleung[https://github.com/chavyleung]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-043/plugin.lpx
+    backup:
+    - https://loonhub.wuyra.com/Lpx/DailyBonus.lpx
+- name: ' iRingo: 📍 Location'
+  slug: iringo-location
+  category: misc
+  author: VirgilClyne[https://github.com/VirgilClyne]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-location/plugin.lpx
+    backup:
+    - https://loonhub.wuyra.com/Lpx/Location.lpx
+- name: Redirect
+  slug: redirect
+  category: misc
+  author: ''
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/redirect/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/Redirect.lpx
+- name: AppStore Monitor
+  slug: appstore-monitor
+  category: misc
+  author: sooyaaabo[https://github.com/sooyaaabo]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/appstore-monitor/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/AppStoreMonitor.lpx
+- name: TestFlight Monitor
+  slug: testflight-monitor
+  category: misc
+  author: fmz200[https://github.com/fmz200], DecoAri[https://github.com/DecoAri], xream[https://github.com/xream]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/testflight-monitor/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/TestFlightMonitor.lpx
+- name: Swiftgram
+  slug: swiftgram
+  category: misc
+  author: sooyaaabo[https://github.com/sooyaaabo]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/swiftgram/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/Swiftgram.lpx
+- name: AppleOS Monitor
+  slug: appleos-monitor
+  category: misc
+  author: sooyaaabo[https://github.com/sooyaaabo]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/appleos-monitor/plugin.lpx
+    backup:
+    - https://loon.103516.xyz/Plugin/AppleOSMonitor.lpx
+- name: '📺 BiliBili: 🛡️ ADBlock'
+  slug: bilibili-adblock
+  category: misc
+  author: ClydeTime[https://github.com/ClydeTime],VirgilClyne[https://github.com/VirgilClyne],app2smile[https://github.com/app2smile],RuCu6[https://github.com/RuCu6],Maasea[https://github.com/Maasea]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.plugin
+    backup: []
+- name: '📺 BiliBili: 🔀 Redirect'
+  slug: bilibili-redirect
+  category: misc
+  author: VirgilClyne[https://github.com/VirgilClyne]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/BiliUniverse/Redirect/releases/latest/download/BiliBili.Redirect.plugin
+    backup: []
+- name: '📺 BiliBili: 🌐 Global'
+  slug: bilibili-global
+  category: misc
+  author: VirgilClyne[https://github.com/VirgilClyne]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://github.com/BiliUniverse/Global/releases/latest/download/BiliBili.Global.plugin
+    backup: []
+- name: 知乎
+  slug: plugin-053
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], blackmatrix7[https://github.com/blackmatrix7]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-053/plugin.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/zhihu.lpx
+- name: 哔哩哔哩
+  slug: plugin-054
+  category: misc
+  author: RuCu6[https://github.com/RuCu6], kokoryh[https://github.com/kokoryh], 可莉🅥[https://gitlab.com/lodepuly/vpn_tool]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-054/plugin.lpx
+    backup:
+    - https://rucu6.pages.dev/Plugins/bilibili.lpx
+- name: 哔哩哔哩增强
+  slug: plugin-055
+  category: misc
+  author: ''
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/release/loon/plugin/bilibili.lpx
+    backup: []
+- name: 自动加入TestFlight
+  slug: testflight
+  category: misc
+  author: 奶思[https://github.com/fmz200], DecoAri[https://github.com/DecoAri], xream[https://github.com/xream]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/testflight/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx
+- name: GitHub加速
+  slug: github-2
+  category: misc
+  author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx
+- name: YouTube双语翻译
+  slug: youtube-2
+  category: misc
+  author: VirgilClyne[https://github.com/VirgilClyne]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-2/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/YouTubeSubtitlesTranslation.lpx
+- name: 哔哩哔哩去广告
+  slug: plugin-059
+  category: misc
+  author: kokoryh[https://github.com/kokoryh]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-059/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx
+- name: YouTube去广告
+  slug: youtube-3
+  category: misc
+  author: Maasea[https://github.com/Maasea], VirgilClyne[https://github.com/VirgilClyne], Choler[https://github.com/Choler], DivineEngine[https://github.com/DivineEngine], app2smile[https://github.com/app2smile]
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-3/plugin.lpx
+    backup:
+    - https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx
+- name: 通杀
+  slug: plugin-061
+  category: misc
+  author: ''
+  enabled: false
+  files:
+  - name: plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-061/plugin.lpx
+    backup:
+    - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ts.js/_end_/ts.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 scripts:
-  - name: WeTalk_Loon.js
-    slug: wetalk-loon-js
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: script.js
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/wetalk-loon-js/script.js
-      backup: []
-  - name: yuchenios.js
-    slug: yuchenios-js
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: script.js
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/yuchenios-js/script.js
-      backup: []
-  - name: We Talk.js
-    slug: we-talk-js
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: script.js
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/we-talk-js/script.js
-      backup: []
-  - name: script_example.js
-    slug: script-example-js
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: script.js
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/script-example-js/script.js
-      backup: []
-  - name: step.js
-    slug: step-js
-    category: misc
-    author: ''
-    enabled: true
-    files:
-    - name: script.js
-      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/step-js/script.js
-      backup: []
+- name: WeTalk_Loon.js
+  slug: wetalk-loon-js
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/wetalk-loon-js/script.js
+    backup: []
+- name: yuchenios.js
+  slug: yuchenios-js
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/yuchenios-js/script.js
+    backup: []
+- name: We Talk.js
+  slug: we-talk-js
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/we-talk-js/script.js
+    backup: []
+- name: script_example.js
+  slug: script-example-js
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/script-example-js/script.js
+    backup: []
+- name: step.js
+  slug: step-js
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/step-js/script.js
+    backup: []
+- name: WeTalk Token.js
+  slug: wetalk-token-js
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/wetalk-token-js/script.js
+    backup: []
+- name: 02_script-hub.loon
+  slug: 02-script-hub-loon
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/02-script-hub-loon/script.js
+    backup: []
+- name: 05_qdreader.loon
+  slug: 05-qdreader-loon
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/05-qdreader-loon/script.js
+    backup: []
+- name: 03_luping
+  slug: 03-luping
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/03-luping/script.js
+    backup: []
+- name: 04_mdsp
+  slug: 04-mdsp
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/04-mdsp/script.js
+    backup: []
