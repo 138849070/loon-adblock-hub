@@ -3,7 +3,7 @@
 #!openUrl = http://boxjs.com/#/app/iRingo.LocationService
 #!author = VirgilClyne[https://github.com/VirgilClyne]
 #!homepage = https://NSRingo.github.io/guide/GeoServices/location-service
-#!icon = https://images.macrumors.com/article-new/2019/07/ios_location_services-250x250.jpg
+#!icon = https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-locationservice/deps/ios_location_services-250x250.jpg
 #!tag =  iRingo
 #!system = iOS,iPadOS,macOS
 #!date = 2025-10-24 08:48:41

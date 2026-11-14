@@ -63,6 +63,26 @@ links.md         订阅链接清单
 | 123云盘 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123/plugin.lpx) |
 | YouTube (Music) | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube-music/plugin.lpx) |
 | 微信 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020/plugin.lpx) |
+| Telegram | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/telegram/plugin.lpx) |
+| 流媒体解锁测试 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002-2/plugin.lpx) |
+| 节点检测工具 𝕂 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-2/plugin.lpx) |
+| 网络信息 𝕏 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-3/plugin.lpx) |
+| 网易云音乐 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-4/plugin.lpx) |
+| Loon Gallery | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-gallery/plugin.lpx) |
+| IPPure | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ippure/plugin.lpx) |
+| 闲鱼 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-008/plugin.lpx) |
+| GitHub | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github/plugin.lpx) |
+| CMS Adblocker | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/cms-adblocker/plugin.lpx) |
+| 广告拦截合集 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-2/plugin.lpx) |
+| 医考帮去广告 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012/plugin.lpx) |
+| App/小程序-AD净化 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/plugin.lpx) |
+| 番茄小说 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-014-2/plugin.lpx) |
+| 百度贴吧 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-015/plugin.lpx) |
+| Reheji | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/reheji/plugin.lpx) |
+| Script Hub: 重写 & 规则集转换 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub/plugin.lpx) |
+|  iRingo: 📍 LocationService | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-locationservice/plugin.lpx) |
+|  iRingo: 🌤 WeatherKit (Rewrite) | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-weatherkit-rewrite/plugin.lpx) |
+| 菜鸟裹裹 | misc | [plugin.lpx](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020-2/plugin.lpx) |
 <!-- PLUGINS_TABLE_END -->
 
 ## 脚本

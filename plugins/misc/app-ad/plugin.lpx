@@ -1,9 +1,9 @@
 #!name = App/小程序-AD净化
 #!desc = App/小程序去广告
-#!openUrl = https://raw.githubusercontent.com/chxm1023/Advertising/Loon/AppAD.plugin
+#!openUrl = https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/plugin.lpx
 #!author = @ddm1023
 #!homepage = https://t.me/chxm1023
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/Advertising.png
 
 [Rewrite]
 # 阿里系列开屏 hostname = *.m.taobao.com
@@ -125,55 +125,55 @@ http:\/\/sv\.adintl\.cn - reject
 
 [Script]
 # 京喜/京喜特价/京东小家 去除开屏广告 hostname = api.*.jd.com
-http-response ^https?:\/\/api\..*\.jd\.com\/(client\.action\?functionId=lite_advertising|.+\/service\/getLoadingLinks) script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/jhad.js, requires-body=true, timeout=60, tag=jhad
+http-response ^https?:\/\/api\..*\.jd\.com\/(client\.action\?functionId=lite_advertising|.+\/service\/getLoadingLinks) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/jhad.js, requires-body=true, timeout=60, tag=jhad
 
 # 大师兄影视
-http-response http:\/\/app\.dsx\.ac\/ndsx\.php\/v\d\/logs script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/Admodule.js, requires-body=true, timeout=60, tag=Admodule
+http-response http:\/\/app\.dsx\.ac\/ndsx\.php\/v\d\/logs script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/Admodule.js, requires-body=true, timeout=60, tag=Admodule
 
 # 电影猎手 hostname = *.gpxmf.cn
-http-response ^https?:\/\/.*\.gpxmf\.cn\/api\/v\d\/(movie|post) script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/Admodule.js, requires-body=true, timeout=60, tag=Admodule
+http-response ^https?:\/\/.*\.gpxmf\.cn\/api\/v\d\/(movie|post) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/Admodule.js, requires-body=true, timeout=60, tag=Admodule
 
 # 处理广告配置
-http-response ^https?:\/\/.*\/(?:xyz|myk|mtq|peiqi|pqys|aifan|xnm|tegou|xgapp|llq|dsx|xsz)\.php\/.*\/(top_notice|version|app_config) script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/Admodule.js, requires-body=true, timeout=60, tag=Admodule
+http-response ^https?:\/\/.*\/(?:xyz|myk|mtq|peiqi|pqys|aifan|xnm|tegou|xgapp|llq|dsx|xsz)\.php\/.*\/(top_notice|version|app_config) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/Admodule.js, requires-body=true, timeout=60, tag=Admodule
 
 # 橘汁/华谊影视
-http-response ^https?:\/\/.*\/api\/v\d\/config\/getConfigList script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/Admodule.js, requires-body=true, timeout=60, tag=Admodule
+http-response ^https?:\/\/.*\/api\/v\d\/config\/getConfigList script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/Admodule.js, requires-body=true, timeout=60, tag=Admodule
 
 # 段咖影视-去除所有 hostname = www.duankamv.site
-http-response ^https?:\/\/www\.duankamv\.site\/api\/DKswitch script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/Admodule.js, requires-body=true, timeout=60, tag=Admodule
+http-response ^https?:\/\/www\.duankamv\.site\/api\/DKswitch script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/Admodule.js, requires-body=true, timeout=60, tag=Admodule
 
 # 新剧多-xjd333.com hostname = apple.tongchengfabu.com
-http-response ^https?:\/\/apple\.tongchengfabu\.com\/video script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/Admodule.js, requires-body=true, timeout=60, tag=Admodule
+http-response ^https?:\/\/apple\.tongchengfabu\.com\/video script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/Admodule.js, requires-body=true, timeout=60, tag=Admodule
 
 # 酷安 去好物推荐 hostname = api.coolapk.com
-http-response ^https:\/\/api\.coolapk\.com\/v\d\/feed\/detail.* script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/KA.js, requires-body=true, timeout=60, tag=KA
+http-response ^https:\/\/api\.coolapk\.com\/v\d\/feed\/detail.* script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/KA.js, requires-body=true, timeout=60, tag=KA
 
 # 亲邻开门-AD净化(App+小程序) hostname = qadx*.qinlinad.com, mall-dsp*.qinlinkeji.com
-http-response ^https?:\/\/(qadx.*\.qinlinad|mall-dsp.*\.qinlinkeji)\.com script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/xcx/qlkm.js, requires-body=true, timeout=60, tag=qlkm
+http-response ^https?:\/\/(qadx.*\.qinlinad|mall-dsp.*\.qinlinkeji)\.com script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/qlkm.js, requires-body=true, timeout=60, tag=qlkm
 
 # 海绵去水印 hostname = analysis.20kaka.cn
-http-response ^https?:\/\/analysis\.20kaka\.cn\/api\/wechat script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/xcx/hmqsy.js, requires-body=true, timeout=60, tag=hmqsy
+http-response ^https?:\/\/analysis\.20kaka\.cn\/api\/wechat script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/hmqsy.js, requires-body=true, timeout=60, tag=hmqsy
 
 # 功夫去水印 hostname = q12.tuanyougou.com
-http-response ^https?:\/\/q12\.tuanyougou\.com script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/xcx/hmqsy.js, requires-body=true, timeout=60, tag=hmqsy
+http-response ^https?:\/\/q12\.tuanyougou\.com script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/hmqsy.js, requires-body=true, timeout=60, tag=hmqsy
 
 # 搜罗好货 hostname = www.i3zh.com
-http-response ^https?:\/\/www\.i3zh\.com script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/xcx/slhh.js, requires-body=true, timeout=60, tag=slhh
+http-response ^https?:\/\/www\.i3zh\.com script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/slhh.js, requires-body=true, timeout=60, tag=slhh
 
 # 小打卡-App＋小程序通用 hostname = *.sharedaka.com
-http-response ^https?:\/\/.*\.sharedaka\.com script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/xcx/xiaodaka.js, requires-body=true, timeout=60, tag=xiaodaka
+http-response ^https?:\/\/.*\.sharedaka\.com script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/xiaodaka.js, requires-body=true, timeout=60, tag=xiaodaka
 
 # 漫画台Lite hostname = comic.321mh.com
-http-response ^https?:\/\/comic\.321mh\.com script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/xcx/donghuatai.js, requires-body=true, timeout=60, tag=donghuatai
+http-response ^https?:\/\/comic\.321mh\.com script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/donghuatai.js, requires-body=true, timeout=60, tag=donghuatai
 
 # 公众号文章去广告 hostname = mp.weixin.qq.com
-http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/wxgzhad.js, requires-body=true, timeout=60, tag=wxgzhad
+http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/wxgzhad.js, requires-body=true, timeout=60, tag=wxgzhad
 
 # 小野分享 hostname = lysl2020.com
-http-response ^https?:\/\/lysl2020.com/wp-json/wp/v2/posts script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/Admodule.js, requires-body=true, timeout=60, tag=Admodule
+http-response ^https?:\/\/lysl2020.com/wp-json/wp/v2/posts script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/Admodule.js, requires-body=true, timeout=60, tag=Admodule
 
 # 小程序解锁查看数据 hostname = *.hseon.cn, *.hhios.cn, *.ppkok.com, ios.jiejing.store, ipa.trollstore.*, iostj.mrlin.vip, xcx.xuxuyuan.top
-http-response ^https?:\/\/.*\.(hseon|hhios|ppkok|jiejing|trollstore|mrlin|xuxuyuan)\.(cn|com|store|xin|vip|top)\/api script-path=https://raw.githubusercontent.com/chxm1023/Advertising/main/Admodule.js, requires-body=true, timeout=60, tag=Admodule
+http-response ^https?:\/\/.*\.(hseon|hhios|ppkok|jiejing|trollstore|mrlin|xuxuyuan)\.(cn|com|store|xin|vip|top)\/api script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/app-ad/deps/Admodule.js, requires-body=true, timeout=60, tag=Admodule
 
 [MITM]
 hostname = *.m.taobao.com, ms.jr.jd.com, api.*.jd.com, *.cibnabg.com, apif.ttassfgz.com, ellq.glasneh.com, *.gpxmf.cn, sdapi.u4gdp3.com, sdapi.s3432pr.com, apinew.8hpt2duq.com, api.8b42w67.com, api.4pmyvfz.com, api.1000gxf.com, api.ainitpz.com, api.5fcgcnn.com, api.hpdgjnf.com, api.wyw68fg.com, api.hpfcqfh.com, api.dzjxekd.com, api.qxutcee.com, api.fkkejucm.com, api.sh75d6qk.com, api.gq89em.com, api.chgjaq4.com, api.cbvbqtz.com, api.gdj2a3qy.com, api.7gmsut2m.com, api.4hnovel.com, gzapi.*.com, jk.*.com, pics.xhsdns.cn, llqtv.com, www.duankamv.site, apple.tongchengfabu.com, api.juliangcili.com, api.coolapk.com, pipi.4kya.com, image.cdn.zxrtb.com, *.speedtest.cn, *.tradplusad.com, adim.pinduoduo.com, images.pinduoduo.com, t-dsp.pinduoduo.com, video-dsp.pddpic.com, *.pangolin-sdk-toutiao.com, *.pangolin-sdk-toutiao-*.com, *.pglstatp-toutiao.com, *.ctobsnssdk.com, *.snssdk.com, *.gromore.com, *.bytescm.com, *.bytegoofy.com, *.gdt.qq.com, adsmind.gdtimg.com, pgdt.gtimg.cn, vpic.cms.qq.com, us.l.qq.com, sdk.e.qq.com, ad.qq.com, qzs.gdtimg.com, snowflake.qq.com, *.cpatrk.net, ads.twitter.com, *.g.doubleclick-cn.net, *.g.doubleclick.net, securepubads.g.doubleclick.net, pagead2.googlesyndication.com, adservice.google.com, ib.adnxs.com, as.yahoo.com, ssl.googlesyndication.com, open.e.kuaishou.com, analytics.oceanengine.com, adx-bj.anythinktech.com, adx-os.bridgeoos.com, adv-api.shenshiads.com, adx-strategy-api-*.statisticslinks.com, *.sigmob.cn, appconf.mail.163.com, dashi.163.com, adsfileretry.service.kugou.com, gateway.kugou.com, *.mygolbs.com, cpu-openapi.baidu.com, mobads.baidu.com, bid.adview.cn, api.douban.com, mime.baidu.com, bgg.baidu.com, app-statistics.edifier.com, admin-app.edifier.com, qadx*.qinlinad.com, mall-dsp*.qinlinkeji.com, analysis.20kaka.cn, q12.tuanyougou.com, www.i3zh.com, *.sharedaka.com, comic.321mh.com, *.enmonster.com, mp.weixin.qq.com, lysl2020.com, *.hseon.cn, *.hhios.cn, *.ppkok.com, *.jiejing.store, *.trollstore.*, iostj.mrlin.vip, xcx.xuxuyuan.top
