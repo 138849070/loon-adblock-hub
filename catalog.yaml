@@ -1386,4 +1386,54 @@ plugins:
       backup:
       - https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx
 
+  - name: iTunes系列解锁
+    slug: itunes
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://reven.jsforbaby.workers.dev/reven/iTunes.lpx
+      backup: []
+  - name: 菜鸟去广告
+    slug: plugin-032
+    category: misc
+    author: 小白脸
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-032/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx
+  - name: 插件仓库
+    slug: plugin-033
+    category: misc
+    author: Peng-YM[https://github.com/Peng-YM]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-033/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx
+  - name: 快捷搜索
+    slug: plugin-034
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-034/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx
+  - name: BoxJs
+    slug: boxjs
+    category: misc
+    author: chavyleung[https://github.com/chavyleung]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/boxjs/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx
+
 scripts: []
