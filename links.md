@@ -11,6 +11,11 @@
 - [Biliverse 增强模式](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/biliverse-enhanced/Biliverse.Enhanced.plugin)
 - [WakeUp课程表去广告](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/wakeup-schedule-remove-ads/WakeupSchedule_remove_ads.lpx)
 - [YouTube 增强（gholts）](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-gholts/youtube_gholts.lpx)
+- [比狸比狸过滤](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/bilibili-cleaner/plugin.lpx)
+- [节点 IP 质量检测 · 混合模式](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ipquality-web-test/plugin.lpx)
+- [节点质量查询](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/node-quality-query/plugin.lpx)
+- [节点TCPing连通性测试](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/node-tcping/plugin.lpx)
+- [Loon 订阅解析器](https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-parser/plugin.lpx)
 
 ## 脚本
 （暂无）
