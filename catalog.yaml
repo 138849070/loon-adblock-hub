@@ -294,4 +294,50 @@ plugins:
       origin: https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/QDReader/profiles/qdreader.loon.plugin
       backup: []
 
+  - name: X(Twitter)网页版去广告
+    slug: x-twitter-2
+    category: misc
+    author: 奶思[https://github.com/fmz200]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/XWebAds.plugin
+      backup: []
+  - name: Reddit 自动翻译
+    slug: reddit
+    category: misc
+    author: RavelloH
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://gist.github.com/RavelloH/68ed0626dae69a1ce7c8ad6887087ea1/raw/loon.plugin
+      backup: []
+  - name: Reven
+    slug: reven
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://reven.jsforbaby.workers.dev/reven/reven.lpx
+      backup: []
+  - name: TilingSales_ad_remove.lpx
+    slug: tilingsales-ad-remove-lpx
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/tilingsales-ad-remove-lpx/plugin.lpx
+      backup: []
+  - name: App解锁合集
+    slug: app
+    category: misc
+    author: '@ddm1023'
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.plugin
+      backup: []
+
 scripts: []
