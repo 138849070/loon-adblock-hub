@@ -197,4 +197,53 @@ plugins:
       backup:
       - https://rucu6.pages.dev/Plugins/nodecheck.lpx
 
+  - name: X（Twitter）
+    slug: x-twitter
+    category: misc
+    author: fmz200[https://github.com/fmz200], sooyaaabo[https://github.com/sooyaaabo]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/x-twitter/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/X_Web.lpx
+  - name: 蛋蛋不语VIP解锁
+    slug: vip
+    category: misc
+    author: Curtinp118
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/curtinp118/Loon/main/plugins/dandanvip.lpx
+      backup: []
+  - name: WPS
+    slug: wps
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partW/WPS.lpx
+      backup: []
+  - name: 知乎去广告
+    slug: plugin-004
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx
+  - name: 广告必须死
+    slug: plugin-005-2
+    category: misc
+    author: RuCu6[https://github.com/RuCu6],fishdown[https://github.com/fishdown],wish[https://github.com/mist-whisper],Repcz[https://github.com/Repcz],kelv1n1n[https://github.com/kelv1n1n],ZenmoFeiShi[https://github.com/ZenmoFeiShi],fmz200[https://github.com/fmz200],可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-2/plugin.lpx
+      backup:
+      - https://loonhub.wuyra.com/Lpx/BlockAds.lpx
+
 scripts: []
