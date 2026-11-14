@@ -932,4 +932,56 @@ plugins:
       origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partA/AiSiAssistant.lpx
       backup: []
 
+  - name: Apple天气增强
+    slug: apple
+    category: misc
+    author: VirgilClyne[https://github.com/VirgilClyne], WordlessEcho[https://github.com/WordlessEcho],
+      001[https://github.com/001ProMax]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/apple/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx
+  - name: 预览qx一键导入资源
+    slug: qx
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qx/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/qx-resource-preview.js/_end_/qx-resource-preview.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
+  - name: Line去广告
+    slug: line
+    category: misc
+    author: jkgtw[https://github.com/jkgtw]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/line/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Line_remove_ads.lpx
+  - name: 番茄小说去广告
+    slug: plugin-009-2
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-009-2/plugin.lpx
+      backup:
+      - https://raw.githubusercontent.com/138849070/AD/refs/heads/main/番茄小说/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%E5%8E%BB%E5%B9%BF%E5%91%8A.txt
+  - name: WARP节点查询
+    slug: warp
+    category: misc
+    author: VirgilClyne[https://github.com/VirgilClyne], I-am-R-E[https://github.com/I-am-R-E]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/warp/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx
+
 scripts: []
