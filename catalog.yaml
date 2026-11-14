@@ -141,16 +141,6 @@ plugins:
     origin: https://raw.githubusercontent.com/sub-store-org/Sub-Store/refs/heads/master/config/Loon-parser.plugin
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-parser/plugin.lpx
-- name: YouTube
-  slug: youtube
-  category: misc
-  author: Maasea[https://github.com/Maasea/sgmodule], gholts[https://github.com/gholts/surge], RuCu6[https://github.com/RuCu6]
-  enabled: true
-  files:
-  - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube/plugin.lpx
-    backup:
-    - https://rucu6.pages.dev/Plugins/youtube_gholts.lpx
 - name: 菜鸟
   slug: plugin-002
   category: misc
