@@ -2175,3 +2175,48 @@ scripts:
   - name: script.js
     origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/10-ydm/script.js
     backup: []
+- name: 14_get_cookie
+  slug: 14-get-cookie
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/14-get-cookie/script.js
+    backup: []
+- name: 11_Loon_Daily_bonus
+  slug: 11-loon-daily-bonus
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/11-loon-daily-bonus/script.js
+    backup: []
+- name: 18_WeTalk
+  slug: 18-wetalk
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/18-wetalk/script.js
+    backup: []
+- name: 07_~wxread
+  slug: 07-wxread
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/07-wxread/script.js
+    backup: []
+- name: 15_dalanshu_checkin
+  slug: 15-dalanshu-checkin
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/15-dalanshu-checkin/script.js
+    backup: []
