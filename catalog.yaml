@@ -2130,3 +2130,48 @@ scripts:
   - name: script.js
     origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/04-mdsp/script.js
     backup: []
+- name: 01_91ts
+  slug: 01-91ts
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/01-91ts/script.js
+    backup: []
+- name: 08_haijiaoshequ
+  slug: 08-haijiaoshequ
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/08-haijiaoshequ/script.js
+    backup: []
+- name: 12_ximalaya
+  slug: 12-ximalaya
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/12-ximalaya/script.js
+    backup: []
+- name: 09_BiliBiliDailyBonus
+  slug: 09-bilibilidailybonus
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/09-bilibilidailybonus/script.js
+    backup: []
+- name: 10_ydm
+  slug: 10-ydm
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/10-ydm/script.js
+    backup: []
