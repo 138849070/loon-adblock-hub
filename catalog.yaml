@@ -693,4 +693,53 @@ plugins:
       backup:
       - https://rucu6.pages.dev/Plugins/xiaohongshu.lpx
 
+  - name: 美柚
+    slug: plugin-006
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/Meiyou.lpx
+      backup: []
+  - name: 美柚去广告
+    slug: plugin-007
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-007/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/MeetYou_remove_ads.lpx
+  - name: 美图秀秀去广告
+    slug: plugin-008-2
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-008-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/MeiTu_remove_ads.lpx
+  - name: 网络信息（离歌自用）
+    slug: plugin-009
+    category: misc
+    author: 离歌自用
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/scripts/wangluoxinxi.plugin
+      backup: []
+  - name: 百度网页去广告
+    slug: plugin-010
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-010/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/BaiduSearchWebpage_remove_ads.lpx
+
 scripts: []
