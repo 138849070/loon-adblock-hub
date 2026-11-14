@@ -1436,4 +1436,54 @@ plugins:
       backup:
       - https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx
 
+  - name: Sub-Store
+    slug: sub-store
+    category: misc
+    author: Peng-YM[https://github.com/Peng-YM]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/sub-store/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx
+  - name: Script-Hub
+    slug: script-hub-2
+    category: misc
+    author: xream[https://github.com/xream], Keywos[https://github.com/Keywos], CKYB[https://github.com/CKYB],
+      小白脸
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx
+  - name: 微博去广告&净化
+    slug: plugin-038
+    category: misc
+    author: 奶思[https://github.com/fmz200]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/weibo.plugin
+      backup: []
+  - name: '🍟 Fries: 🚫 Block HTTPDNS'
+    slug: fries-block-httpdns
+    category: misc
+    author: VirgilClyne
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin
+      backup: []
+  - name: luolidao
+    slug: luolidao
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/luolidao/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/luolidao.js/_end_/luolidao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+
 scripts: []

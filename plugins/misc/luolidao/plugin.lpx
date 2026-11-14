@@ -1,0 +1,13 @@
+#!name=luolidao
+#!desc=luolidao
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1027.png
+
+[Script]
+# >🔞萝莉岛+|||🔞吸游技+
+http-response ^https?:\/\/.+/api\/setapp.php script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/lldad.js, requires-body=true, timeout=60, tag=lldad
+
+http-response ^https?:\/\/.+\/api\/(userinfo|setapp|newstartad|newreg|Get_vod_list|dongtais).php script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/luolidao.js, requires-body=true, timeout=60, tag=luolidao
+
+[MITM]
+hostname = *.cloudfront.net, dag29jmgma1g.site, *site, d1no17eycutrsi.cloudfront.net, lldajbfyobffkbg288-api.com, lasdasdgapi.cc, las23gsapi.cc
+
