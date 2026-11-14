@@ -1739,4 +1739,55 @@ plugins:
       origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/huanyu/modules/huanyu.lpx
       backup: []
 
+  - name: YDM系列通杀
+    slug: ydm-2
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm-2/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ydm.js/_end_/ydm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 18kmanhua
+    slug: 18kmanhua
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/18kmanhua/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://gist.githubusercontent.com/Yu9191/919552f4d3358c070e5d995137514748/raw/18kmanhua.js/_end_/18kmanhua.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: peicaise
+    slug: peicaise
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/peicaise/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/peicaise.js/_end_/peicaise.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 91Porn 短视频
+    slug: 91porn
+    category: misc
+    author: Yu9191
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/91porn/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/91porna.js/_end_/91porna.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: aiaiwang
+    slug: aiaiwang
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/aiaiwang/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/aiaiwang.js/_end_/aiaiwang.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+
 scripts: []

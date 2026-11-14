@@ -1,0 +1,13 @@
+#!name=peicaise
+#!desc=peicaise
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1062.png
+
+[Rewrite]
+^https:\/\/api\d+\.(uqwklt|w9ctqu|ksmttr|w8ifd6|eufkhv|lisiyun|gunqiushou|t1gwnv)\.(.+)\/game - reject
+
+[Script]
+http-response ^https:\/\/api\d+\.(uqwklt|w9ctqu|ksmttr|w8ifd6|eufkhv|lisiyun|gunqiushou|t1gwnv)\.(.+)\/(mov\/browse2|startpage\/combine|home\/paomadeng|activity\/center\/list|banner\/list2|user\/info) script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/peicaise.js, requires-body=true, timeout=60, tag=peicaise
+
+[MITM]
+hostname = api*.uqwklt.com, api*.w9ctqu.com, api*.ksmttr.com, api*.w8ifd6.com, api*.eufkhv.xyz, api*.lisiyun.top, api*.gunqiushou.info, api*.t1gwnv.xyz
+
