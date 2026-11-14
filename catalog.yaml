@@ -2122,7 +2122,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/01-91ts/script.js
+    origin: https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/91ts.js
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/01-91ts/script.js
     - https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/91ts.js
@@ -2143,7 +2143,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/11-loon-daily-bonus/script.js
+    origin: https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_Daily_bonus.plugin
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/11-loon-daily-bonus/script.js
     - https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_Daily_bonus.plugin
@@ -2154,7 +2154,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/04-mdsp/script.js
+    origin: https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mdsp.js
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/04-mdsp/script.js
     - https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mdsp.js
@@ -2165,7 +2165,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/19-pingmesignin/script.js
+    origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/PingMe/PingMeSignin.js
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/19-pingmesignin/script.js
     - https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/PingMe/PingMeSignin.js
@@ -2176,7 +2176,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/script.js
+    origin: https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.js
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/17-wps/script.js
     - https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.js
@@ -2187,7 +2187,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/10-ydm/script.js
+    origin: https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ydm.js
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/10-ydm/script.js
     - https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ydm.js
@@ -2198,7 +2198,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/12-ximalaya/script.js
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/ximalaya.js/_end_/ximalaya.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/12-ximalaya/script.js
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/ximalaya.js/_end_/ximalaya.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
@@ -2209,7 +2209,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/script.js
+    origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/dalanshu/dalanshu_checkin.js
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/15-dalanshu-checkin/script.js
     - https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/dalanshu/dalanshu_checkin.js
@@ -2220,7 +2220,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/07-wxread/script.js
+    origin: https://paste.srlihg.cc/~wxread
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/07-wxread/script.js
     - https://paste.srlihg.cc/~wxread
@@ -2231,7 +2231,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/08-haijiaoshequ/script.js
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiaoshequ.js/_end_/haijiaoshequ.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/08-haijiaoshequ/script.js
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiaoshequ.js/_end_/haijiaoshequ.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
@@ -2242,7 +2242,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/13-haijiao/script.js
+    origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiao.js
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/13-haijiao/script.js
     - https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiao.js
@@ -2263,7 +2263,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/03-luping/script.js
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/luping.js/_end_/luping.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/03-luping/script.js
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/luping.js/_end_/luping.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
@@ -2274,7 +2274,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/14-get-cookie/script.js
+    origin: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cookie/get_cookie.js
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/14-get-cookie/script.js
     - https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cookie/get_cookie.js
@@ -2315,7 +2315,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/18-wetalk/script.js
+    origin: http://script.hub/convert/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/WeTalk.js/_end_/WeTalk.js?type=qx-script&target=surge-script&del=true&jqEnabled=true
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/18-wetalk/script.js
     - http://script.hub/convert/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/WeTalk.js/_end_/WeTalk.js?type=qx-script&target=surge-script&del=true&jqEnabled=true
@@ -2336,7 +2336,7 @@ scripts:
   enabled: true
   files:
   - name: script.js
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/16-wps-cookie/script.js
+    origin: https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.cookie.js
     backup:
     - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/tools/16-wps-cookie/script.js
     - https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/app/wps/wps.cookie.js
