@@ -1,0 +1,10 @@
+#!name=uua
+#!desc=uua
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1002.png
+
+[Script]
+http-response ^https?:\/\/(api|m)\.uaa.*\.com script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js, requires-body=true, timeout=60, tag=uua
+
+[MITM]
+hostname = *.uaa*.com
+

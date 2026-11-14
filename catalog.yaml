@@ -1639,4 +1639,54 @@ plugins:
       backup:
       - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mxshm.js/_end_/mxshm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 
+  - name: uua
+    slug: uua
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/uua/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js/_end_/uua.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 2966f7d1df7f46705623bc12109f6c2f
+    slug: 2966f7d1df7f46705623bc12109f6c2f
+    category: misc
+    author: Yu9191 Rewrite
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/qiyoushe/modules/qiyoushequ.lpx
+      backup: []
+  - name: jmshe
+    slug: jmshe
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/jmshe/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/jmshe.js/_end_/jmshe.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 18pcs
+    slug: 18pcs
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/18pcs/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/18pcs.js/_end_/18pcs.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: zukong
+    slug: zukong
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/zukong/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zks.js/_end_/zks.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+
 scripts: []
