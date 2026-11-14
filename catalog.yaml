@@ -790,4 +790,54 @@ plugins:
       origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partM/Meituan-MeituanWaimai.lpx
       backup: []
 
+  - name: 得物
+    slug: plugin-016-2
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partD/DeWu.lpx
+      backup: []
+  - name: Soul去广告
+    slug: soul
+    category: misc
+    author: ZenmoFeiShi[https://github.com/ZenmoFeiShi], RuCu6[https://github.com/RuCu6],
+      可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/soul/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Soul_remove_ads.lpx
+  - name: 节点脚本工具合集
+    slug: plugin-018
+    category: misc
+    author: 6otho整合[https://github.com/6otho],xream脚本作者[https://github.com/xream]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/6otho/Loon_tool/refs/heads/main/Script/Network_Speed_Test.scripts
+      backup: []
+  - name: 酷安全面净化
+    slug: plugin-019
+    category: misc
+    author: 怎么肥事、walala
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.snippet/_end_/KuAn.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 胖乖生活去广告
+    slug: plugin-020-3
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-020-3/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/PangguaiLife_remove_ads.lpx
+
 scripts: []
