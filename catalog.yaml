@@ -840,4 +840,50 @@ plugins:
       backup:
       - https://kelee.one/Tool/Loon/Lpx/PangguaiLife_remove_ads.lpx
 
+  - name: 中国联通
+    slug: plugin-001
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ChinaUnicom.lpx
+      backup: []
+  - name: 中国电信
+    slug: plugin-002-3
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ChinaTelecom.lpx
+      backup: []
+  - name: 中国广电
+    slug: plugin-003-4
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ChinaBroadcastingNetwork.lpx
+      backup: []
+  - name: 腾讯广告
+    slug: plugin-004-5
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partT/TencentAds.lpx
+      backup: []
+  - name: 腾讯系
+    slug: plugin-005-6
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partT/Tencent.lpx
+      backup: []
+
 scripts: []
