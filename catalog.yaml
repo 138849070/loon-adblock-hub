@@ -1335,4 +1335,55 @@ plugins:
       backup:
       - https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx
 
+  - name: 微信小程序去广告
+    slug: plugin-026
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-026/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx
+  - name: 高德地图去广告
+    slug: plugin-027
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-027/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx
+  - name: QQ音乐去广告
+    slug: qq-3
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qq-3/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx
+  - name: 微信公众号去广告
+    slug: plugin-029
+    category: misc
+    author: RuCu6[https://github.com/RuCu6]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-029/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx
+  - name: 百度输入法去广告
+    slug: plugin-030
+    category: misc
+    author: Keywos[https://github.com/Keywos]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-030/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx
+
 scripts: []
