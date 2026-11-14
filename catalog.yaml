@@ -246,4 +246,52 @@ plugins:
       backup:
       - https://loonhub.wuyra.com/Lpx/BlockAds.lpx
 
+  - name: One
+    slug: one
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/one/plugin.lpx
+      backup:
+      - https://one-api.zzxu.de/one/one.lpx
+  - name: ' iRingo: 🗺️ Maps'
+    slug: iringo-maps
+    category: misc
+    author: VirgilClyne[https://github.com/VirgilClyne]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-maps/plugin.lpx
+      backup:
+      - https://loonhub.wuyra.com/Lpx/Maps.lpx
+  - name: '🍿️ DualSubs: ▶️ YouTube'
+    slug: dualsubs-youtube
+    category: misc
+    author: VirgilClyne[https://github.com/VirgilClyne]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.plugin
+      backup: []
+  - name: 起点读书
+    slug: plugin-004-2
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partQ/QiDianReading.lpx
+      backup: []
+  - name: 起点读书签到
+    slug: plugin-005-3
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/QDReader/profiles/qdreader.loon.plugin
+      backup: []
+
 scripts: []
