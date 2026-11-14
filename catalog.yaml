@@ -886,4 +886,50 @@ plugins:
       origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partT/Tencent.lpx
       backup: []
 
+  - name: PushPlus微信推送广告
+    slug: pushplus
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partP/PushPlusWeChatPushAd.lpx
+      backup: []
+  - name: Outlook
+    slug: outlook
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partO/Outlook.lpx
+      backup: []
+  - name: 拦截100
+    slug: '100'
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partL/LanJie100.lpx
+      backup: []
+  - name: 虎牙直播
+    slug: plugin-004-6
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partH/HuyaLive.lpx
+      backup: []
+  - name: 爱思助手
+    slug: plugin-005-7
+    category: misc
+    author: 奶思
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partA/AiSiAssistant.lpx
+      backup: []
+
 scripts: []
