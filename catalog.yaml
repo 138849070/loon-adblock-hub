@@ -1284,4 +1284,55 @@ plugins:
       backup:
       - https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx
 
+  - name: 123云盘去广告
+    slug: 123-2
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx
+  - name: 闲鱼去广告
+    slug: plugin-022
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-022/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx
+  - name: 夸克去广告
+    slug: plugin-023
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-023/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx
+  - name: 京东去广告
+    slug: plugin-024
+    category: misc
+    author: RuCu6[https://github.com/RuCu6], Maasea[https://github.com/Maasea]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-024/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx
+  - name: 淘宝去广告
+    slug: plugin-025
+    category: misc
+    author: RuCu6[https://github.com/RuCu6]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-025/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx
+
 scripts: []
