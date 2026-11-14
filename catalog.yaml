@@ -1883,4 +1883,56 @@ plugins:
       backup:
       - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/NeteasemusicAd/main/wyy.sgmodule/_end_/wyy.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
 
+  - name: PingMe&WeTalk
+    slug: pingme-wetalk
+    category: misc
+    author: 怎么肥事[https://t.me/Nzmgs] luckyday[https://t.me/blessedday_bot]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/pingme-wetalk/plugin.lpx
+      backup:
+      - https://axhani.pages.dev/refs/heads/main/Loon/Plugin/PingMe.plugin
+  - name: BiliBili每日等级任务
+    slug: bilibili
+    category: misc
+    author: MartinsKing（@ClydeTime）
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.plugin
+      backup: []
+  - name: 定时任务合集
+    slug: plugin-043
+    category: misc
+    author: FoKit[https://github.com/FoKit], Sliverkiss[https://github.com/Sliverkiss],
+      ClydeTime[https://github.com/ClydeTime], wish[https://github.com/mist-whisper],
+      ZenmoFeiShi[https://github.com/ZenmoFeiShi],chavyleung[https://github.com/chavyleung]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-043/plugin.lpx
+      backup:
+      - https://loonhub.wuyra.com/Lpx/DailyBonus.lpx
+  - name: ' iRingo: 📍 Location'
+    slug: iringo-location
+    category: misc
+    author: VirgilClyne[https://github.com/VirgilClyne]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/iringo-location/plugin.lpx
+      backup:
+      - https://loonhub.wuyra.com/Lpx/Location.lpx
+  - name: Redirect
+    slug: redirect
+    category: misc
+    author: ''
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/redirect/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/Redirect.lpx
+
 scripts: []
