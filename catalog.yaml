@@ -1935,4 +1935,55 @@ plugins:
       backup:
       - https://loon.103516.xyz/Plugin/Redirect.lpx
 
+  - name: AppStore Monitor
+    slug: appstore-monitor
+    category: misc
+    author: sooyaaabo[https://github.com/sooyaaabo]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/appstore-monitor/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/AppStoreMonitor.lpx
+  - name: TestFlight Monitor
+    slug: testflight-monitor
+    category: misc
+    author: fmz200[https://github.com/fmz200], DecoAri[https://github.com/DecoAri],
+      xream[https://github.com/xream]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/testflight-monitor/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/TestFlightMonitor.lpx
+  - name: Swiftgram
+    slug: swiftgram
+    category: misc
+    author: sooyaaabo[https://github.com/sooyaaabo]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/swiftgram/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/Swiftgram.lpx
+  - name: AppleOS Monitor
+    slug: appleos-monitor
+    category: misc
+    author: sooyaaabo[https://github.com/sooyaaabo]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/appleos-monitor/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/AppleOSMonitor.lpx
+  - name: '📺 BiliBili: 🛡️ ADBlock'
+    slug: bilibili-adblock
+    category: misc
+    author: ClydeTime[https://github.com/ClydeTime],VirgilClyne[https://github.com/VirgilClyne],app2smile[https://github.com/app2smile],RuCu6[https://github.com/RuCu6],Maasea[https://github.com/Maasea]
+    enabled: false
+    files:
+    - name: plugin.lpx
+      origin: https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.plugin
+      backup: []
+
 scripts: []
