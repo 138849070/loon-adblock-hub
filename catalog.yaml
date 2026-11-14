@@ -2220,3 +2220,39 @@ scripts:
   - name: script.js
     origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/15-dalanshu-checkin/script.js
     backup: []
+- name: 17_wps
+  slug: 17-wps
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/17-wps/script.js
+    backup: []
+- name: 16_wps.cookie
+  slug: 16-wps-cookie
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/16-wps-cookie/script.js
+    backup: []
+- name: 19_PingMeSignin
+  slug: 19-pingmesignin
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/19-pingmesignin/script.js
+    backup: []
+- name: 13_haijiao
+  slug: 13-haijiao
+  category: misc
+  author: ''
+  enabled: true
+  files:
+  - name: script.js
+    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/misc/13-haijiao/script.js
+    backup: []
