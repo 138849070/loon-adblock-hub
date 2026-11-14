@@ -144,4 +144,57 @@ plugins:
       backup:
       - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-parser/plugin.lpx
 
+  - name: YouTube
+    slug: youtube
+    category: misc
+    author: Maasea[https://github.com/Maasea/sgmodule], gholts[https://github.com/gholts/surge],
+      RuCu6[https://github.com/RuCu6]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/youtube/plugin.lpx
+      backup:
+      - https://rucu6.pages.dev/Plugins/youtube_gholts.lpx
+  - name: 菜鸟
+    slug: plugin-002
+    category: misc
+    author: githubdulong[https://github.com/githubdulong]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/CaiNiao.lpx
+  - name: 淘宝
+    slug: plugin-003
+    category: misc
+    author: RuCu6[https://github.com/RuCu6], ishowshu[https://github.com/ishowshu],
+      可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003/plugin.lpx
+      backup:
+      - https://loon.103516.xyz/Plugin/TaoBao.lpx
+  - name: 节点 IP 质量检测
+    slug: ip
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/loon/ipquality/ipquality.lpx
+      backup: []
+  - name: 节点检测工具
+    slug: plugin-005
+    category: misc
+    author: xream[https://github.com/xream], Keywos[https://github.com/Keywos], KOP-XIAO[https://github.com/KOP-XIAO],
+      dcpengx[https://github.com/dcpengx], RavelloH[https://github.com/RavelloH], RuCu6[https://github.com/RuCu6]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005/plugin.lpx
+      backup:
+      - https://rucu6.pages.dev/Plugins/nodecheck.lpx
+
 scripts: []

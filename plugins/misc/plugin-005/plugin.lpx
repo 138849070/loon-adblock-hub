@@ -1,0 +1,12 @@
+#!name=节点检测工具
+#!desc=进行节点阻断、地理位置、节点解锁、入口落地查询。
+#!author=xream[https://github.com/xream], Keywos[https://github.com/Keywos], KOP-XIAO[https://github.com/KOP-XIAO], dcpengx[https://github.com/dcpengx], RavelloH[https://github.com/RavelloH], RuCu6[https://github.com/RuCu6]
+#!icon=https://rucu6.pages.dev/Icons/common/nodecheck.png
+#!date=2026-10-05 12:30
+#!loon_version=3.5.1(978)
+
+[Script]
+generic then script("https://rucu6.pages.dev/Scripts/general/node-check.js") with tag="节点阻断查询", img_url="waveform.path.ecg"
+generic then script("https://rucu6.pages.dev/Scripts/general/network-in-out-query.js") with tag="入口落地查询", img_url="globe.asia.australia.system"
+generic then script("https://rucu6.pages.dev/Scripts/general/location-detection.js") with tag="地理位置查询", img_url="location.circle.system"
+generic then script("https://rucu6.pages.dev/Scripts/general/node-unlock-detection.js") with tag="节点解锁查询", img_url="play.circle.system"
