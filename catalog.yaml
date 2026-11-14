@@ -1135,4 +1135,53 @@ plugins:
       backup:
       - https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx
 
+  - name: 快手去广告
+    slug: plugin-006-2
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-006-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx
+  - name: 酷安去广告
+    slug: plugin-007-2
+    category: misc
+    author: RuCu6[https://github.com/RuCu6], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-007-2/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx
+  - name: NodeLinkCheck
+    slug: nodelinkcheck
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Loon.plugin
+      backup: []
+  - name: 55de85e516587f7cfd00ffd74df31c7b
+    slug: 55de85e516587f7cfd00ffd74df31c7b
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+      backup: []
+  - name: 七猫小说
+    slug: plugin-010-2
+    category: misc
+    author: I-am-R-E
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-010-2/plugin.lpx
+      backup:
+      - https://raw.githubusercontent.com/deezertidal/private/master/plugallery/qmxs.plugin
+
 scripts: []
