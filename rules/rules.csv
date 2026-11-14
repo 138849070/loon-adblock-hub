@@ -1,0 +1,49 @@
+﻿名称,URL,备份文件,大小,状态
+02_Maps,https://loonhub.wuyra.com/Lpx/Maps.lpx,D:\loon插件维护\backup_all\rules\remote\02_Maps.lpx,5658,失败 HTTP 403
+05_ICBC,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ICBC/ICBC.list,D:\loon插件维护\backup_all\rules\remote\05_ICBC.list,1701,成功
+06_BOCOM,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BOCOM/BOCOM.list,D:\loon插件维护\backup_all\rules\remote\06_BOCOM.list,324,成功
+04_CMB,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CMB/CMB.list,D:\loon插件维护\backup_all\rules\remote\04_CMB.list,1167,成功
+03_NetEaseMusic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NetEaseMusic/NetEaseMusic.list,D:\loon插件维护\backup_all\rules\remote\03_NetEaseMusic.list,1238,成功
+01_OneDrive,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OneDrive/OneDrive.list,D:\loon插件维护\backup_all\rules\remote\01_OneDrive.list,666,成功
+07_BOC,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BOC/BOC.list,D:\loon插件维护\backup_all\rules\remote\07_BOC.list,766,成功
+09_PSBC,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PSBC/PSBC.list,D:\loon插件维护\backup_all\rules\remote\09_PSBC.list,228,成功
+08_ABC,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ABC/ABC.list,D:\loon插件维护\backup_all\rules\remote\08_ABC.list,311,成功
+10_CCB,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CCB/CCB.list,D:\loon插件维护\backup_all\rules\remote\10_CCB.list,638,成功
+12_XiaoHongShu,https://rule.kelee.one/Loon/XiaoHongShu.lsr,D:\loon插件维护\backup_all\rules\remote\12_XiaoHongShu.lsr,272,成功
+11_Apple-US,https://raw.githubusercontent.com/xpdigital/Apple-Rule/refs/heads/main/Apple-US.list,D:\loon插件维护\backup_all\rules\remote\11_Apple-US.list,14,失败 HTTP 404
+13_DouYin,https://rule.kelee.one/Loon/DouYin.lsr,D:\loon插件维护\backup_all\rules\remote\13_DouYin.lsr,533,成功
+14_BiliBili,https://rule.kelee.one/Loon/BiliBili.lsr,D:\loon插件维护\backup_all\rules\remote\14_BiliBili.lsr,4523,成功
+15_PayPal,https://rule.kelee.one/Loon/PayPal.lsr,D:\loon插件维护\backup_all\rules\remote\15_PayPal.lsr,7859,成功
+16_AppleIntelligence,https://raw.githubusercontent.com/ddgksf2013/Filter/refs/heads/master/AppleIntelligence.list,D:\loon插件维护\backup_all\rules\remote\16_AppleIntelligence.list,466,成功
+17_Apple_Global,https://loonhub.wuyra.com/Lsr/Apple_Global.lsr,D:\loon插件维护\backup_all\rules\remote\17_Apple_Global.lsr,5658,失败 HTTP 403
+18_Apple,https://loonhub.wuyra.com/Lsr/Apple.lsr,D:\loon插件维护\backup_all\rules\remote\18_Apple.lsr,1468,成功
+19_1PasswordUS,https://loonhub.wuyra.com/Lsr/1PasswordUS.lsr,D:\loon插件维护\backup_all\rules\remote\19_1PasswordUS.lsr,5658,失败 HTTP 403
+20_HongKong,https://loonhub.wuyra.com/Lsr/HongKong.lsr,D:\loon插件维护\backup_all\rules\remote\20_HongKong.lsr,5658,失败 HTTP 403
+21_UnionPay,https://loonhub.wuyra.com/Lsr/UnionPay.lsr,D:\loon插件维护\backup_all\rules\remote\21_UnionPay.lsr,616,成功
+23_LAN_SPLITTER,https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr,D:\loon插件维护\backup_all\rules\remote\23_LAN_SPLITTER.lsr,5658,失败 HTTP 403
+24_SpeedtestChina,https://kelee.one/Tool/Loon/Lsr/SpeedtestChina.lsr,D:\loon插件维护\backup_all\rules\remote\24_SpeedtestChina.lsr,5658,失败 HTTP 403
+25_ChinaDNS,https://rule.kelee.one/Loon/ChinaDNS.lsr,D:\loon插件维护\backup_all\rules\remote\25_ChinaDNS.lsr,279,成功
+26_GitHub,https://rule.kelee.one/Loon/GitHub.lsr,D:\loon插件维护\backup_all\rules\remote\26_GitHub.lsr,1117,成功
+27_Pixiv,https://rule.kelee.one/Loon/Pixiv.lsr,D:\loon插件维护\backup_all\rules\remote\27_Pixiv.lsr,346,成功
+28_Whatsapp,https://rule.kelee.one/Loon/Whatsapp.lsr,D:\loon插件维护\backup_all\rules\remote\28_Whatsapp.lsr,752,成功
+29_Threads,https://rule.kelee.one/Loon/Threads.lsr,D:\loon插件维护\backup_all\rules\remote\29_Threads.lsr,182,成功
+30_Facebook,https://rule.kelee.one/Loon/Facebook.lsr,D:\loon插件维护\backup_all\rules\remote\30_Facebook.lsr,17399,成功
+31_Twitter,https://rule.kelee.one/Loon/Twitter.lsr,D:\loon插件维护\backup_all\rules\remote\31_Twitter.lsr,1116,成功
+32_Instagram,https://rule.kelee.one/Loon/Instagram.lsr,D:\loon插件维护\backup_all\rules\remote\32_Instagram.lsr,287,成功
+33_YouTube,https://rule.kelee.one/Loon/YouTube.lsr,D:\loon插件维护\backup_all\rules\remote\33_YouTube.lsr,5451,成功
+34_YouTubeMusic,https://rule.kelee.one/Loon/YouTubeMusic.lsr,D:\loon插件维护\backup_all\rules\remote\34_YouTubeMusic.lsr,327,成功
+35_Line,https://rule.kelee.one/Loon/Line.lsr,D:\loon插件维护\backup_all\rules\remote\35_Line.lsr,938,成功
+36_Google,https://rule.kelee.one/Loon/Google.lsr,D:\loon插件维护\backup_all\rules\remote\36_Google.lsr,19792,成功
+37_Netflix,https://rule.kelee.one/Loon/Netflix.lsr,D:\loon插件维护\backup_all\rules\remote\37_Netflix.lsr,40369,成功
+38_OpenAI,https://rule.kelee.one/Loon/OpenAI.lsr,D:\loon插件维护\backup_all\rules\remote\38_OpenAI.lsr,1353,成功
+39_AI,https://kelee.one/Tool/Loon/Lsr/AI.lsr,D:\loon插件维护\backup_all\rules\remote\39_AI.lsr,5658,失败 HTTP 403
+40_SpeedtestInternational,https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr,D:\loon插件维护\backup_all\rules\remote\40_SpeedtestInternational.lsr,5658,失败 HTTP 403
+41_Gemini,https://rule.kelee.one/Loon/Gemini.lsr,D:\loon插件维护\backup_all\rules\remote\41_Gemini.lsr,605,成功
+42_TikTok,https://kelee.one/Tool/Loon/Lsr/TikTok.lsr,D:\loon插件维护\backup_all\rules\remote\42_TikTok.lsr,1186,成功
+43_Telegram,https://rule.kelee.one/Loon/Telegram.lsr,D:\loon插件维护\backup_all\rules\remote\43_Telegram.lsr,1355,成功
+44_OneDrive,https://rule.kelee.one/Loon/OneDrive.lsr,D:\loon插件维护\backup_all\rules\remote\44_OneDrive.lsr,666,成功
+45_Apns,https://raw.githubusercontent.com/ttyyss2233/Tool/main/shadowrocket/mokuai/Apns.module,D:\loon插件维护\backup_all\rules\remote\45_Apns.module,685,成功
+46_LAN_SPLITTER,https://loonhub.wuyra.com/Lsr/LAN_SPLITTER,D:\loon插件维护\backup_all\rules\remote\46_LAN_SPLITTER.list,5658,失败 HTTP 403
+47_REGION_SPLITTER,https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr,D:\loon插件维护\backup_all\rules\remote\47_REGION_SPLITTER.lsr,5658,失败 HTTP 403
+48_Mainland,https://loonhub.wuyra.com/Lsr/Mainland.lsr,D:\loon插件维护\backup_all\rules\remote\48_Mainland.lsr,5658,失败 HTTP 403
+22_adblockloon,https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockloon.list,D:\loon插件维护\backup_all\rules\remote\22_adblockloon.list,8456258,成功
