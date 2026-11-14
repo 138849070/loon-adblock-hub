@@ -93,4 +93,55 @@ plugins:
         backup:
           - https://rucu6.pages.dev/Plugins/youtube_gholts.lpx
 
+  - name: 比狸比狸过滤
+    slug: bilibili-cleaner
+    category: misc
+    author: Cyberangel、Codex[https://github.com/ElyDemiurge]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/ElyDemiurge/Loon-Plugins/main/bilibili/bilibili_cleaner.lpx
+      backup:
+      - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/bilibili-cleaner/plugin.lpx
+  - name: 节点 IP 质量检测 · 混合模式
+    slug: ipquality-web-test
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/loon/ipquality-web-test/ipquality-web-test.lpx
+      backup:
+      - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ipquality-web-test/plugin.lpx
+  - name: 节点质量查询
+    slug: node-quality-query
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Roddy-D/Loon_plugins/refs/heads/main/plugin/iptest.lpx
+      backup:
+      - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/node-quality-query/plugin.lpx
+  - name: 节点TCPing连通性测试
+    slug: node-tcping
+    category: misc
+    author: Roddy-D[https://github.com/Roddy-D]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/Roddy-D/Loon_plugins/refs/heads/main/plugin/nodetcpcheck.lpx
+      backup:
+      - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/node-tcping/plugin.lpx
+  - name: Loon 订阅解析器
+    slug: loon-parser
+    category: misc
+    author: Peng-YM
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/sub-store-org/Sub-Store/refs/heads/master/config/Loon-parser.plugin
+      backup:
+      - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-parser/plugin.lpx
+
 scripts: []
