@@ -984,4 +984,55 @@ plugins:
       backup:
       - https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx
 
+  - name: 代理链路检测
+    slug: plugin-011-4
+    category: misc
+    author: I-am-R-E[https://github.com/I-am-R-E]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-4/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/NodeLinkCheck.lpx
+  - name: 什么值得买去广告
+    slug: plugin-012-3
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-012-3/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx
+  - name: Google搜索重定向
+    slug: google
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/google/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/Google.lpx
+  - name: 1blocker
+    slug: 1blocker
+    category: misc
+    author: '89996462'
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/1blocker/plugin.lpx
+      backup:
+      - https://raw.githubusercontent.com/deezertidal/private/master/plugallery/1blocker.plugin
+  - name: 起点读书去广告
+    slug: plugin-015-3
+    category: misc
+    author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-015-3/plugin.lpx
+      backup:
+      - https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx
+
 scripts: []
