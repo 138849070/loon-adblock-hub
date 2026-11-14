@@ -1537,4 +1537,55 @@ plugins:
       backup:
       - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/MJGS.js/_end_/MJGS.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 
+  - name: ydm
+    slug: ydm
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js/_end_/ydm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: jtsp
+    slug: jtsp
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/jtsp/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/jtsp.js/_end_/jtsp.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: Mr先生 + xvideos社区 + 泡芙短视频 + tiktok免费版
+    slug: mr-xvideos-tiktok
+    category: misc
+    author: 小白
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/mr-xvideos-tiktok/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mr.js/_end_/mr.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: byhz
+    slug: byhz
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/byhz/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/byhz.js/_end_/byhz.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+  - name: 65看
+    slug: '65'
+    category: misc
+    author: ''
+    enabled: true
+    files:
+    - name: plugin.lpx
+      origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/65/plugin.lpx
+      backup:
+      - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/65kan.js/_end_/65kan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
+
 scripts: []

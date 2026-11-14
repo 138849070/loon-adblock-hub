@@ -1,0 +1,34 @@
+#!name=ydm
+#!desc=ydm
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1068.png
+
+[Rewrite]
+# cloudfront广告 
+^https?:\/\/(?:[a-z0-9-]+\.)?cloudfront\.net\/api\/(?:sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) - reject
+# 三年二班广告
+^https?:\/\/snerbnew\.pxyzjmspfl\.work\/api\/(?:sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) - reject
+^https?:\/\/aw0702\.x5t5d5a4c\.work\/api\/(?:sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) - reject
+
+[Script]
+# 视频
+http-request https:\/\/[^\/]+\.cloudfront\.net\/api\/m3u8\/decode\/authPath script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm2.js, timeout=60, tag=ydm2
+
+# 会员
+http-response ^https:\/\/(?:[a-zA-Z0-9-]+\.cloudfront\.net|snerbnew\.pxyzjmspfl\.work)(?::\d+)?\/api\/(?:video\/getVideoById|user\/base\/info|community\/dynamic\/dynamicInfo) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js, requires-body=true, timeout=60, tag=ydm
+
+# 三年二班 
+http-request ^https:\/\/snerbnew\.pxyzjmspfl\.work(?::\d+)?\/api\/m3u8\/decode\/authPath script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm2.js, timeout=60, tag=ydm2
+
+# gy2025
+http-request ^https:\/\/gy2025\.rnuozrryfq\.work(?::\d+)?\/api\/m3u8\/decode\/authPath script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm2.js, timeout=60, tag=ydm2
+
+# gy2025
+http-response ^https:\/\/gy2025\.rnuozrryfq\.work(?::\d+)?\/api\/(?:video\/getVideoById|user\/base\/info|community\/dynamic\/dynamicInfo) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js, requires-body=true, timeout=60, tag=ydm
+
+http-response ^https:\/\/aw0702\.x5t5d5a4c\.work(?::\d+)?\/api\/(?:video\/getVideoById|user\/base\/info|community\/dynamic\/dynamicInfo) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js, requires-body=true, timeout=60, tag=ydm
+
+http-request ^https:\/\/aw0702\.x5t5d5a4c\.work(?::\d+)?\/api\/m3u8\/decode\/authPath script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm2.js, timeout=60, tag=ydm2
+
+[MITM]
+hostname = *.cloudfront.net, snerbnew.pxyzjmspfl.work, snerbnew.pxyzjmspfl.work:51999, *.rnuozrryfq.work, aw0702.x5t5d5a4c.work
+
