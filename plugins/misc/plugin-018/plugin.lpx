@@ -2,7 +2,7 @@
 #!desc= 节点检测、地理位置、节点解锁、节点网速等查询。详细见脚本
 #!author= 6otho整合[https://github.com/6otho],xream脚本作者[https://github.com/xream]
 #!homepage = https://t.me/PaKo_Ov_Chan
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/HTTPDNS.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/block-httpdns/deps/HTTPDNS.png
 #############################################
 [Rule]
 DOMAIN-SUFFIX,speedtest.cn,DIRECT
@@ -11,20 +11,20 @@ DOMAIN-SUFFIX,ip.plus,DIRECT
 
 [Script]
 # 请求
-# http-request ^https?:\/\/net-lsp-x\.com script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js, timeout=120, tag=网络信息请求 𝕏
+# http-request ^https?:\/\/net-lsp-x\.com script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-009/deps/net-lsp-x.js, timeout=120, tag=网络信息请求 𝕏
 
 # 网络变化事件
-# network-changed script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js, timeout=120, tag=网络信息变化 𝕏, argument="TYPE=EVENT&icon=globe.asia.australia&icon-color=#6699FF&LAN=0&SSID=0&IPv6=0&MASK=0&DOMESTIC_IPv4=spcn&DOMESTIC_IPv6=ddnspod&LANDING_IPv4=ipapi&LANDING_IPv6=ipsb&PRIVACY=0&FLAG=1&ENTRANCE_DELAY=0&EVENT_DELAY=3"
+# network-changed script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-009/deps/net-lsp-x.js, timeout=120, tag=网络信息变化 𝕏, argument="TYPE=EVENT&icon=globe.asia.australia&icon-color=#6699FF&LAN=0&SSID=0&IPv6=0&MASK=0&DOMESTIC_IPv4=spcn&DOMESTIC_IPv6=ddnspod&LANDING_IPv4=ipapi&LANDING_IPv6=ipsb&PRIVACY=0&FLAG=1&ENTRANCE_DELAY=0&EVENT_DELAY=3"
 
 # 交互查询
-generic script-path=https://raw.githubusercontent.com/Roddy-D/Loon_plugins/refs/heads/main/script/iptest.js, timeout=15, tag=節點質量查詢, img-url=https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/pokeball.png
-generic script-path=https://raw.githubusercontent.com/deezertidal/private/main/ip-api.js, timeout=10, tag=節點地址查詢, img-url=https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute1/1249982.png
-generic script-path=https://raw.githubusercontent.com/6otho/Loon_tool/refs/heads/main/Js/net_speedtest.js, timeout=10, tag=網絡速度查詢, img-url=https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute1/1643998.png
-generic script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js, timeout=120, tag=節點入口查詢, img-url=https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/in.png
-generic script-path=https://raw.githubusercontent.com/6otho/Loon_tool/refs/heads/main/Js/test_gpt.js, timeout=10, tag=GPT解鎖查詢, img-url=https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/android.png
-generic script-path=https://raw.githubusercontent.com/dcpengx/Loon/refs/heads/main/JavaScript/Streamingcheck.js, timeout=20, tag=流媒體解鎖查詢, img-url=https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/youtube.png
-generic script-path=https://raw.githubusercontent.com/huskydsb/Loon/main/Script/Scamalytic.js, timeout=10, tag=IP欺诈评分查詢, img-url=https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute1/1814339.png
-generic script-path=https://raw.githubusercontent.com/MCdasheng/Loon/main/Streaming/Spotify.js, timeout=10, tag=Spotify解鎖查詢, img-url=https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/spotify.png
+generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/node-quality-query/deps/iptest.js, timeout=15, tag=節點質量查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/pokeball.png
+generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/ip-api.js, timeout=10, tag=節點地址查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/1249982.png
+generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/net_speedtest.js, timeout=10, tag=網絡速度查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/1643998.png
+generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-009/deps/net-lsp-x.js, timeout=120, tag=節點入口查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/in.png
+generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/test_gpt.js, timeout=10, tag=GPT解鎖查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/android.png
+generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/Streamingcheck.js, timeout=20, tag=流媒體解鎖查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/youtube.png
+generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/Scamalytic.js, timeout=10, tag=IP欺诈评分查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/1814339.png
+generic script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/Spotify.js, timeout=10, tag=Spotify解鎖查詢, img-url=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-018/deps/spotify.png
 
 [MITM]
 hostname = net-lsp-x.com
