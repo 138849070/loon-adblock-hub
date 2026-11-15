@@ -4,7 +4,7 @@
 
 **把常用 Loon 插件、脚本与规则收在一处，干净、清楚、能长期维护。**
 
-[![插件](https://img.shields.io/badge/插件-209-6C5CE7?style=for-the-badge)](CATALOG.md) [![脚本](https://img.shields.io/badge/脚本-24-00B894?style=for-the-badge)](CATALOG.md#脚本) [![启用](https://img.shields.io/badge/启用-184-FDCB6E?style=for-the-badge)](CATALOG.md) [![上游跟随](https://img.shields.io/badge/上游跟随-208-0984E3?style=for-the-badge)](#维护策略)
+[![插件](https://img.shields.io/badge/插件-209-6C5CE7?style=for-the-badge)](CATALOG.md) [![脚本](https://img.shields.io/badge/脚本-24-00B894?style=for-the-badge)](CATALOG.md#脚本) [![启用](https://img.shields.io/badge/启用-184-FDCB6E?style=for-the-badge)](CATALOG.md) [![有上游](https://img.shields.io/badge/有上游-208-0984E3?style=for-the-badge)](#维护策略)
 
 </div>
 
