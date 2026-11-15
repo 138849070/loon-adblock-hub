@@ -6,11 +6,11 @@
 
  [Script]
  # 会员
- http-response https://((d2ht17eu5c0ykz|d1sn57bew5rukg).cloudfront.net|madddh5.yqsbdx.com)/api/app/user/info script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-013-3/deps/mdsp.js, requires-body=true, timeout=60, tag=会员
+ http-response https://((d2ht17eu5c0ykz|d1sn57bew5rukg).cloudfront.net|madddh5.yqsbdx.com)/api/app/user/info script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/04-mdsp/deps/mdsp.js, requires-body=true, timeout=60, tag=会员
  # 视频
- http-response https://((d2ht17eu5c0ykz|d1sn57bew5rukg).cloudfront.net|madddh5.yqsbdx.com)/api/app/media/play script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-013-3/deps/mdsp.js, requires-body=true, timeout=60, tag=视频
+ http-response https://((d2ht17eu5c0ykz|d1sn57bew5rukg).cloudfront.net|madddh5.yqsbdx.com)/api/app/media/play script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/04-mdsp/deps/mdsp.js, requires-body=true, timeout=60, tag=视频
  # 广告
- http-response https://((d2ht17eu5c0ykz|d1sn57bew5rukg).cloudfront.net|madddh5.yqsbdx.com)/(api/app/ping/config|api/app/media/v5/home) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-013-3/deps/mdsp.js, requires-body=true, timeout=60, tag=广告
+ http-response https://((d2ht17eu5c0ykz|d1sn57bew5rukg).cloudfront.net|madddh5.yqsbdx.com)/(api/app/ping/config|api/app/media/v5/home) script-path=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/scripts/checkin/04-mdsp/deps/mdsp.js, requires-body=true, timeout=60, tag=广告
 
 
  [MITM]

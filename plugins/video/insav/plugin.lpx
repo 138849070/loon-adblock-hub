@@ -2,7 +2,7 @@
 #!desc=VIP 解锁 + 去广告 + getVideoUrl Token 替换 + 第三方播放器跳转
 #!author=@Jsforbaby
 #!homepage=https://github.com/Yu9191/Rewrite
-#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/insav-2/deps/insav.png
+#!icon=https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/insav/deps/insav.png
 
 [Argument]
 player = select, "lenna", "SenPlayer", "SenPlayer-dl", "Infuse", "Fileball", "VidHub", "IINA", "NPlayer", "Alook", "VLC", "KMPlayer", "Safari", tag=播放器代号, desc=选择跳转的播放器 (默认 lenna)
