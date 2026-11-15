@@ -4,7 +4,7 @@
 
 **链接可用，不等于上游可用；能导入，也不等于能永远跟随。**
 
-![插件](https://img.shields.io/badge/插件-209-6C5CE7?style=flat-square) ![上游异常](https://img.shields.io/badge/上游异常-134-E17055?style=flat-square) ![脚本失败](https://img.shields.io/badge/脚本失败-3-D63031?style=flat-square) ![规则失败](https://img.shields.io/badge/规则失败-12-D63031?style=flat-square)
+![插件](https://img.shields.io/badge/插件-209-6C5CE7?style=flat-square) ![上游异常或待确认](https://img.shields.io/badge/上游异常或待确认-134-E17055?style=flat-square) ![脚本失败](https://img.shields.io/badge/脚本失败-3-D63031?style=flat-square) ![规则失败](https://img.shields.io/badge/规则失败-12-D63031?style=flat-square)
 
 </div>
 
@@ -16,7 +16,7 @@
 | 有上游 origin | 208 | ✅ 已配置 |
 | 本地无上游 | 1 | ⚪ 静态 |
 | 上游当前正常 | 74 | ✅ |
-| 上游当前异常（已回退仓库备份） | 134 | ⚠️ |
+| 上游异常或待确认（均有仓库备份） | 134 | ⚠️ |
 | 脚本 | 24 个已收录，另有 3 个未成功 | ⚠️ |
 | 规则 | 36 个静态成功，12 个失败 | ⚠️ |
 
