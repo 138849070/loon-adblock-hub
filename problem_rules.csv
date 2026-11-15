@@ -1,0 +1,49 @@
+﻿规则名,URL,备份文件,备份状态,大小,可跟随上游,问题类型
+02_Maps,https://loonhub.wuyra.com/Lpx/Maps.lpx,D:\loon插件维护\backup_all\rules\remote\02_Maps.lpx,失败 HTTP 403,5658,否,备份失败
+05_ICBC,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ICBC/ICBC.list,D:\loon插件维护\backup_all\rules\remote\05_ICBC.list,成功,1701,否,静态备份，无自动上游更新
+06_BOCOM,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BOCOM/BOCOM.list,D:\loon插件维护\backup_all\rules\remote\06_BOCOM.list,成功,324,否,静态备份，无自动上游更新
+04_CMB,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CMB/CMB.list,D:\loon插件维护\backup_all\rules\remote\04_CMB.list,成功,1167,否,静态备份，无自动上游更新
+03_NetEaseMusic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NetEaseMusic/NetEaseMusic.list,D:\loon插件维护\backup_all\rules\remote\03_NetEaseMusic.list,成功,1238,否,静态备份，无自动上游更新
+01_OneDrive,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OneDrive/OneDrive.list,D:\loon插件维护\backup_all\rules\remote\01_OneDrive.list,成功,666,否,静态备份，无自动上游更新
+07_BOC,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BOC/BOC.list,D:\loon插件维护\backup_all\rules\remote\07_BOC.list,成功,766,否,静态备份，无自动上游更新
+09_PSBC,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PSBC/PSBC.list,D:\loon插件维护\backup_all\rules\remote\09_PSBC.list,成功,228,否,静态备份，无自动上游更新
+08_ABC,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ABC/ABC.list,D:\loon插件维护\backup_all\rules\remote\08_ABC.list,成功,311,否,静态备份，无自动上游更新
+10_CCB,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CCB/CCB.list,D:\loon插件维护\backup_all\rules\remote\10_CCB.list,成功,638,否,静态备份，无自动上游更新
+12_XiaoHongShu,https://rule.kelee.one/Loon/XiaoHongShu.lsr,D:\loon插件维护\backup_all\rules\remote\12_XiaoHongShu.lsr,成功,272,否,静态备份，无自动上游更新
+11_Apple-US,https://raw.githubusercontent.com/xpdigital/Apple-Rule/refs/heads/main/Apple-US.list,D:\loon插件维护\backup_all\rules\remote\11_Apple-US.list,失败 HTTP 404,14,否,备份失败
+13_DouYin,https://rule.kelee.one/Loon/DouYin.lsr,D:\loon插件维护\backup_all\rules\remote\13_DouYin.lsr,成功,533,否,静态备份，无自动上游更新
+14_BiliBili,https://rule.kelee.one/Loon/BiliBili.lsr,D:\loon插件维护\backup_all\rules\remote\14_BiliBili.lsr,成功,4523,否,静态备份，无自动上游更新
+15_PayPal,https://rule.kelee.one/Loon/PayPal.lsr,D:\loon插件维护\backup_all\rules\remote\15_PayPal.lsr,成功,7859,否,静态备份，无自动上游更新
+16_AppleIntelligence,https://raw.githubusercontent.com/ddgksf2013/Filter/refs/heads/master/AppleIntelligence.list,D:\loon插件维护\backup_all\rules\remote\16_AppleIntelligence.list,成功,466,否,静态备份，无自动上游更新
+17_Apple_Global,https://loonhub.wuyra.com/Lsr/Apple_Global.lsr,D:\loon插件维护\backup_all\rules\remote\17_Apple_Global.lsr,失败 HTTP 403,5658,否,备份失败
+18_Apple,https://loonhub.wuyra.com/Lsr/Apple.lsr,D:\loon插件维护\backup_all\rules\remote\18_Apple.lsr,成功,1468,否,静态备份，无自动上游更新
+19_1PasswordUS,https://loonhub.wuyra.com/Lsr/1PasswordUS.lsr,D:\loon插件维护\backup_all\rules\remote\19_1PasswordUS.lsr,失败 HTTP 403,5658,否,备份失败
+20_HongKong,https://loonhub.wuyra.com/Lsr/HongKong.lsr,D:\loon插件维护\backup_all\rules\remote\20_HongKong.lsr,失败 HTTP 403,5658,否,备份失败
+21_UnionPay,https://loonhub.wuyra.com/Lsr/UnionPay.lsr,D:\loon插件维护\backup_all\rules\remote\21_UnionPay.lsr,成功,616,否,静态备份，无自动上游更新
+23_LAN_SPLITTER,https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr,D:\loon插件维护\backup_all\rules\remote\23_LAN_SPLITTER.lsr,失败 HTTP 403,5658,否,备份失败
+24_SpeedtestChina,https://kelee.one/Tool/Loon/Lsr/SpeedtestChina.lsr,D:\loon插件维护\backup_all\rules\remote\24_SpeedtestChina.lsr,失败 HTTP 403,5658,否,备份失败
+25_ChinaDNS,https://rule.kelee.one/Loon/ChinaDNS.lsr,D:\loon插件维护\backup_all\rules\remote\25_ChinaDNS.lsr,成功,279,否,静态备份，无自动上游更新
+26_GitHub,https://rule.kelee.one/Loon/GitHub.lsr,D:\loon插件维护\backup_all\rules\remote\26_GitHub.lsr,成功,1117,否,静态备份，无自动上游更新
+27_Pixiv,https://rule.kelee.one/Loon/Pixiv.lsr,D:\loon插件维护\backup_all\rules\remote\27_Pixiv.lsr,成功,346,否,静态备份，无自动上游更新
+28_Whatsapp,https://rule.kelee.one/Loon/Whatsapp.lsr,D:\loon插件维护\backup_all\rules\remote\28_Whatsapp.lsr,成功,752,否,静态备份，无自动上游更新
+29_Threads,https://rule.kelee.one/Loon/Threads.lsr,D:\loon插件维护\backup_all\rules\remote\29_Threads.lsr,成功,182,否,静态备份，无自动上游更新
+30_Facebook,https://rule.kelee.one/Loon/Facebook.lsr,D:\loon插件维护\backup_all\rules\remote\30_Facebook.lsr,成功,17399,否,静态备份，无自动上游更新
+31_Twitter,https://rule.kelee.one/Loon/Twitter.lsr,D:\loon插件维护\backup_all\rules\remote\31_Twitter.lsr,成功,1116,否,静态备份，无自动上游更新
+32_Instagram,https://rule.kelee.one/Loon/Instagram.lsr,D:\loon插件维护\backup_all\rules\remote\32_Instagram.lsr,成功,287,否,静态备份，无自动上游更新
+33_YouTube,https://rule.kelee.one/Loon/YouTube.lsr,D:\loon插件维护\backup_all\rules\remote\33_YouTube.lsr,成功,5451,否,静态备份，无自动上游更新
+34_YouTubeMusic,https://rule.kelee.one/Loon/YouTubeMusic.lsr,D:\loon插件维护\backup_all\rules\remote\34_YouTubeMusic.lsr,成功,327,否,静态备份，无自动上游更新
+35_Line,https://rule.kelee.one/Loon/Line.lsr,D:\loon插件维护\backup_all\rules\remote\35_Line.lsr,成功,938,否,静态备份，无自动上游更新
+36_Google,https://rule.kelee.one/Loon/Google.lsr,D:\loon插件维护\backup_all\rules\remote\36_Google.lsr,成功,19792,否,静态备份，无自动上游更新
+37_Netflix,https://rule.kelee.one/Loon/Netflix.lsr,D:\loon插件维护\backup_all\rules\remote\37_Netflix.lsr,成功,40369,否,静态备份，无自动上游更新
+38_OpenAI,https://rule.kelee.one/Loon/OpenAI.lsr,D:\loon插件维护\backup_all\rules\remote\38_OpenAI.lsr,成功,1353,否,静态备份，无自动上游更新
+39_AI,https://kelee.one/Tool/Loon/Lsr/AI.lsr,D:\loon插件维护\backup_all\rules\remote\39_AI.lsr,失败 HTTP 403,5658,否,备份失败
+40_SpeedtestInternational,https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr,D:\loon插件维护\backup_all\rules\remote\40_SpeedtestInternational.lsr,失败 HTTP 403,5658,否,备份失败
+41_Gemini,https://rule.kelee.one/Loon/Gemini.lsr,D:\loon插件维护\backup_all\rules\remote\41_Gemini.lsr,成功,605,否,静态备份，无自动上游更新
+42_TikTok,https://kelee.one/Tool/Loon/Lsr/TikTok.lsr,D:\loon插件维护\backup_all\rules\remote\42_TikTok.lsr,成功,1186,否,静态备份，无自动上游更新
+43_Telegram,https://rule.kelee.one/Loon/Telegram.lsr,D:\loon插件维护\backup_all\rules\remote\43_Telegram.lsr,成功,1355,否,静态备份，无自动上游更新
+44_OneDrive,https://rule.kelee.one/Loon/OneDrive.lsr,D:\loon插件维护\backup_all\rules\remote\44_OneDrive.lsr,成功,666,否,静态备份，无自动上游更新
+45_Apns,https://raw.githubusercontent.com/ttyyss2233/Tool/main/shadowrocket/mokuai/Apns.module,D:\loon插件维护\backup_all\rules\remote\45_Apns.module,成功,685,否,静态备份，无自动上游更新
+46_LAN_SPLITTER,https://loonhub.wuyra.com/Lsr/LAN_SPLITTER,D:\loon插件维护\backup_all\rules\remote\46_LAN_SPLITTER.list,失败 HTTP 403,5658,否,备份失败
+47_REGION_SPLITTER,https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr,D:\loon插件维护\backup_all\rules\remote\47_REGION_SPLITTER.lsr,失败 HTTP 403,5658,否,备份失败
+48_Mainland,https://loonhub.wuyra.com/Lsr/Mainland.lsr,D:\loon插件维护\backup_all\rules\remote\48_Mainland.lsr,失败 HTTP 403,5658,否,备份失败
+22_adblockloon,https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockloon.list,D:\loon插件维护\backup_all\rules\remote\22_adblockloon.list,成功,8456258,否,静态备份，无自动上游更新

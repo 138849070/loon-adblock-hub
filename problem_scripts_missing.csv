@@ -1,0 +1,4 @@
+﻿类型,名称,URL,备份文件,大小,状态
+本地脚本,天气.js,,D:\loon插件维护\backup_all\scripts\local\天气.js,0,成功
+远程脚本,06_PingMe,https://axhani.pages.dev/refs/heads/main/Loon/Plugin/PingMe.plugin,D:\loon插件维护\backup_all\scripts\remote\06_PingMe.plugin,0,"失败 HTTP SSLError(MaxRetryError(""HTTPSConnectionPool(host='axhani.pag"
+远程脚本,20_iios_checkin,https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/iios_checkin.js,D:\loon插件维护\backup_all\scripts\remote\20_iios_checkin.js,14,失败 HTTP 404

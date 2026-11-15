@@ -10,8 +10,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/65/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/65kan.js/_end_/65kan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/65/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/65kan.js/_end_/65kan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 7semao
   slug: 7semao
@@ -20,8 +21,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/7semao/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/7semao.js/_end_/7semao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/7semao/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/7semao.js/_end_/7semao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 91Porn 短视频
   slug: 91porn
@@ -30,8 +32,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/91porn/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/91porna.js/_end_/91porna.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/91porn/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/91porna.js/_end_/91porna.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 'BiliBili: ADBlock'
   slug: bilibili-adblock
@@ -90,8 +93,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/byhz/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/byhz.js/_end_/byhz.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/byhz/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/byhz.js/_end_/byhz.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 'DualSubs: YouTube'
   slug: dualsubs-youtube
@@ -110,8 +114,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/haijiao/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiao.js/_end_/haijiao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/haijiao/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiao.js/_end_/haijiao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: hongxingshipin
   slug: hongxingshipin
@@ -120,8 +125,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/hongxingshipin/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/hongxingshipin.js/_end_/hongxingshipin.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/hongxingshipin/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/hongxingshipin.js/_end_/hongxingshipin.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: insav
   slug: insav-2
@@ -150,8 +156,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/jmshe/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/jmshe.js/_end_/jmshe.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/jmshe/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/jmshe.js/_end_/jmshe.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: jtsp
   slug: jtsp
@@ -160,8 +167,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/jtsp/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/jtsp.js/_end_/jtsp.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/jtsp/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/jtsp.js/_end_/jtsp.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: luolidao
   slug: luolidao
@@ -170,8 +178,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/luolidao/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/luolidao.js/_end_/luolidao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/luolidao/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/luolidao.js/_end_/luolidao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: luping
   slug: luping
@@ -180,8 +189,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/luping/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/luping.js/_end_/luping.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/luping/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/luping.js/_end_/luping.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: MJGS
   slug: mjgs
@@ -190,8 +200,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mjgs/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/MJGS.js/_end_/MJGS.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mjgs/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/MJGS.js/_end_/MJGS.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: mmav
   slug: mmav
@@ -200,8 +211,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mmav/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mmav.js/_end_/mmav.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mmav/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mmav.js/_end_/mmav.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: Mr先生 + xvideos社区 + 泡芙短视频 + tiktok免费版
   slug: mr-xvideos-tiktok
@@ -210,8 +222,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mr-xvideos-tiktok/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mr.js/_end_/mr.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mr-xvideos-tiktok/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mr.js/_end_/mr.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: mxshm
   slug: mxshm
@@ -220,8 +233,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mxshm/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mxshm.js/_end_/mxshm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/mxshm/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mxshm.js/_end_/mxshm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: one2jj
   slug: one2jj
@@ -230,8 +244,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/one2jj/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/one2jj.js/_end_/one2jj.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/one2jj/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/one2jj.js/_end_/one2jj.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: porntube VIP 解锁
   slug: porntube-vip
@@ -260,8 +275,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/uua/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js/_end_/uua.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/uua/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js/_end_/uua.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: xiaohuli
   slug: xiaohuli
@@ -270,8 +286,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/xiaohuli/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xiaohuli.js/_end_/xiaohuli.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/xiaohuli/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xiaohuli.js/_end_/xiaohuli.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: xv
   slug: xv
@@ -280,8 +297,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/xv/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xv.js/_end_/xv.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/xv/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xv.js/_end_/xv.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: yangtao
   slug: yangtao
@@ -290,8 +308,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/yangtao/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/yangtao.js/_end_/yangtao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/yangtao/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/yangtao.js/_end_/yangtao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: ydm
   slug: ydm
@@ -300,8 +319,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/ydm/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js/_end_/ydm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/ydm/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js/_end_/ydm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: ydm-淫荡猫
   slug: ydm-3
@@ -320,8 +340,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/yeyan/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/yeyan.js/_end_/yeyan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/yeyan/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/yeyan.js/_end_/yeyan.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: YouTube (Music)
   slug: youtube-music
@@ -330,8 +351,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-music/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/YouTube.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-music/plugin.lpx
     - https://loon.103516.xyz/Plugin/YouTube.lpx
 - name: YouTube 增强 v2
   slug: youtube-enhanced-2
@@ -340,8 +362,9 @@ plugins:
   enabled: false
   files:
   - name: youtube_2.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-enhanced-2/youtube_2.lpx
+    origin: https://rucu6.pages.dev/Plugins/youtube_2.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-enhanced-2/youtube_2.lpx
     - https://rucu6.pages.dev/Plugins/youtube_2.lpx
 - name: YouTube 增强（gholts）
   slug: youtube-gholts
@@ -363,8 +386,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-3/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-3/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx
 - name: YouTube去广告隐藏Shorts版@Aioneas
   slug: youtube-shorts-aioneas
@@ -373,8 +397,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-shorts-aioneas/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/Youtube.snippet/_end_/Youtube.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-shorts-aioneas/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/Youtube.snippet/_end_/Youtube.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: YouTube双语翻译
   slug: youtube-2
@@ -383,8 +408,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/YouTubeSubtitlesTranslation.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/youtube-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/YouTubeSubtitlesTranslation.lpx
 - name: zukong
   slug: zukong
@@ -393,8 +419,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/zukong/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zks.js/_end_/zks.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/zukong/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zks.js/_end_/zks.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 哔哩哔哩
   slug: plugin-054
@@ -403,8 +430,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-054/plugin.lpx
+    origin: https://rucu6.pages.dev/Plugins/bilibili.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-054/plugin.lpx
     - https://rucu6.pages.dev/Plugins/bilibili.lpx
 - name: 哔哩哔哩去广告
   slug: plugin-059
@@ -413,8 +441,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-059/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-059/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx
 - name: 哔哩哔哩增强
   slug: plugin-055
@@ -453,8 +482,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-006-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-006-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx
 - name: 比狸比狸过滤
   slug: bilibili-cleaner
@@ -473,8 +503,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-002-2/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/StreamingMedia.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-002-2/plugin.lpx
     - https://loon.103516.xyz/Plugin/StreamingMedia.lpx
 - name: 瓜子影视净化
   slug: tilingsales-ad-remove-lpx
@@ -502,8 +533,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-013-3/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mdsp.js/_end_/mdsp.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/video/plugin-013-3/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mdsp.js/_end_/mdsp.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 18kmanhua
   slug: 18kmanhua
@@ -512,8 +544,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/18kmanhua/plugin.lpx
+    origin: http://script.hub/file/_start_/https://gist.githubusercontent.com/Yu9191/919552f4d3358c070e5d995137514748/raw/18kmanhua.js/_end_/18kmanhua.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/18kmanhua/plugin.lpx
     - http://script.hub/file/_start_/https://gist.githubusercontent.com/Yu9191/919552f4d3358c070e5d995137514748/raw/18kmanhua.js/_end_/18kmanhua.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 18pcs
   slug: 18pcs
@@ -522,8 +555,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/18pcs/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/18pcs.js/_end_/18pcs.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/18pcs/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/18pcs.js/_end_/18pcs.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: WakeUp课程表去广告
   slug: wakeup-schedule-remove-ads
@@ -544,8 +578,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-010-2/plugin.lpx
+    origin: https://raw.githubusercontent.com/deezertidal/private/master/plugallery/qmxs.plugin
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-010-2/plugin.lpx
     - https://raw.githubusercontent.com/deezertidal/private/master/plugallery/qmxs.plugin
 - name: 七猫小说去广告
   slug: plugin-017-2
@@ -554,8 +589,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-017-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/SevenCat_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-017-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/SevenCat_remove_ads.lpx
 - name: 医考帮去广告
   slug: plugin-012
@@ -564,8 +600,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-012/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/YiKaoBang_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-012/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/YiKaoBang_remove_ads.lpx
 - name: 番茄小说
   slug: plugin-014-2
@@ -584,8 +621,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-009-2/plugin.lpx
+    origin: https://raw.githubusercontent.com/138849070/AD/refs/heads/main/番茄小说/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%E5%8E%BB%E5%B9%BF%E5%91%8A.txt
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-009-2/plugin.lpx
     - https://raw.githubusercontent.com/138849070/AD/refs/heads/main/番茄小说/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%E5%8E%BB%E5%B9%BF%E5%91%8A.txt
 - name: 番茄小说广告屏蔽
   slug: plugin-012-4
@@ -604,8 +642,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-053/plugin.lpx
+    origin: https://rucu6.pages.dev/Plugins/zhihu.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-053/plugin.lpx
     - https://rucu6.pages.dev/Plugins/zhihu.lpx
 - name: 知乎去广告
   slug: plugin-004
@@ -614,8 +653,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-004/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-004/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx
 - name: 腾讯新闻App去广告
   slug: app-2
@@ -644,8 +684,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-015-3/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/reading/plugin-015-3/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx
 - name: 起点读书签到
   slug: plugin-005-3
@@ -664,8 +705,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-024/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-024/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx
 - name: 京东比价
   slug: plugin-019-2
@@ -675,8 +717,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-019-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-019-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx
 - name: 什么值得买去广告
   slug: plugin-012-3
@@ -685,8 +728,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-012-3/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-012-3/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx
 - name: 小红书
   slug: plugin-005-5
@@ -695,8 +739,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-005-5/plugin.lpx
+    origin: https://rucu6.pages.dev/Plugins/xiaohongshu.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-005-5/plugin.lpx
     - https://rucu6.pages.dev/Plugins/xiaohongshu.lpx
 - name: 小红书去广告
   slug: plugin-016-4
@@ -705,8 +750,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-016-4/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-016-4/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx
 - name: 得物
   slug: plugin-016-2
@@ -725,8 +771,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-011-3/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Dewu_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-011-3/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Dewu_remove_ads.lpx
 - name: 拼多多去广告
   slug: plugin-019-3
@@ -735,8 +782,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-019-3/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-019-3/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx
 - name: 淘宝
   slug: plugin-003
@@ -746,8 +794,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-003/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/TaoBao.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-003/plugin.lpx
     - https://loon.103516.xyz/Plugin/TaoBao.lpx
 - name: 淘宝去广告
   slug: plugin-025
@@ -756,8 +805,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-025/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-025/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx
 - name: 闲鱼
   slug: plugin-008
@@ -767,8 +817,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-008/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/Goofish.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-008/plugin.lpx
     - https://loon.103516.xyz/Plugin/Goofish.lpx
 - name: 闲鱼去广告
   slug: plugin-022
@@ -777,8 +828,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-022/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/shopping/plugin-022/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx
 - name: Apple天气增强
   slug: apple
@@ -788,8 +840,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/apple/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/apple/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx
 - name: 'iRingo: Location'
   slug: iringo-location
@@ -798,8 +851,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/iringo-location/plugin.lpx
+    origin: https://loonhub.wuyra.com/Lpx/Location.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/iringo-location/plugin.lpx
     - https://loonhub.wuyra.com/Lpx/Location.lpx
 - name: 'iRingo: LocationService'
   slug: iringo-locationservice
@@ -808,8 +862,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/iringo-locationservice/plugin.lpx
+    origin: https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.plugin
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/iringo-locationservice/plugin.lpx
     - https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.plugin
 - name: 'iRingo: Maps'
   slug: iringo-maps
@@ -818,8 +873,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/iringo-maps/plugin.lpx
+    origin: https://loonhub.wuyra.com/Lpx/Maps.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/iringo-maps/plugin.lpx
     - https://loonhub.wuyra.com/Lpx/Maps.lpx
 - name: 'iRingo: WeatherKit (Rewrite)'
   slug: iringo-weatherkit-rewrite
@@ -838,8 +894,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/plugin-004-7/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/MojiWeather_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/plugin-004-7/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/MojiWeather_remove_ads.lpx
 - name: 高德地图
   slug: plugin-004-4
@@ -848,8 +905,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/plugin-004-4/plugin.lpx
+    origin: https://rucu6.pages.dev/Plugins/amap.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/plugin-004-4/plugin.lpx
     - https://rucu6.pages.dev/Plugins/amap.lpx
 - name: 高德地图去广告
   slug: plugin-027
@@ -858,8 +916,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/plugin-027/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/travel/plugin-027/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx
 - name: iTunes系列解锁
   slug: itunes
@@ -878,8 +937,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/line/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Line_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/line/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Line_remove_ads.lpx
 - name: Outlook 去广告
   slug: outlook
@@ -908,8 +968,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/qq-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/qq-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx
 - name: QQ 音乐去广告
   slug: qq-3
@@ -918,8 +979,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/qq-3/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/qq-3/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx
 - name: Reddit 自动翻译
   slug: reddit
@@ -939,8 +1001,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/soul/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Soul_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/soul/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Soul_remove_ads.lpx
 - name: Swiftgram
   slug: swiftgram
@@ -949,8 +1012,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/swiftgram/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/Swiftgram.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/swiftgram/plugin.lpx
     - https://loon.103516.xyz/Plugin/Swiftgram.lpx
 - name: Telegram 去广告
   slug: telegram
@@ -959,8 +1023,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/telegram/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/Telegram.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/telegram/plugin.lpx
     - https://loon.103516.xyz/Plugin/Telegram.lpx
 - name: WPS 去广告
   slug: wps
@@ -979,8 +1044,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/x-twitter/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/X_Web.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/x-twitter/plugin.lpx
     - https://loon.103516.xyz/Plugin/X_Web.lpx
 - name: X (Twitter) 网页版去广告
   slug: x-twitter-2
@@ -1020,8 +1086,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-017/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/ChinaMobile.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-017/plugin.lpx
     - https://loon.103516.xyz/Plugin/ChinaMobile.lpx
 - name: 中国联通
   slug: plugin-001
@@ -1040,8 +1107,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-012-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/JDWaimai_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-012-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/JDWaimai_remove_ads.lpx
 - name: 小黑盒去广告
   slug: plugin-016
@@ -1050,8 +1118,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-016/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-016/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx
 - name: 微信
   slug: plugin-020
@@ -1062,8 +1131,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-020/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/WeChat.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-020/plugin.lpx
     - https://loon.103516.xyz/Plugin/WeChat.lpx
 - name: 微信公众号去广告
   slug: plugin-029
@@ -1072,8 +1142,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-029/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-029/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx
 - name: 微信外部链接解锁
   slug: plugin-005-8
@@ -1082,8 +1153,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-005-8/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-005-8/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx
 - name: 微博
   slug: plugin-003-3
@@ -1092,8 +1164,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-003-3/plugin.lpx
+    origin: https://rucu6.pages.dev/Plugins/weibo.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-003-3/plugin.lpx
     - https://rucu6.pages.dev/Plugins/weibo.lpx
 - name: 微博去广告
   slug: plugin-014-4
@@ -1102,8 +1175,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-014-4/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-014-4/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx
 - name: 微博去广告&净化
   slug: plugin-038
@@ -1122,8 +1196,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-013-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Weibo_intl_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-013-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Weibo_intl_remove_ads.lpx
 - name: 瑞幸咖啡去广告
   slug: plugin-018-2
@@ -1132,8 +1207,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-018-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-018-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx
 - name: 百度贴吧
   slug: plugin-015
@@ -1152,8 +1228,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-015-4/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-015-4/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx
 - name: 百度输入法去广告
   slug: plugin-030
@@ -1162,8 +1239,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-030/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-030/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx
 - name: 网易大神去广告
   slug: plugin-020-4
@@ -1172,8 +1250,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-020-4/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/NetEaseGodlike_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-020-4/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/NetEaseGodlike_remove_ads.lpx
 - name: 网易邮箱大师去广告
   slug: plugin-002-4
@@ -1182,8 +1261,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-002-4/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/MailMaster_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-002-4/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/MailMaster_remove_ads.lpx
 - name: 美团
   slug: plugin-014-3
@@ -1212,8 +1292,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-008-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/MeiTu_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-008-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/MeiTu_remove_ads.lpx
 - name: 美柚
   slug: plugin-006
@@ -1232,8 +1313,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-007/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/MeetYou_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-007/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/MeetYou_remove_ads.lpx
 - name: 胖乖生活去广告
   slug: plugin-020-3
@@ -1242,8 +1324,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-020-3/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/PangguaiLife_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-020-3/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/PangguaiLife_remove_ads.lpx
 - name: 菜鸟裹裹
   slug: plugin-020-2
@@ -1262,8 +1345,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-003-5/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/HUPU_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-003-5/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/HUPU_remove_ads.lpx
 - name: 酷安
   slug: plugin-011
@@ -1282,8 +1366,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/lv20/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/138849070/AD/main/酷安LV20/KuAn.snippet.txt/_end_/KuAn.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/lv20/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/138849070/AD/main/酷安LV20/KuAn.snippet.txt/_end_/KuAn.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 酷安去广告
   slug: plugin-007-2
@@ -1292,8 +1377,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-007-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-007-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx
 - name: 酷狗音乐去广告
   slug: plugin-001-2
@@ -1302,8 +1388,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-001-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/lifestyle/plugin-001-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx
 - name: 饿了么
   slug: plugin-013
@@ -1322,8 +1409,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/123Pan.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123/plugin.lpx
     - https://loon.103516.xyz/Plugin/123Pan.lpx
 - name: 123云盘去广告
   slug: 123-2
@@ -1332,8 +1420,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/123-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx
 - name: 1blocker
   slug: 1blocker
@@ -1342,8 +1431,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/1blocker/plugin.lpx
+    origin: https://raw.githubusercontent.com/deezertidal/private/master/plugallery/1blocker.plugin
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/1blocker/plugin.lpx
     - https://raw.githubusercontent.com/deezertidal/private/master/plugallery/1blocker.plugin
 - name: aiaiwang
   slug: aiaiwang
@@ -1352,8 +1442,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/aiaiwang/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/aiaiwang.js/_end_/aiaiwang.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/aiaiwang/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/WeiGiegie/666/main/aiaiwang.js/_end_/aiaiwang.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: App / 小程序广告净化
   slug: app-ad
@@ -1372,8 +1463,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/appleos-monitor/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/AppleOSMonitor.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/appleos-monitor/plugin.lpx
     - https://loon.103516.xyz/Plugin/AppleOSMonitor.lpx
 - name: AppStore Monitor
   slug: appstore-monitor
@@ -1382,8 +1474,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/appstore-monitor/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/AppStoreMonitor.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/appstore-monitor/plugin.lpx
     - https://loon.103516.xyz/Plugin/AppStoreMonitor.lpx
 - name: App解锁合集
   slug: app
@@ -1402,8 +1495,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/boxjs/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/boxjs/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx
 - name: CMS Adblocker
   slug: cms-adblocker
@@ -1412,8 +1506,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/cms-adblocker/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/CMS_Adblock.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/cms-adblocker/plugin.lpx
     - https://loon.103516.xyz/Plugin/CMS_Adblock.lpx
 - name: DNS防泄露
   slug: prevent-dns-leaks
@@ -1443,8 +1538,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/GitHub.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github/plugin.lpx
     - https://loon.103516.xyz/Plugin/GitHub.lpx
 - name: GitHub加速
   slug: github-2
@@ -1453,8 +1549,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/github-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx
 - name: GLaDOS 自动签到
   slug: glados
@@ -1473,8 +1570,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/google/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Google.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/google/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Google.lpx
 - name: HTTPDNS拦截器
   slug: block-httpdns
@@ -1494,8 +1592,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ippure/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/IPPure.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ippure/plugin.lpx
     - https://loon.103516.xyz/Plugin/IPPure.lpx
 - name: Loon Gallery
   slug: loon-gallery
@@ -1504,8 +1603,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-gallery/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/LoonGallery.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/loon-gallery/plugin.lpx
     - https://loon.103516.xyz/Plugin/LoonGallery.lpx
 - name: Loon 订阅解析器
   slug: loon-parser
@@ -1524,8 +1624,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/manager-tools/plugin.lpx
+    origin: https://loonhub.wuyra.com/Lpx/Manager-Tools.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/manager-tools/plugin.lpx
     - https://loonhub.wuyra.com/Lpx/Manager-Tools.lpx
 - name: MyBlockAds
   slug: myblockads
@@ -1534,8 +1635,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/myblockads/plugin.lpx
+    origin: https://rucu6.pages.dev/Plugins/myblockads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/myblockads/plugin.lpx
     - https://rucu6.pages.dev/Plugins/myblockads.lpx
 - name: NodeLinkCheck
   slug: nodelinkcheck
@@ -1554,8 +1656,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/one/plugin.lpx
+    origin: https://one-api.zzxu.de/one/one.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/one/plugin.lpx
     - https://one-api.zzxu.de/one/one.lpx
 - name: peicaise
   slug: peicaise
@@ -1564,8 +1667,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/peicaise/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/peicaise.js/_end_/peicaise.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/peicaise/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/peicaise.js/_end_/peicaise.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: PingMe&WeTalk
   slug: pingme-wetalk
@@ -1574,8 +1678,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/pingme-wetalk/plugin.lpx
+    origin: https://axhani.pages.dev/refs/heads/main/Loon/Plugin/PingMe.plugin
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/pingme-wetalk/plugin.lpx
     - https://axhani.pages.dev/refs/heads/main/Loon/Plugin/PingMe.plugin
 - name: PushPlus微信推送广告
   slug: pushplus
@@ -1594,8 +1699,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/redirect/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/Redirect.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/redirect/plugin.lpx
     - https://loon.103516.xyz/Plugin/Redirect.lpx
 - name: Reheji
   slug: reheji
@@ -1604,8 +1710,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/reheji/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js/_end_/Reheji.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/reheji/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js/_end_/Reheji.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: Reven 解锁
   slug: reven
@@ -1635,8 +1742,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub-2/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/script-hub-2/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx
 - name: Skip Proxy and Real-IP Lists
   slug: skip-proxy
@@ -1655,8 +1763,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/sub-store/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/sub-store/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx
 - name: TestFlight Monitor
   slug: testflight-monitor
@@ -1666,8 +1775,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/testflight-monitor/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/TestFlightMonitor.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/testflight-monitor/plugin.lpx
     - https://loon.103516.xyz/Plugin/TestFlightMonitor.lpx
 - name: WARP节点查询
   slug: warp
@@ -1676,8 +1786,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/warp/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/warp/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx
 - name: WebPage
   slug: webpage
@@ -1686,8 +1797,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/webpage/plugin.lpx
+    origin: https://rucu6.pages.dev/Plugins/webpage.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/webpage/plugin.lpx
     - https://rucu6.pages.dev/Plugins/webpage.lpx
 - name: YDM系列通杀
   slug: ydm-2
@@ -1696,8 +1808,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm-2/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ydm.js/_end_/ydm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/ydm-2/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ydm.js/_end_/ydm.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 代理链路检测
   slug: plugin-011-4
@@ -1706,8 +1819,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-4/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/NodeLinkCheck.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-4/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/NodeLinkCheck.lpx
 - name: 可莉广告过滤器
   slug: remove-ads-by-keli
@@ -1737,8 +1851,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-023/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-023/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx
 - name: 套路SM VIP解锁
   slug: sm-vip
@@ -1757,8 +1872,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-023-2/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zmq.js/_end_/zmq.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-023-2/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/zmq.js/_end_/zmq.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 定时任务合集
   slug: plugin-043
@@ -1769,8 +1885,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-043/plugin.lpx
+    origin: https://loonhub.wuyra.com/Lpx/DailyBonus.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-043/plugin.lpx
     - https://loonhub.wuyra.com/Lpx/DailyBonus.lpx
 - name: 幻宇星球 VIP 解锁
   slug: vip-2
@@ -1800,8 +1917,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-2/plugin.lpx
+    origin: https://loonhub.wuyra.com/Lpx/BlockAds.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-2/plugin.lpx
     - https://loonhub.wuyra.com/Lpx/BlockAds.lpx
 - name: 广告拦截&净化合集(Rewrite V2)
   slug: rewrite-v2
@@ -1820,8 +1938,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-2/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/BlockAds.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-011-2/plugin.lpx
     - https://loon.103516.xyz/Plugin/BlockAds.lpx
 - name: 广告联盟去广告
   slug: plugin-016-3
@@ -1850,8 +1969,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-026/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-026/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx
 - name: 快捷搜索
   slug: plugin-034
@@ -1860,8 +1980,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-034/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-034/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx
 - name: 拦截100
   slug: '100'
@@ -1880,8 +2001,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-033/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-033/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx
 - name: 爱思助手
   slug: plugin-005-7
@@ -1910,8 +2032,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-010/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/BaiduSearchWebpage_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-010/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/BaiduSearchWebpage_remove_ads.lpx
 - name: 网易云音乐
   slug: plugin-005-4
@@ -1920,8 +2043,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-4/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/NeteaseMusic.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005-4/plugin.lpx
     - https://loon.103516.xyz/Plugin/NeteaseMusic.lpx
 - name: 网易云音乐去广告
   slug: plugin-040
@@ -1930,8 +2054,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-040/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/NeteasemusicAd/main/wyy.sgmodule/_end_/wyy.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-040/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/NeteasemusicAd/main/wyy.sgmodule/_end_/wyy.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
 - name: 网络信息 𝕏
   slug: plugin-004-3
@@ -1940,8 +2065,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-3/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/Netisp-x.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-004-3/plugin.lpx
     - https://loon.103516.xyz/Plugin/Netisp-x.lpx
 - name: 网络信息（离歌自用）
   slug: plugin-009
@@ -1980,8 +2106,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/testflight/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/testflight/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx
 - name: 节点 IP 质量检测
   slug: ip
@@ -2021,8 +2148,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005/plugin.lpx
+    origin: https://rucu6.pages.dev/Plugins/nodecheck.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-005/plugin.lpx
     - https://rucu6.pages.dev/Plugins/nodecheck.lpx
 - name: 节点检测工具 𝕂
   slug: plugin-003-2
@@ -2031,8 +2159,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-2/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/NodeTools.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-003-2/plugin.lpx
     - https://loon.103516.xyz/Plugin/NodeTools.lpx
 - name: 节点脚本工具合集
   slug: plugin-018
@@ -2061,8 +2190,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002/plugin.lpx
+    origin: https://loon.103516.xyz/Plugin/CaiNiao.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-002/plugin.lpx
     - https://loon.103516.xyz/Plugin/CaiNiao.lpx
 - name: 菜鸟去广告
   slug: plugin-032
@@ -2071,8 +2201,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-032/plugin.lpx
+    origin: https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-032/plugin.lpx
     - https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx
 - name: 蛋蛋不语VIP解锁
   slug: vip
@@ -2091,8 +2222,9 @@ plugins:
   enabled: false
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-061/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ts.js/_end_/ts.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-061/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/ts.js/_end_/ts.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 酷安全面净化
   slug: plugin-019
@@ -2101,8 +2233,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.snippet/_end_/KuAn.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/plugin-019/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.snippet/_end_/KuAn.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true
 - name: 预览qx一键导入资源
   slug: qx
@@ -2111,8 +2244,9 @@ plugins:
   enabled: true
   files:
   - name: plugin.lpx
-    origin: https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qx/plugin.lpx
+    origin: http://script.hub/file/_start_/https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/qx-resource-preview.js/_end_/qx-resource-preview.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
     backup:
+    - https://raw.githubusercontent.com/138849070/loon-adblock-hub/main/plugins/misc/qx/plugin.lpx
     - http://script.hub/file/_start_/https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/qx-resource-preview.js/_end_/qx-resource-preview.plugin?type=surge-module&target=loon-plugin&del=true&jqEnabled=true
 scripts:
 - name: 91TS 签到
